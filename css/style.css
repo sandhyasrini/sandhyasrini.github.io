@@ -1,0 +1,58 @@
+body {
+background-color: #E2E7EB
+}
+
+#header
+{
+	float: left;
+    height:150px;
+    width: 40%;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    text-align: center;
+    border-right: 1px solid #59B0F4;
+    border-bottom:4px solid red;
+}
+#headerright
+{
+	float: right;
+    height:150px;
+    width: 59.9%;
+    background-color: #D8EAF8;
+    border-bottom:4px solid red; 
+}
+
+#mainpage
+{
+	float: left;
+   
+    height:590px;
+    width: 40%;
+    background-color: #D8EAF8;
+    margin-left: 0px;
+    
+   
+    
+}
+#mainright
+{
+	float: right;
+    
+    height:600px;
+    width: 59.9%;
+    background-color: #ffffff;
+    
+     
+}
+
+.spanstyle
+{
+
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	line-height: 20px;
+	margin-left: 10px;
+}
+
+
+
+    
