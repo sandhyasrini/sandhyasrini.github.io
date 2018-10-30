@@ -772,8 +772,7 @@
                           "type": "button",
                           "text": "Next",
                           "style": {
-                            "height": "10",
-                            "width":"80",
+                     
                             "align": "middle",
                             "background": "#189e09",
                             "color": "#ffffff",
