@@ -203,8 +203,8 @@
                     "align" : "fill",
                     "border_color":"#111111",
                     "border_width":"2",
-                    "padding" : "10"
-
+                    "padding" : "10",
+                    "border":"#000000"
                   },
                   "components" : [
                     {
@@ -215,8 +215,7 @@
                       "style": {
                         "font": "Avenir",
                         "size": "14",
-                        "color":"#000000",
-                        "border":"#000000"
+                        "color":"#000000"
 
 
                       }
