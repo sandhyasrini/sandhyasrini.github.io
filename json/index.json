@@ -764,7 +764,7 @@
                     {
                       "type":"vertical",
                       "style":{
-                        "width":"150",
+                        "width":"200",
                         "align":"left"
                       },
                       "components":[
