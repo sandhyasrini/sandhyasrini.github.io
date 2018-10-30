@@ -772,6 +772,7 @@
                           "text": "Next",
                           "style": {
                             "height": "30",
+                            "width":"70",
                             "align": "middle",
                             "background": "#189e09",
                             "color": "#ffffff",
