@@ -764,7 +764,7 @@
                     {
                       "type":"vertical",
                       "style":{
-                        "width":"100",
+                        "width":"150",
                         "align":"left"
                       },
                       "components":[
@@ -773,6 +773,7 @@
                           "text": "Next",
                           "style": {
                             "height": "30",
+                            "width":"200",
                             "align": "middle",
                             "background": "#189e09",
                             "color": "#ffffff",
