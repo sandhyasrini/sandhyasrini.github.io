@@ -590,6 +590,7 @@
                   "style": {
                     "align": "fill",
                     "color": "#ffffff",
+                    "padding": "1",
                     "border": "#ffffff",
                     "align":"right"
                   },
@@ -605,9 +606,7 @@
                                 "color": "#ffffff",
                                 "font": "HelveticaNeue",
                                 "size": "14",
-                                "corner_radius": "2",
-                                "padding": "5",
-                            "padding-top": "10",
+                                "corner_radius": "2"
                               },
                               "href": {
                                 "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/home.json",
