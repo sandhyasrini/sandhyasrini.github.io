@@ -779,8 +779,6 @@
                             "font": "HelveticaNeue",
                             "size": "14",
                             "corner_radius": "3",
-                            "padding-top": "5",
-                            "spacing": "10",
                             "margin_top":"10"
 
                           },
