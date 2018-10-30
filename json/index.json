@@ -1,16 +1,6 @@
 {
   "$jason": {
     "head": {
-
-      "data": {
-        "members": [
-          { "name": "Homer" },
-          { "name": "Marge" },
-          { "name": "Lisa" },
-          { "name": "Bart" },
-          { "name": "Maggie" }
-        ]
-      },
       "templates": {
 
         "body": {
@@ -159,7 +149,7 @@
                         "size": "18",
                         "color": "#ffffff",
                         "height": "40",
-                        "padding" : "10"
+                        "padding" : "5"
 
                       }
                     }
@@ -205,6 +195,8 @@
                     "border_width":"2",
                     "padding" : "10",
                     "border":"#000000"
+
+
                   },
                   "components" : [
                     {
@@ -762,7 +754,7 @@
                     {
                       "type":"vertical",
                       "style":{
-                        "width":"130",
+                        "width":"100",
                         "align":"left"
                       },
                       "components":[
@@ -771,7 +763,6 @@
                           "text": "Next",
                           "style": {
                             "height": "30",
-                            "width":"100",
                             "align": "middle",
                             "background": "#189e09",
                             "color": "#ffffff",
