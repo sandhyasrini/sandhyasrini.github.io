@@ -485,7 +485,8 @@
                         },
                         {
                           "type": "horizontal",
-                          "style":{"width" : "800"
+                          "style":{
+                            "width" : "700"
                           },
                           "components": [
                             {
@@ -753,67 +754,45 @@
 
 
                                   }
-                                },
-                                {
-                                  "type": "button",
-                                  "text": "Next",
-                                  "style": {
-                                    "height": "30",
-                                    "align": "middle",
-                                    "background": "#189e09",
-                                    "color": "#ffffff",
-                                    "font": "HelveticaNeue",
-                                    "size": "14",
-                                    "corner_radius": "3",
-                                    "padding": "5",
-                                    "padding-top": "10",
-                                    "spacing": "10",
-                                    "margin_top":"10"
-
-                                  },
-                                  "href": {
-                                    "url": "https://sandhyasrini.github.io/json/GrindingLine.json",
-                                    "view": "jason"
-                                  }
                                 }
                               ]
                             }
                       ]
                     }
                         ]
+                    },
+                    {
+                      "type":"vertical",
+                      "style":{
+                        "width":"100",
+                        "align":"left"
+                      },
+                      "components":[
+                        {
+                          "type": "button",
+                          "text": "Next",
+                          "style": {
+                            "height": "30",
+                            "align": "middle",
+                            "background": "#189e09",
+                            "color": "#ffffff",
+                            "font": "HelveticaNeue",
+                            "size": "14",
+                            "corner_radius": "3",
+                            "padding": "5",
+                            "padding-top": "10",
+                            "spacing": "10",
+                            "margin_top":"10"
+
+                          },
+                          "href": {
+                            "url": "https://sandhyasrini.github.io/json/GrindingLine.json",
+                            "view": "jason"
+                          }
+                        }
+                      ]
+
                     }
-//                    {
-//                      "type":"vertical",
-//                      "style":{
-//                        "width":"100",
-//                        "align":"left"
-//                      },
-//                      "components":[
-//                        {
-//                          "type": "button",
-//                          "text": "Next",
-//                          "style": {
-//                            "height": "30",
-//                            "align": "middle",
-//                            "background": "#189e09",
-//                            "color": "#ffffff",
-//                            "font": "HelveticaNeue",
-//                            "size": "14",
-//                            "corner_radius": "3",
-//                            "padding": "5",
-//                            "padding-top": "10",
-//                            "spacing": "10",
-//                            "margin_top":"10"
-//
-//                          },
-//                          "href": {
-//                            "url": "https://sandhyasrini.github.io/json/GrindingLine.json",
-//                            "view": "jason"
-//                          }
-//                        }
-//                      ]
-//
-//                    }
 
                   ]
 
