@@ -215,7 +215,8 @@
                       "style": {
                         "font": "Avenir",
                         "size": "14",
-                        "color":"#000000"
+                        "color":"#000000",
+                        "border":"#000000"
 
 
                       }
@@ -474,7 +475,6 @@
                             "size": "18",
                             "width": "700",
                             "color": "#ffffff",
-                            "border": "#ffffff",
                             "background": "#5ec6ff",
                             "spacing": "30",
                             "padding":"5"
