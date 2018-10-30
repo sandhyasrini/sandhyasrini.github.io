@@ -601,11 +601,11 @@
                               "text": "Next",
                               "style": {
                                 "width": "120",
-                                "align":"left",
+                                "align":"center",
                                 "background": "#00ff00",
                                 "color": "#ffffff",
                                 "font": "HelveticaNeue",
-                                "size": "14",
+                                "size": "16",
                                 "corner_radius": "2",
                                 "padding": "5",
                             "padding-top": "10"
