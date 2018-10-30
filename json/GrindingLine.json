@@ -588,9 +588,7 @@
                 {
                   "type": "horizontal",
                   "style": {
-                    "align": "fill",
                     "color": "#ffffff",
-                    "padding": "1",
                     "border": "#ffffff",
                     "align":"right"
                   },
@@ -600,14 +598,13 @@
                               "type": "button",
                               "text": "Next",
                               "style": {
-                                "width": "120",
-                                "height":"30",
                                 "align":"right",
                                 "background": "#00ff00",
                                 "color": "#ffffff",
                                 "font": "HelveticaNeue",
                                 "size": "14",
-                                "corner_radius": "2"
+                                "corner_radius": "2",
+                                "padding":"10"
                               },
                               "href": {
                                 "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/home.json",
