@@ -763,7 +763,7 @@
                     {
                       "type":"vertical",
                       "style":{
-                        "width":"80",
+                        "width":"100",
                         "align":"left"
                       },
                       "components":[
@@ -785,7 +785,7 @@
 
                           },
                           "href": {
-                            "url": "https://calls2clicksapi.scm.azurewebsites.net/api/vfs/site/wwwroot/grindingLine.json",
+                            "url": "https://sandhyasrini.github.io/json/GrindingLine.json",
                             "view": "jason"
                           }
                         }
