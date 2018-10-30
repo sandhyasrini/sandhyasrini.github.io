@@ -776,6 +776,7 @@
                             "align": "middle",
                             "background": "#189e09",
                             "color": "#ffffff",
+                            "width":"100",
                             "font": "HelveticaNeue",
                             "size": "14",
                             "corner_radius": "3",
