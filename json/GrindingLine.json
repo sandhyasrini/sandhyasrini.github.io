@@ -589,7 +589,7 @@
                   "type": "horizontal",
                   "style": {
                     "color": "#ffffff",
-                    "border": "#ffffff",
+                    "border": "none",
                     "align":"right"
                   },
                   "components": [
@@ -601,7 +601,7 @@
                                 "align":"right",
                                 "background": "#00ff00",
                                 "color": "#ffffff",
-                                "font": "HelveticaNeue",
+                                "font": "HelveticaNeue-Bold",
                                 "size": "14",
                                 "corner_radius": "2",
                                 "padding":"10"
