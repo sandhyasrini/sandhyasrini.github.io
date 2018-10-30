@@ -588,6 +588,7 @@
                 {
                   "type": "horizontal",
                   "style": {
+                    "align": "fill",
                     "color": "#ffffff",
                     "padding": "1",
                     "border": "#ffffff",
