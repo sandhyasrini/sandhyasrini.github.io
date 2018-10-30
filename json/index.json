@@ -485,8 +485,7 @@
                         },
                         {
                           "type": "horizontal",
-                          "style":{
-                            "width" : "700"
+                          "style":{"width" : "800"
                           },
                           "components": [
                             {
@@ -754,43 +753,67 @@
 
 
                                   }
+                                },
+                                {
+                                  "type": "button",
+                                  "text": "Next",
+                                  "style": {
+                                    "height": "30",
+                                    "align": "middle",
+                                    "background": "#189e09",
+                                    "color": "#ffffff",
+                                    "font": "HelveticaNeue",
+                                    "size": "14",
+                                    "corner_radius": "3",
+                                    "padding": "5",
+                                    "padding-top": "10",
+                                    "spacing": "10",
+                                    "margin_top":"10"
+
+                                  },
+                                  "href": {
+                                    "url": "https://sandhyasrini.github.io/json/GrindingLine.json",
+                                    "view": "jason"
+                                  }
                                 }
                               ]
                             }
                       ]
                     }
                         ]
-                    },
-                    {
-                      "type":"vertical",
-                      "style":{
-                        "width":"180",
-                        "align":"center"
-                      },
-                      "components":[
-                        {
-                          "type": "button",
-                          "text": "Next",
-                          "style": {
-                     
-                            "align": "middle",
-                            "background": "#189e09",
-                            "color": "#ffffff",
-                            "width":"100",
-                            "font": "HelveticaNeue",
-                            "size": "14",
-                            "corner_radius": "3",
-                            "margin_top":"10"
-
-                          },
-                          "href": {
-                            "url": "https://sandhyasrini.github.io/json/GrindingLine.json",
-                            "view": "jason"
-                          }
-                        }
-                      ]
-
                     }
+//                    {
+//                      "type":"vertical",
+//                      "style":{
+//                        "width":"100",
+//                        "align":"left"
+//                      },
+//                      "components":[
+//                        {
+//                          "type": "button",
+//                          "text": "Next",
+//                          "style": {
+//                            "height": "30",
+//                            "align": "middle",
+//                            "background": "#189e09",
+//                            "color": "#ffffff",
+//                            "font": "HelveticaNeue",
+//                            "size": "14",
+//                            "corner_radius": "3",
+//                            "padding": "5",
+//                            "padding-top": "10",
+//                            "spacing": "10",
+//                            "margin_top":"10"
+//
+//                          },
+//                          "href": {
+//                            "url": "https://sandhyasrini.github.io/json/GrindingLine.json",
+//                            "view": "jason"
+//                          }
+//                        }
+//                      ]
+//
+//                    }
 
                   ]
 
