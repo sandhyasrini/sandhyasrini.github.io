@@ -772,7 +772,8 @@
                           "type": "button",
                           "text": "Next",
                           "style": {
-                            "height": "30",
+                            "height": "20",
+                            "width":"50",
                             "width":"100",
                             "align": "middle",
                             "background": "#189e09",
