@@ -173,7 +173,7 @@
                     {
                       "type": "horizontal",
                       "style":{
-                        "width" : "800"
+                        "width" : "820"
                       },
                       "components": [
                         {
