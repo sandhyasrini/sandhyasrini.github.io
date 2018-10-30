@@ -449,7 +449,8 @@
                     "align": "fill",
                     "color": "#ffffff",
                     "padding": "1",
-                    "border": "#ffffff"
+                    "border": "#ffffff",
+                    "background": "#aaaaaa"
                   },
                   "components": [
                     {"type": "vertical",
