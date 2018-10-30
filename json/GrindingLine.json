@@ -147,14 +147,14 @@
                     "color":"#ffffff",
                     "padding" : "1",
                     "border" :"#ffffff",
-                    "spacing": "5"
+                    "spacing": "1"
 
 
                   },
                   "components" : [
                     {
                       "type" :"label",
-                      "text" : "Primary Crusher",
+                      "text" : "Grinding Line 1",
                       "align" : "left" ,
                       "background": "#ace248",
                       "style": {
@@ -164,7 +164,7 @@
                         "color": "#ffffff",
                         "border": "#ffffff",
                         "background": "#5ec6ff",
-                        "spacing": "30",
+                        "spacing": "10",
                         "padding":"5"
 
 
@@ -190,7 +190,7 @@
                               "background" : "#023384",
                               "font": "Avenir-Bold",
                               "size": "14",
-                              "width" : "100",
+                              "width" : "110",
                               "align" : "center",
                               "color": "#ffffff",
                               "border": "#111111",
@@ -208,7 +208,7 @@
                               "style": {
                                 "font": "Avenir-Bold",
                                 "size": "14",
-                                "width" : "100",
+                                "width" : "110",
                                 "align" : "center",
                                 "color": "#111111",
                                 "border": "#023384",
@@ -236,7 +236,7 @@
                               "font": "Avenir-Bold",
                               "size": "14",
                               "color": "#ffffff",
-                              "width" : "100",
+                              "width" : "110",
                               "align" : "center",
                               "gradient":"true",
                               "border": "#111111",
@@ -253,7 +253,7 @@
                               "style": {
                                 "font": "Avenir-Bold",
                                 "size": "14",
-                                "width" : "100",
+                                "width" : "110",
                                 "align" : "center",
                                 "color": "#111111",
                                 "border": "#023384",
@@ -279,7 +279,7 @@
                               "background" : "#023384",
                               "font": "Avenir-Bold",
                               "size": "14",
-                              "width" : "100",
+                              "width" : "110",
                               "gradient":"true",
                               "align" : "center",
                               "color": "#ffffff",
@@ -297,7 +297,7 @@
                               "style": {
                                 "font": "Avenir-Bold",
                                 "size": "14",
-                                "width" : "100",
+                                "width" : "110",
                                 "align" : "center",
                                 "color": "#111111",
                                 "border": "#023384",
@@ -323,7 +323,7 @@
                               "background" : "#023384",
                               "font": "Avenir-Bold",
                               "size": "14",
-                              "width" : "100",
+                              "width" : "110",
                               "gradient":"true",
                               "align" : "center",
                               "color": "#ffffff",
@@ -341,7 +341,7 @@
                               "style": {
                                 "font": "Avenir-Bold",
                                 "size": "14",
-                                "width" : "100",
+                                "width" : "110",
                                 "align" : "center",
                                 "color": "#111111",
                                 "border": "#023384",
@@ -368,7 +368,7 @@
                               "background" : "#023384",
                               "font": "Avenir-Bold",
                               "size": "14",
-                              "width" : "100",
+                              "width" : "110",
                               "align" : "center",
                               "gradient":"true",
                               "color": "#ffffff",
@@ -386,7 +386,7 @@
                               "style": {
                                 "font": "Avenir-Bold",
                                 "size": "14",
-                                "width" : "100",
+                                "width" : "110",
                                 "align" : "center",
                                 "color": "#111111",
                                 "border": "#023384",
@@ -413,7 +413,7 @@
                               "background" : "#023384",
                               "font": "Avenir-Bold",
                               "size": "14",
-                              "width" : "100",
+                              "width" : "110",
                               "gradient":"true",
                               "align" : "center",
                               "color": "#ffffff",
@@ -431,7 +431,7 @@
                               "style": {
                                 "font": "Avenir-Bold",
                                 "size": "14",
-                                "width" : "100",
+                                "width" : "110",
                                 "align" : "center",
                                 "color": "#111111",
                                 "border": "#023384",
@@ -505,7 +505,7 @@
                     },
                     {
                       "type" :"label",
-                      "text" : "Primary Air Compressor Inspection and restart procedure training completed Crew 100",
+                      "text" : "Primary Air Compressor Inspection and restart procedure training completed Crew 110",
                       "align" : "left" ,
                       "background": "#ace248",
                       "style": {
@@ -573,7 +573,7 @@
                     },
                     {
                       "type" :"label",
-                      "text" : "Primary Air Compressor Inspection and restart procedure training completed Crew 100",
+                      "text" : "Primary Air Compressor Inspection and restart procedure training completed Crew 110",
                       "align" : "left" ,
                       "background": "#ace248",
                       "style": {
@@ -600,7 +600,7 @@
                               "type": "button",
                               "text": "Next",
                               "style": {
-                                "width": "100",
+                                "width": "110",
                                 "height":"30",
                                 "align":"right",
                                 "background": "#00ff00",
