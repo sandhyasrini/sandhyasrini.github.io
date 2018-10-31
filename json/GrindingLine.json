@@ -449,7 +449,8 @@
                     "align" : "fill",
                     "background": "#0a0a08",
                     "color":"#ffffff",
-                    "border":"#0a0a08"
+                    "border":"#0a0a08",
+                    "padding":"5"
 
                   },
                   "style" : {
