@@ -20,7 +20,6 @@
               "text": "Process Plant Supervisor's Log",
               "style": {
                 "align": "left",
-
                 "background" :"#9e8421"
               }
             },
@@ -30,6 +29,10 @@
               "font" : "Avenir-Bold",
               "padding" : "5"
             }
+          },
+          "style":{
+          
+            "background":"#aaaaaa"
           },
 
           "sections": [
