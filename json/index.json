@@ -240,17 +240,18 @@
                     {
                       "type" :"label",
                       "text" : "Primary Crusher",
-                      "style": {
-                        "background" : "#023384",
-                        "font": "Avenir-Bold",
-                        "size": "14",
-                        "width" : "165",
-                        "align" : "center",
-                        "color": "#ffffff",
-                        "border": "#111111",
-                        "padding":"5",
-                        "spacing": "5",
-                        "gradient":"true"
+                      "align" : "left" ,
+                          "background": "#ace248",
+                          "style": {
+                            "font": "Avenir-Bold",
+                            "size": "18",
+                            "width": "700",
+                            "color": "#ffffff",
+                            "border": "#ffffff",
+                            "background": "#5ec6ff",
+                            "spacing": "30",
+                            "padding":"5"
+
 
 
                       }
