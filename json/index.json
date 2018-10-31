@@ -154,9 +154,9 @@
                   "components" : [
                     {
                       "type" :"label",
-                      "text" : "Safety 123",
+                      "text" : "Safetysdfdfdf",
                       "align" : "left" ,
-                      "background": "#41f444",
+                      "background": "#ace248",
                       "style": {
                         "font": "Avenir-Bold-Bold",
                         "size": "18",
@@ -802,7 +802,7 @@
                 {
                   "type": "horizontal",
                   "style": {
-                    "background": "#",
+                    "background": "#aaaaaa",
                     "spacing": "5",
                     "color" : "#ffffff"
                   },
@@ -909,9 +909,9 @@
                   "components" : [
                     {
                       "type" :"label",
-                      "text" : "Safety 234",
+                      "text" : "Safetysdfsdfsdf sdfgsfgsf sdgsdfg",
                       "align" : "left" ,
-                      "background": "#f44280",
+                      "background": "#ace248",
                       "style": {
                         "font": "Avenir-Bold-Bold",
                         "size": "18",
