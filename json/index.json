@@ -241,13 +241,16 @@
                       "type" :"label",
                       "text" : "Primary Crusher",
                       "style": {
+                        "background" : "#023384",
                         "font": "Avenir-Bold",
-                        "size": "18",
-                        "width": "700",
+                        "size": "14",
+                        "width" : "165",
+                        "align" : "center",
                         "color": "#ffffff",
-                        "background": "#5ec6ff",
-                        "spacing": "30",
-                        "padding":"5"
+                        "border": "#111111",
+                        "padding":"5",
+                        "spacing": "5",
+                        "gradient":"true"
 
 
                       }
@@ -367,7 +370,6 @@
                               "padding":"5",
                               "spacing": "5",
                               "gradient":"true"
-
 
 
                             }
