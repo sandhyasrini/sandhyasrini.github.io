@@ -160,7 +160,7 @@
                       "style": {
                         "font": "Avenir-Bold",
                         "size": "18",
-                        "width": "700",
+                        "width": "850",
                         "color": "#ffffff",
                         "border": "#ffffff",
                         "background": "#5ec6ff",
@@ -448,7 +448,8 @@
                   "style" : {
                     "align" : "fill",
                     "background": "#0a0a08",
-                    "color":"#ffffff"
+                    "color":"#ffffff",
+                    "border":"#0a0a08"
 
                   },
                   "style" : {
@@ -480,7 +481,9 @@
                   "style" : {
                     "align" : "fill",
                     "border":"#0a0a08",
-                    "padding" : "10"
+                    "padding" : "10",
+                    "border":"#0a0a08"
+
 
                   },
                   "components" : [
