@@ -154,7 +154,7 @@
                   "components" : [
                     {
                       "type" :"label",
-                      "text" : "Crusher Downtime",
+                      "text" : "Grinding Line 1",
                       "align" : "left" ,
                       "background": "#ace248",
                       "style": {
@@ -173,7 +173,7 @@
                     {
                       "type": "horizontal",
                       "style":{
-                        "width" : "700"
+                        "width" : "830"
                       },
                       "components": [
                         {
@@ -184,7 +184,7 @@
                           },
                           "components":[{
                             "type": "label",
-                            "text": "WFO",
+                            "text": "Tonnes Milled",
                             "style": {
                               "background" : "#023384",
                               "font": "Avenir-Bold",
@@ -202,8 +202,8 @@
                             }
                           },
                             {
-                              "type": "label",
-                              "text": "Yes",
+                              "type": "textfield",
+                              "value": "Yes",
                               "style": {
                                 "font": "Avenir-Bold",
                                 "size": "14",
@@ -228,7 +228,7 @@
                           },
                           "components":[{
                             "type": "label",
-                            "text": "Capacity",
+                            "text": "Balls Added (%)",
                             "style": {
                               "background" : "#023384",
                               "font": "Avenir-Bold",
@@ -246,8 +246,8 @@
                             }
                           },
                             {
-                              "type": "label",
-                              "text": "No",
+                              "type": "textfield",
+                              "value": "37",
                               "style": {
                                 "font": "Avenir-Bold",
                                 "size": "14",
@@ -271,7 +271,7 @@
                           },
                           "components":[{
                             "type": "label",
-                            "text": "Bridging",
+                            "text": "SAG (%)",
                             "style": {
                               "background" : "#023384",
                               "font": "Avenir-Bold",
@@ -289,8 +289,8 @@
                             }
                           },
                             {
-                              "type": "label",
-                              "text": "Yes",
+                              "type": "textfield",
+                              "value": "37",
                               "style": {
                                 "font": "Avenir-Bold",
                                 "size": "14",
@@ -314,7 +314,7 @@
                           },
                           "components":[{
                             "type": "label",
-                            "text": "Ops DnT",
+                            "text": "BM: Rec (%)",
                             "style": {
                               "background" : "#023384",
                               "font": "Avenir-Bold",
@@ -332,8 +332,8 @@
                             }
                           },
                             {
-                              "type": "label",
-                              "text": "3.25 hrs",
+                              "type": "textfield",
+                              "value": "37",
                               "style": {
                                 "font": "Avenir-Bold",
                                 "size": "14",
@@ -358,7 +358,7 @@
                           },
                           "components":[{
                             "type": "label",
-                            "text": "Mech",
+                            "text": "Pur: Rec (%)",
                             "style": {
                               "background" : "#023384",
                               "font": "Avenir-Bold",
@@ -376,8 +376,8 @@
                             }
                           },
                             {
-                              "type": "label",
-                              "text": "Yes",
+                              "type": "textfield",
+                              "value": "37",
                               "style": {
                                 "font": "Avenir-Bold",
                                 "size": "14",
@@ -402,7 +402,7 @@
                           },
                           "components":[{
                             "type": "label",
-                            "text": "Elect",
+                            "text": "New (%)",
                             "style": {
                               "background" : "#023384",
                               "font": "Avenir-Bold",
@@ -420,8 +420,8 @@
                             }
                           },
                             {
-                              "type": "label",
-                              "text": "No",
+                              "type": "textfield",
+                              "value": "37",
                               "style": {
                                 "font": "Avenir-Bold",
                                 "size": "14",
