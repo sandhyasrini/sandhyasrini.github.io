@@ -232,7 +232,7 @@
                     "padding" : "1",
                     "border" :"#ffffff",
                       "spacing": "5",
-                      "background":"#0a0a08"
+                    "background": "#aaaaaa"
 
 
                   },
@@ -446,7 +446,7 @@
                     "align": "fill",
                     "color": "#ffffff",
                     "padding": "1",
-                    "background":"#0a0a08"
+                    "background":"#aaaaaa"
                   },
                   "components": [
                     {"type": "vertical",
