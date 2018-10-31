@@ -232,7 +232,7 @@
                     "padding" : "1",
                     "border" :"#ffffff",
                       "spacing": "5",
-                    "background": "#aaaaaa"
+                      "background":"#0a0a08"
 
 
                   },
@@ -445,7 +445,8 @@
                   "style": {
                     "align": "fill",
                     "color": "#ffffff",
-                    "padding": "1"
+                    "padding": "1",
+                    "background":"#0a0a08"
                   },
                   "components": [
                     {"type": "vertical",
@@ -761,6 +762,7 @@
                           "style": {
                             "height": "30",
                             "align": "fill",
+                            "margin":"left",
                             "background": "#189e09",
                             "color": "#ffffff",
                             "font": "HelveticaNeue",
