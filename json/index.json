@@ -159,7 +159,7 @@
                         "size": "18",
                         "color": "#ffffff",
                         "height": "40",
-                        "padding" : "5"
+                        "padding" : "10"
 
                       }
                     }
@@ -203,9 +203,7 @@
                     "align" : "fill",
                     "border_color":"#111111",
                     "border_width":"2",
-                    "padding" : "10",
-                    "border":"#000000"
-
+                    "padding" : "10"
 
                   },
                   "components" : [
@@ -265,7 +263,6 @@
 
                         "type":"vertical",
                           "style":{
-                            "border": "#002151",
                             "align" : "center"
                           },
                         "components":[{
@@ -309,7 +306,6 @@
                         {
                           "type":"vertical",
                           "style":{
-                            "border": "#002151",
                             "align" : "center"
 
                           },
@@ -353,7 +349,6 @@
                         {
                           "type":"vertical",
                           "style":{
-                            "border": "#002151",
                             "align" : "center"
 
                           },
@@ -397,7 +392,6 @@
                         {
                           "type":"vertical",
                           "style":{
-                            "border": "#002151",
                             "align" : "center"
 
                           },
@@ -450,9 +444,7 @@
                   "style": {
                     "align": "fill",
                     "color": "#ffffff",
-                    "padding": "1",
-                    "border": "#ffffff",
-                    "background": "#aaaaaa"
+                    "padding": "1"
                   },
                   "components": [
                     {"type": "vertical",
@@ -460,7 +452,6 @@
                         "align" : "fill",
                         "color":"#ffffff",
                         "padding" : "1",
-                        "border" :"#ffffff",
                         "spacing": "5"
 
 
@@ -476,6 +467,7 @@
                             "size": "18",
                             "width": "700",
                             "color": "#ffffff",
+                            "border": "#ffffff",
                             "background": "#5ec6ff",
                             "spacing": "30",
                             "padding":"5"
@@ -493,7 +485,6 @@
 
                               "type":"vertical",
                               "style":{
-                                "border": "#002151",
                                 "align" : "center"
                               },
                               "components":[{
@@ -537,7 +528,6 @@
                             {
                               "type":"vertical",
                               "style":{
-                                "border": "#002151",
                                 "align" : "center"
 
                               },
@@ -581,7 +571,6 @@
                             {
                               "type":"vertical",
                               "style":{
-                                "border": "#002151",
                                 "align" : "center"
 
                               },
@@ -625,7 +614,6 @@
                             {
                               "type":"vertical",
                               "style":{
-                                "border": "#002151",
                                 "align" : "center"
 
                               },
@@ -670,7 +658,6 @@
                             {
                               "type":"vertical",
                               "style":{
-                                "border": "#002151",
                                 "align" : "center"
 
                               },
@@ -715,7 +702,6 @@
                             {
                               "type":"vertical",
                               "style":{
-                                "border": "#002151",
                                 "align" : "center"
 
                               },
@@ -764,7 +750,7 @@
                     {
                       "type":"vertical",
                       "style":{
-                        "width":"100",
+                        "width":"80",
                         "align":"left"
                       },
                       "components":[
