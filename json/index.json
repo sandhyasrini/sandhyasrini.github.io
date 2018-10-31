@@ -203,7 +203,8 @@
                     "align" : "fill",
                     "border_color":"#111111",
                     "border_width":"2",
-                    "padding" : "10"
+                    "padding" : "10",
+                    "border":"#111111"
 
                   },
                   "components" : [
