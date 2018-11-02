@@ -613,44 +613,15 @@
 
                       },
                       "href": {
-                      "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/home.json",
-                "view": "jason"
+                        "url": "https://sandhyasrini.github.io/json/GrindingLine2.json",
+                        "view": "jason"
                       }
                     }
 
                   ]
 
                 }
-                //                {
-                //                  "type": "vertical",
-                //                  "style" : {
-                //                    "align" : "fill",
-                //                    "background": "#a1b1cc",
-                //                    "color":"#ffffff",
-                //                    "padding" : "1",
-                //                    "border" :"#ffffff"
-                //
-                //                  },
-                //                  "components" : [
-                //                    {
-                //                      "type": "button",
-                //                      "text": "Tap Me!",
-                //                      "style": {
-                //                        "width": "50",
-                //                        "height": "50",
-                //                        "background": "#00ff00",
-                //                        "color": "#ffffff",
-                //                        "font": "HelveticaNeue",
-                //                        "size": "14"
-                //                      },
-                //                      "href": {
-                //                        "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/home.json",
-                //                        "view": "jason"
-                //                      }
-                //
-                //                    }
-                //                  ]
-                //                }
+              
               ]
             }
           ]
