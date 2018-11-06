@@ -76,11 +76,11 @@
                   "options": [
                     {
                       "value": "Day Shift",
-                      "defaultSelected": "false"
+                      "defaultSelected": "true"
                     },
                     {
                       "value": "Noon Shift",
-                      "defaultSelected": "true"
+                      "defaultSelected": "false"
                     },
                     {
                       "value": "Night Shift",
@@ -90,7 +90,8 @@
                   "style": {
                     "size": "20",
                     "color": "rgb(200,130,0)",
-                    "padding": "10"
+                    "padding": "10",
+                    "background":"#ffffff"
                   }
                 },
                 {
@@ -100,11 +101,11 @@
                   "options": [
                     {
                       "value": "* J. Pronovost",
-                      "defaultSelected": "false"
+                      "defaultSelected": "true"
                     },
                     {
                       "value": "Name 2",
-                      "defaultSelected": "true"
+                      "defaultSelected": "false"
                     },
                     {
                       "value": "Name 3",
