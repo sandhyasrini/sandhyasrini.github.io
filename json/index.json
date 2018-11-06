@@ -88,9 +88,6 @@
                     }
                   ],
                   "style": {
-                    "size": "20",
-                    "color": "rgb(200,130,0)",
-                    "padding": "10",
                     "background":"#ffffff"
                   }
                 },
@@ -113,9 +110,7 @@
                     }
                   ],
                   "style": {
-                    "size": "20",
-                    "color": "rgb(200,130,0)",
-                    "padding": "10"
+                    "background":"#ffffff"
                   }
                 },
                 {
