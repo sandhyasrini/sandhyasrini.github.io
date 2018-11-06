@@ -1,0 +1,150 @@
+{
+    "$jason": {
+      "head": {
+  
+        "data": {
+          "members": [
+            { "name": "Homer" },
+            { "name": "Marge" },
+            { "name": "Lisa" },
+            { "name": "Bart" },
+            { "name": "Maggie" }
+          ]
+        },
+        "templates": {
+  
+          "body": {
+            "header": {
+              "title": {
+                "type": "label",
+                "text": "Process Plant Supervisor's Log - 2",
+                "style": {
+                  "align": "left",
+  
+                  "background" :"#9e8421"
+                }
+              },
+              "style": {
+                "background" :"#d3b023",
+                "color" : "#ffffff",
+                "font" : "Avenir-Bold",
+                "padding" : "10"
+              }
+            },
+  
+            "sections": [
+  
+              {
+                "style": {
+                  "color" : "#ffffff"
+                },
+  
+                "items": [
+  
+                  {
+                    "type": "horizontal",
+                    "style": {
+                      "background": "#aaaaaa",
+                      "spacing": "10",
+                      "color" : "#ffffff"
+                    },
+                    "components": [
+  
+                      {
+                        "type": "textfield",
+                        "name": "date",
+                        "value":"11/12/2018",
+                        "style": {
+                          "placeholder_color": "#cecece",
+                          "font": "HelveticaNeue",
+                          "width": "160",
+                          "height": "37",
+                          "size": "14",
+                          "align" : "center",
+                          "background": "#ffffff",
+                          "padding": "10",
+                          "border":"#000000"
+  
+                        }
+                      },
+                      {
+                        "type": "textfield",
+                        "name": "shift",
+                        "value":"Day Shift",
+                        "style": {
+                          "placeholder_color": "#cecece",
+                          "font": "HelveticaNeue",
+                          "width": "160",
+                          "height": "37",
+                          "align" : "center",
+                          "size": "14",
+                          "background": "#ffffff",
+                          "padding": "10",
+                          "color":"#000000",
+                          "border":"#000000"
+                        }
+                      },
+                      {
+                        "type": "textfield",
+                        "name": "password",
+                        "value":"* J. Pronovost",
+                        "style": {
+                          "placeholder_color": "#cecece",
+                          "font": "HelveticaNeue",
+                          "width": "160",
+                          "height": "37",
+                          "size": "14",
+                          "align" : "center",
+                          "background": "#ffffff",
+                          "padding": "10",
+                          "color":"#000000",
+                          "border":"#000000"
+  
+  
+  
+  
+                        }
+                      },
+                      {
+                        "type": "label",
+                        "text": "Signed",
+                        "style": {
+                          "font": "Avenir-Bold",
+                          "size": "16",
+                          "color": "#ffffff",
+                          "align": "center"
+  
+                        }
+                      },
+                      {
+                        "type": "textfield",
+                        "name": "password",
+                        "value": "Jean Pronovost",
+                        "style": {
+                          "placeholder_color": "#cecece",
+                          "font": "HelveticaNeue",
+                          "width": "180",
+                          "height": "37",
+                          "size": "14",
+                          "align" : "center",
+                          "background": "#ffffff",
+                          "padding": "10",
+                          "color":"#000000",
+                          "border":"#000000"
+  
+  
+  
+  
+                        }
+                      }
+                    ]
+                  }
+                
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
