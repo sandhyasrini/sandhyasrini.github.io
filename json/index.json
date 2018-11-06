@@ -70,41 +70,51 @@
                   }
                 },
                 {
-                  "type": "textfield",
+                  "type": "dropdown",
                   "name": "shift",
-                  "value":"Day Shift",
+                  "contentDescription" : "shift",
+                  "options": [
+                    {
+                      "value": "Day Shift",
+                      "defaultSelected": "false"
+                    },
+                    {
+                      "value": "Noon Shift",
+                      "defaultSelected": "true"
+                    },
+                    {
+                      "value": "Night Shift",
+                      "defaultSelected": "false"
+                    }
+                  ],
                   "style": {
-                    "placeholder_color": "#cecece",
-                    "font": "HelveticaNeue",
-                    "width": "160",
-                    "height": "37",
-                    "align" : "center",
-                    "size": "14",
-                    "background": "#ffffff",
-                    "padding": "10",
-                    "color":"#000000",
-                    "border":"#000000"
+                    "size": "20",
+                    "color": "rgb(200,130,0)",
+                    "padding": "10"
                   }
                 },
                 {
-                  "type": "textfield",
-                  "name": "password",
-                  "value":"* J. Pronovost",
+                  "type": "dropdown",
+                  "name": "shift",
+                  "contentDescription" : "shift",
+                  "options": [
+                    {
+                      "value": "* J. Pronovost",
+                      "defaultSelected": "false"
+                    },
+                    {
+                      "value": "Name 2",
+                      "defaultSelected": "true"
+                    },
+                    {
+                      "value": "Name 3",
+                      "defaultSelected": "false"
+                    }
+                  ],
                   "style": {
-                    "placeholder_color": "#cecece",
-                    "font": "HelveticaNeue",
-                    "width": "160",
-                    "height": "37",
-                    "size": "14",
-                    "align" : "center",
-                    "background": "#ffffff",
-                    "padding": "10",
-                    "color":"#000000",
-                    "border":"#000000"
-
-
-
-
+                    "size": "20",
+                    "color": "rgb(200,130,0)",
+                    "padding": "10"
                   }
                 },
                 {
