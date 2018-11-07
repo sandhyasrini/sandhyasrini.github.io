@@ -148,6 +148,11 @@
                   },
                   {
                       "type":"horizontal",
+                      "style": {
+                        "background": "#aaaaaa",
+                        "spacing": "10",
+                        "color" : "#ffffff"
+                      },
                       "components":[
                           {
                             "type" :"label",
