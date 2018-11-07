@@ -477,6 +477,46 @@
                             }
                           }
                        ]
+                      },
+                      {
+                        "type" :"horizontal",
+                        "style":{
+                        },
+                        
+                       "components":[
+                        {
+                            "type" :"label",
+                            "text" : " Incidents / Accidents – Nil \n  Primary air compressor inspection and restart  procedure training completed Crew 100 ",
+                            "align" : "left" ,
+                            "style": {
+                              "font": "Avenir-Bold",
+                              "size": "18",
+                              "color": "#111111",
+                              "border": "#ffffff",
+                              "background": "#ffffff",
+                              "spacing": "40",
+                              "padding":"5"
+      
+      
+                            }
+                          },
+                          {
+                            "type" :"label",
+                            "text" : " Incidents / Accidents – Nil \n  Primary air compressor inspection and restart  procedure training completed Crew 100 ",
+                            "align" : "left" ,
+                            "style": {
+                              "font": "Avenir-Bold",
+                              "size": "18",
+                              "color": "#111111",
+                              "border": "#ffffff",
+                              "background": "#ffffff",
+                              "spacing": "40",
+                              "padding":"5"
+      
+      
+                            }
+                          }
+                       ]
                       }
   
                     ] 
