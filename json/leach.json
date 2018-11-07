@@ -241,7 +241,8 @@
                                     "type":"label",
                                     "style":{       "color":"#ffffff",   "align":"fill",    
                                       "background":"#0a0a08",
-                                      "height":"30"
+                                      "height":"40",
+                                      "padding":"0"
                                  },
                                     "text":"Falcons Spares"
                                   },
