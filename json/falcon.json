@@ -188,7 +188,7 @@
                           },
                           {
                             "type" :"label",
-                            "text" : "Gravity Line 2",
+                            "text" : "Gravity Line 1",
                             "align" : "left" ,
                             "background": "#ace248",
                             "style": {
@@ -325,59 +325,170 @@
                             ]
                           },
                           {
-                            "type" :"horizontal",
-                            "style":{
-                              "spacing":"10"
-                            },
-                            
-                           "components":[
-                            {
-                                "type" :"label",
-                                "text" : " Incidents / Safety Notifications ",
-                                "align" : "left" ,
-                                "background": "#ace248",
-                                "style": {
-                                  "font": "Avenir-Bold",
-                                  "size": "18",
-                                  "color": "#ffffff",
-                                  "border": "#ffffff",
-                                  "background": "#ace248",
-                                  "spacing": "40",
-                                  "padding":"5"
-          
-          
-                                }
+                            "type":"vertical",
+                            "components":[
+                              {
+                                "type":"horizontal",
+                                "components":[
+                                  {
+                                    "type":"label",
+                                    "style":{     "color":"#ffffff",               "align":"center",                     "background":"#0a0a08"                                     },
+                                    "text":"Falcons Running"
+                                  },
+                                  {
+                                    "type":"label",
+                                    "text":"1",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
+                                  },
+                                  {
+                                    "type":"label",
+                                    "text":"2",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
+                                  },
+                                  {
+                                    "type":"label",
+                                    "text":"3",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
+                                  }
+                                ]
                               },
                               {
-                                "type" :"label",
-                                "text" : "Incidents / Safety Notifications",
-                                "align" : "left" ,
-                                "background": "#ace248",
-                                "style": {
-                                  "font": "Avenir-Bold",
-                                  "size": "18",
-                                  "color": "#ffffff",
-                                  "border": "#ffffff",
-                                  "background": "#ace248",
-                                  "spacing": "40",
-                                  "padding":"5"
-          
-          
-                                }
+                                "type":"horizontal",
+                                "components":[
+                                  {
+                                    "type":"label",
+                                    "style":{     "color":"#ffffff",       "align":"center",                             "background":"#0a0a08"                                     },
+                                    "text":"Falcons Spares"
+                                  },
+                                  {
+                                    "type":"label",
+                                    "text":"1",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
+                                  },
+                                  {
+                                    "type":"label",
+                                    "text":"2",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
+                                  },
+                                  {
+                                    "type":"label",
+                                    "text":"3",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "type":"horizontal",
+                                "components":[
+                                  {
+                                    "type":"label",
+                                    "style":{                                      
+                                       "background":"#0a0a08" , 
+                                       "color":"#ffffff",
+                                       "align":"center"
+                                      },
+                                       "text":"Falcons on Mtce"
+                                  },
+                                  
+                                  {
+                                    "type":"label",
+                                    "text":"1",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
+                                  },
+                                  {
+                                    "type":"label",
+                                    "text":"2",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
+                                  },
+                                  {
+                                    "type":"label",
+                                    "text":"3",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
+                                  }
+                                ]
                               }
-                           ]
+                            ]
                           }
                        ]
                       }
   
                     ] 
                   },
-                  
-  
-                  
-                  
-  
                  
+  
+                  
+                  
+                  {
+                    "type" :"horizontal",
+                    "style":{
+                      "spacing":"10"
+                    },
+                    
+                   "components":[
+                    {
+                        "type" :"label",
+                        "text" : " Incidents / Safety Notifications ",
+                        "align" : "left" ,
+                        "background": "#ace248",
+                        "style": {
+                          "font": "Avenir-Bold",
+                          "size": "18",
+                          "color": "#ffffff",
+                          "border": "#ffffff",
+                          "background": "#ace248",
+                          "spacing": "40",
+                          "padding":"5"
+  
+  
+                        }
+                      },
+                      {
+                        "type" :"label",
+                        "text" : "Incidents / Safety Notifications",
+                        "align" : "left" ,
+                        "background": "#ace248",
+                        "style": {
+                          "font": "Avenir-Bold",
+                          "size": "18",
+                          "color": "#ffffff",
+                          "border": "#ffffff",
+                          "background": "#ace248",
+                          "spacing": "40",
+                          "padding":"5"
+  
+  
+                        }
+                      }
+                   ]
+                  },
+                  
                   {
                     "type": "horizontal",
                     "style": {
