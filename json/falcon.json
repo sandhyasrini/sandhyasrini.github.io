@@ -157,9 +157,9 @@
                       "color":"#ffffff",
                       "padding" : "1",
                       "border" :"#ffffff",
-                      "spacing": "5"
-  
-  
+                      "spacing": "5",
+                      "background": "#aaaaaa"
+   
                     },
                     "components" : [
                       {
