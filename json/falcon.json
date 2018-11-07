@@ -159,7 +159,6 @@
                       "color":"#ffffff",
                       "padding" : "1",
                       "background": "#aaaaaa",
-                      "border" :"#ffffff",
                       "spacing": "5"
    
                     },
@@ -182,7 +181,6 @@
                               "font": "Avenir-Bold",
                               "size": "18",
                               "color": "#ffffff",
-                              "border": "#ffffff",
                               "background": "#5ec6ff",
                               "spacing": "40",
                               "padding":"5"
@@ -199,7 +197,6 @@
                               "font": "Avenir-Bold",
                               "size": "18",
                               "color": "#ffffff",
-                              "border": "#ffffff",
                               "background": "#5ec6ff",
                               "spacing": "40",
                               "padding":"5"
@@ -473,7 +470,6 @@
                               "font": "Avenir-Bold",
                               "size": "18",
                               "color": "#ffffff",
-                              "border": "#ffffff",
                               "background": "#0a0a08",
                               "spacing": "40",
                               "padding":"5"
@@ -489,7 +485,6 @@
                               "font": "Avenir-Bold",
                               "size": "18",
                               "color": "#ffffff",
-                              "border": "#ffffff",
                               "background": "#0a0a08",
                               "spacing": "40",
                               "padding":"5"
@@ -559,7 +554,6 @@
                       "align": "fill",
                       "color": "#ffffff",
                       "padding": "1",
-                      "border": "#ffffff",
                       "align":"right",
                       "background": "#aaaaaa"
 
