@@ -441,6 +441,7 @@
                       {
                         "type" :"horizontal",
                         "style":{
+                          "spacing":"10"
                         },
                         
                        "components":[
