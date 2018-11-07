@@ -223,20 +223,33 @@
                                     "text":"Falcons Running",
                                     "style":{
                                       "color":"#ffffff", 
+                                      "align":"center",
                                       "background":"#0a0a08"
                                     }
                                   },
                                   {
                                     "type":"label",
-                                    "text":"1"
+                                    "text":"1",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
                                   },
                                   {
                                     "type":"label",
-                                    "text":"2"
+                                    "text":"2",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
                                   },
                                   {
                                     "type":"label",
-                                    "text":"3"
+                                    "text":"3",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
                                   }
                                 ]
                               },
@@ -245,20 +258,33 @@
                                 "components":[
                                   {
                                     "type":"label",
-                                    "style":{       "color":"#ffffff",                                  "background":"#0a0a08"                                     },
+                                    "style":{       "color":"#ffffff",   "align":"center",                                      "align":"center",
+                                      "background":"#0a0a08"                                     },
                                     "text":"Falcons Spares"
                                   },
                                   {
                                     "type":"label",
-                                    "text":"1"
+                                    "text":"1",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
                                   },
                                   {
                                     "type":"label",
-                                    "text":"2"
+                                    "text":"2",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
                                   },
                                   {
                                     "type":"label",
-                                    "text":"3"
+                                    "text":"3",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
                                   }
                                 ]
                               },
@@ -267,20 +293,32 @@
                                 "components":[
                                   {
                                     "type":"label",
-                                    "style":{         "color":"#ffffff",                                "background":"#0a0a08"                                     },
+                                    "style":{         "color":"#ffffff",      "align":"center",                          "background":"#0a0a08"                                     },
                                     "text":"Falcons on Mtce"
                                   },
                                   {
                                     "type":"label",
-                                    "text":"1"
+                                    "text":"1",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
                                   },
                                   {
                                     "type":"label",
-                                    "text":"2"
+                                    "text":"2",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
                                   },
                                   {
                                     "type":"label",
-                                    "text":"3"
+                                    "text":"3",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
                                   }
                                 ]
                               }
@@ -294,20 +332,32 @@
                                 "components":[
                                   {
                                     "type":"label",
-                                    "style":{     "color":"#ffffff",                                    "background":"#0a0a08"                                     },
+                                    "style":{     "color":"#ffffff",               "align":"center",                     "background":"#0a0a08"                                     },
                                     "text":"Falcons Running"
                                   },
                                   {
                                     "type":"label",
-                                    "text":"1"
+                                    "text":"1",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
                                   },
                                   {
                                     "type":"label",
-                                    "text":"2"
+                                    "text":"2",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
                                   },
                                   {
                                     "type":"label",
-                                    "text":"3"
+                                    "text":"3",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
                                   }
                                 ]
                               },
@@ -316,20 +366,32 @@
                                 "components":[
                                   {
                                     "type":"label",
-                                    "style":{     "color":"#ffffff",                                    "background":"#0a0a08"                                     },
+                                    "style":{     "color":"#ffffff",       "align":"center",                             "background":"#0a0a08"                                     },
                                     "text":"Falcons Spares"
                                   },
                                   {
                                     "type":"label",
-                                    "text":"1"
+                                    "text":"1",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
                                   },
                                   {
                                     "type":"label",
-                                    "text":"2"
+                                    "text":"2",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
                                   },
                                   {
                                     "type":"label",
-                                    "text":"3"
+                                    "text":"3",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
                                   }
                                 ]
                               },
@@ -340,22 +402,35 @@
                                     "type":"label",
                                     "style":{                                      
                                        "background":"#0a0a08" , 
-                                       "color":"#ffffff"
+                                       "color":"#ffffff",
+                                       "align":"center"
                                       },
                                        "text":"Falcons on Mtce"
                                   }
                                   
                                   {
                                     "type":"label",
-                                    "text":"1"
+                                    "text":"1",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
                                   },
                                   {
                                     "type":"label",
-                                    "text":"2"
+                                    "text":"2",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
                                   },
                                   {
                                     "type":"label",
-                                    "text":"3"
+                                    "text":"3",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
                                   }
                                 ]
                               }
