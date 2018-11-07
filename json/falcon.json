@@ -222,6 +222,7 @@
                                     "type":"label",
                                     "text":"Falcons Running",
                                     "style":{
+                                      "color":"#ffffff", 
                                       "background":"#0a0a08"
                                     }
                                   },
@@ -244,7 +245,7 @@
                                 "components":[
                                   {
                                     "type":"label",
-                                    "style":{                                       "background":"#0a0a08"                                     },
+                                    "style":{       "color":"#ffffff",                                  "background":"#0a0a08"                                     },
                                     "text":"Falcons Spares"
                                   },
                                   {
@@ -266,7 +267,7 @@
                                 "components":[
                                   {
                                     "type":"label",
-                                    "style":{                                       "background":"#0a0a08"                                     },
+                                    "style":{         "color":"#ffffff",                                "background":"#0a0a08"                                     },
                                     "text":"Falcons on Mtce"
                                   },
                                   {
@@ -293,7 +294,7 @@
                                 "components":[
                                   {
                                     "type":"label",
-                                    "style":{                                       "background":"#0a0a08"                                     },
+                                    "style":{     "color":"#ffffff",                                    "background":"#0a0a08"                                     },
                                     "text":"Falcons Running"
                                   },
                                   {
@@ -315,7 +316,7 @@
                                 "components":[
                                   {
                                     "type":"label",
-                                    "style":{                                       "background":"#0a0a08"                                     },
+                                    "style":{     "color":"#ffffff",                                    "background":"#0a0a08"                                     },
                                     "text":"Falcons Spares"
                                   },
                                   {
@@ -338,10 +339,12 @@
                                   {
                                     "type":"label",
                                     "style":{                                      
-                                       "background":"#0a0a08" 
+                                       "background":"#0a0a08" , 
+                                       "color":"#ffffff"
                                       },
-                                    "text":"Falcons on Mtce"
-                                  },
+                                       "text":"Falcons on Mtce"
+                                  }
+                                  
                                   {
                                     "type":"label",
                                     "text":"1"
