@@ -174,14 +174,14 @@
                        "components":[
                         {
                             "type" :"label",
-                            "text" : "Gravity Line 1",
+                            "text" : "Incidents / Safety Notifications",
                             "align" : "left" ,
                             "background": "#ace248",
                             "style": {
                               "font": "Avenir-Bold",
                               "size": "18",
                               "color": "#ffffff",
-                              "background": "#5ec6ff",
+                              "background": "#0a0a08",
                               "spacing": "40",
                               "padding":"5"
       
@@ -189,20 +189,110 @@
                             }
                           },
                           {
-                            "type" :"label",
-                            "text" : "Gravity Line 1",
-                            "align" : "left" ,
-                            "background": "#ace248",
+                            "type": "dropdown",
+                            "name": "shift",
+                            "contentDescription" : "shift",
+                            "options": [
+                              {
+                                "value": "Nil Report \n \n \n",
+                                "defaultSelected": "true"
+                              },
+                              {
+                                "value": " Report 1 \n \n \n",
+                                "defaultSelected": "false"
+                              },
+                              {
+                                "value": " Report 2 \n \n \n",
+                                "defaultSelected": "false"
+                              }
+                            ],
                             "style": {
-                              "font": "Avenir-Bold",
-                              "size": "18",
-                              "color": "#ffffff",
-                              "background": "#5ec6ff",
-                              "spacing": "40",
-                              "padding":"5"
-      
-      
+                              "background":"#ffffff"
                             }
+                          },
+                          {
+                              "type":"vertical",
+                              "components":[
+                                {
+                                    "type":"horizontal",
+                                    "style":{
+                                      "background":"#ffffff"
+                                    },
+                                    "components":[
+                                      {
+                                        "type":"label",
+                                        "text":"Falcons Running",
+                                        "style":{
+                                          "color":"#ffffff", 
+                                          "align":"center",
+                                          "background":"#0a0a08"
+                                        }
+                                      },
+                                      {
+                                        "type":"label",
+                                        "text":"1",
+                                        "style":{
+                                          "align":"center"
+    
+                                        }
+                                      },
+                                      {
+                                        "type":"label",
+                                        "text":"2",
+                                        "style":{
+                                          "align":"center"
+    
+                                        }
+                                      },
+                                      {
+                                        "type":"label",
+                                        "text":"3",
+                                        "style":{
+                                          "align":"center"
+    
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type":"horizontal",
+                                    "style":{
+                                      "background":"#ffffff"
+                                    },
+                                    "components":[
+                                      {
+                                        "type":"label",
+                                        "style":{       "color":"#ffffff",   "align":"center",                                      "align":"center",
+                                          "background":"#0a0a08"                                     },
+                                        "text":"Falcons Spares"
+                                      },
+                                      {
+                                        "type":"label",
+                                        "text":"1",
+                                        "style":{
+                                          "align":"center"
+    
+                                        }
+                                      },
+                                      {
+                                        "type":"label",
+                                        "text":"2",
+                                        "style":{
+                                          "align":"center"
+    
+                                        }
+                                      },
+                                      {
+                                        "type":"label",
+                                        "text":"3",
+                                        "style":{
+                                          "align":"center"
+    
+                                        }
+                                      }
+                                    ]
+                                  }
+                              ]
                           }
                        ]
                       },
@@ -457,11 +547,7 @@
   
                     ] 
                   },
-                 
-  
-                  
-                  
-                 
+                                
                   
                   {
                     "type": "horizontal",
