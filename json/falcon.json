@@ -31,6 +31,9 @@
                 "padding" : "10"
               }
             },
+            "style":{
+              "background":"#aaaaaa"
+            },
   
             "sections": [
   
