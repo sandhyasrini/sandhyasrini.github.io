@@ -221,14 +221,15 @@
                                 "components":[
                                   {
                                     "type":"label",
-                                    "text":"Incidents / Safety Notifications",
+                                    "text":"Fresh Carbon Bags generated",
                                     "style":{
                                       "color":"#ffffff", 
                                       "align":"center",
                                       "background":"#0a0a08"
                                     }
-                                  },
-            
+                                  }
+                                ]
+                              },
                               {
                                 "type":"horizontal",
                                 "style":{
