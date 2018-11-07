@@ -284,71 +284,68 @@
                             "type":"vertical",
                             "components":[
                               {
-                                "type":"vertical",
+                                "type":"horizontal",
                                 "components":[
                                   {
-                                    "type":"horizontal",
-                                    "components":[
-                                      {
-                                        "type":"label",
-                                        "text":"Falcons Running"
-                                      },
-                                      {
-                                        "type":"label",
-                                        "text":"1"
-                                      },
-                                      {
-                                        "type":"label",
-                                        "text":"2"
-                                      },
-                                      {
-                                        "type":"label",
-                                        "text":"3"
-                                      }
-                                    ]
+                                    "type":"label",
+                                    "text":"Falcons Running"
                                   },
                                   {
-                                    "type":"horizontal",
-                                    "components":[
-                                      {
-                                        "type":"label",
-                                        "text":"Falcons Spares"
-                                      },
-                                      {
-                                        "type":"label",
-                                        "text":"1"
-                                      },
-                                      {
-                                        "type":"label",
-                                        "text":"2"
-                                      },
-                                      {
-                                        "type":"label",
-                                        "text":"3"
-                                      }
-                                    ]
+                                    "type":"label",
+                                    "text":"1"
                                   },
                                   {
-                                    "type":"horizontal",
-                                    "components":[
-                                      {
-                                        "type":"label",
-                                        "text":"Falcons on Mtce"
-                                      },
-                                      {
-                                        "type":"label",
-                                        "text":"1"
-                                      },
-                                      {
-                                        "type":"label",
-                                        "text":"2"
-                                      },
-                                      {
-                                        "type":"label",
-                                        "text":"3"
-                                      }
-                                    ]
+                                    "type":"label",
+                                    "text":"2"
+                                  },
+                                  {
+                                    "type":"label",
+                                    "text":"3"
                                   }
+                                ]
+                              },
+                              {
+                                "type":"horizontal",
+                                "components":[
+                                  {
+                                    "type":"label",
+                                    "text":"Falcons Spares"
+                                  },
+                                  {
+                                    "type":"label",
+                                    "text":"1"
+                                  },
+                                  {
+                                    "type":"label",
+                                    "text":"2"
+                                  },
+                                  {
+                                    "type":"label",
+                                    "text":"3"
+                                  }
+                                ]
+                              },
+                              {
+                                "type":"horizontal",
+                                "components":[
+                                  {
+                                    "type":"label",
+                                    "text":"Falcons on Mtce"
+                                  },
+                                  {
+                                    "type":"label",
+                                    "text":"1"
+                                  },
+                                  {
+                                    "type":"label",
+                                    "text":"2"
+                                  },
+                                  {
+                                    "type":"label",
+                                    "text":"3"
+                                  }
+                                ]
+                              }
                             ]
                           }
                        ]
