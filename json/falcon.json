@@ -31,9 +31,7 @@
                 "padding" : "10"
               }
             },
-            "style":{
-              "background":"#aaaaaa"
-            },
+            
   
             "sections": [
   
@@ -160,9 +158,9 @@
                       "align" : "fill",
                       "color":"#ffffff",
                       "padding" : "1",
+                      "background": "#aaaaaa",
                       "border" :"#ffffff",
-                      "spacing": "5",
-                      "background": "#aaaaaa"
+                      "spacing": "5"
    
                     },
                     "components" : [
