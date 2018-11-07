@@ -39,7 +39,8 @@
   
               {
                 "style": {
-                  "color" : "#ffffff"
+                  "color" : "#ffffff",
+                  "background":"#aaaaaa"
                 },
   
                 "items": [
