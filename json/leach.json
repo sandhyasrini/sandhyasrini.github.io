@@ -239,7 +239,7 @@
                                 "components":[
                                   {
                                     "type":"label",
-                                    "style":{       "color":"#ffffff",   "align":"center",                                      "align":"center",
+                                    "style":{       "color":"#ffffff",   "align":"fill",                                      "align":"center",
                                       "background":"#0a0a08"                                     },
                                     "text":"Falcons Spares"
                                   },
