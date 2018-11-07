@@ -339,6 +339,9 @@
                           },
                           {
                             "type":"vertical",
+                            "style":{
+                              "background": "#ffffff"
+                            },
                             "components":[
                               {
                                 "type":"horizontal",
