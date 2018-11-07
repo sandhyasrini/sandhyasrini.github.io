@@ -437,6 +437,47 @@
                             ]
                           }
                        ]
+                      },
+                      {
+                        "type" :"horizontal",
+                        "style":{
+                          "spacing":"10"
+                        },
+                        
+                       "components":[
+                        {
+                            "type" :"label",
+                            "text" : " Incidents / Safety Notifications ",
+                            "align" : "left" ,
+                            "style": {
+                              "font": "Avenir-Bold",
+                              "size": "18",
+                              "color": "#ffffff",
+                              "border": "#ffffff",
+                              "background": "#0a0a08",
+                              "spacing": "40",
+                              "padding":"5"
+      
+      
+                            }
+                          },
+                          {
+                            "type" :"label",
+                            "text" : "Incidents / Safety Notifications",
+                            "align" : "left" ,
+                            "style": {
+                              "font": "Avenir-Bold",
+                              "size": "18",
+                              "color": "#ffffff",
+                              "border": "#ffffff",
+                              "background": "#0a0a08",
+                              "spacing": "40",
+                              "padding":"5"
+      
+      
+                            }
+                          }
+                       ]
                       }
   
                     ] 
@@ -445,47 +486,7 @@
   
                   
                   
-                  {
-                    "type" :"horizontal",
-                    "style":{
-                      "spacing":"10"
-                    },
-                    
-                   "components":[
-                    {
-                        "type" :"label",
-                        "text" : " Incidents / Safety Notifications ",
-                        "align" : "left" ,
-                        "style": {
-                          "font": "Avenir-Bold",
-                          "size": "18",
-                          "color": "#ffffff",
-                          "border": "#ffffff",
-                          "background": "#0a0a08",
-                          "spacing": "40",
-                          "padding":"5"
-  
-  
-                        }
-                      },
-                      {
-                        "type" :"label",
-                        "text" : "Incidents / Safety Notifications",
-                        "align" : "left" ,
-                        "style": {
-                          "font": "Avenir-Bold",
-                          "size": "18",
-                          "color": "#ffffff",
-                          "border": "#ffffff",
-                          "background": "#0a0a08",
-                          "spacing": "40",
-                          "padding":"5"
-  
-  
-                        }
-                      }
-                   ]
-                  },
+                 
                   
                   {
                     "type": "horizontal",
