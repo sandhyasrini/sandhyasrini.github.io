@@ -208,7 +208,8 @@
                             ],
                             "style": {
                               "background":"#ffffff",
-                              "height":"55"
+                              "height":"100",
+                              "width":"wrap"
                             }
                           },
                           {
@@ -451,7 +452,9 @@
                               }
                             ],
                             "style": {
-                              "background":"#ffffff"
+                              "background":"#ffffff",
+                              "height":"100",
+                              "width":"wrap"
                             }
                           }
                         
