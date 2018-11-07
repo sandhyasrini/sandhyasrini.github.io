@@ -207,10 +207,9 @@
                               }
                             ],
                             "style": {
-                              "background":"#ffffff",
-                              "height":"200",
-                              "width":"wrap",
-                              "align":"top"
+                                "background":"#ffffff",
+                                "height":"250",
+                                "width":"wrap"
                             }
                           },
                           {
