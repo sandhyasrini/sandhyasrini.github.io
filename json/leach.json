@@ -251,7 +251,7 @@
                                     "type":"label",
                                     "style":{       "color":"#ffffff",     
                                       "background":"#0a0a08",
-                                      "height":"45",
+                                      "height":"30",
                                       "padding":"0",
                                       "align":"center"
                                     },
