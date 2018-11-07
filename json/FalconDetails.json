@@ -145,6 +145,45 @@
                         }
                       }
                     ]
+                  },
+                  {
+                      "type":"horizontal",
+                      "components":[
+                          {
+                            "type" :"label",
+                            "text" : "Gravity Line 1",
+                            "align" : "left" ,
+                            "background": "#ace248",
+                            "style": {
+                              "font": "Avenir-Bold",
+                              "size": "18",
+                              "color": "#ffffff",
+                              "border": "#ffffff",
+                              "background": "#5ec6ff",
+                              "spacing": "30",
+                              "padding":"5"
+      
+      
+                            }
+                          },
+                          {
+                            "type" :"label",
+                            "text" : "Gravity Line 1",
+                            "align" : "left" ,
+                            "background": "#ace248",
+                            "style": {
+                              "font": "Avenir-Bold",
+                              "size": "18",
+                              "color": "#ffffff",
+                              "border": "#ffffff",
+                              "background": "#5ec6ff",
+                              "spacing": "30",
+                              "padding":"5"
+      
+      
+                            }
+                          }
+                      ]
                   }
                 
                 ]
