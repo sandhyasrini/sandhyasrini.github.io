@@ -237,6 +237,14 @@
                                   "background":"#ffffff"
                                 },
                                 "components":[
+                                    {
+                                        "type":"label",
+                                        "text":"36",
+                                        "style":{
+                                          "align":"center"
+    
+                                        }
+                                      },
                                   {
                                     "type":"label",
                                     "style":{       "color":"#ffffff",   "align":"fill",    
@@ -244,16 +252,9 @@
                                       "height":"45",
                                       "padding":"0"
                                  },
-                                    "text":"Falcons Spares"
+                                    "text":"Issued"
                                   },
-                                  {
-                                    "type":"label",
-                                    "text":"1",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  },
+                                  
                                   
                                   {
                                     "type": "dropdown",
