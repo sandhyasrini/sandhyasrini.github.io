@@ -253,11 +253,21 @@
                                   },
                                   
                                   {
-                                    "type":"label",
-                                    "text":"3",
-                                    "style":{
-                                      "align":"center"
-
+                                    "type": "dropdown",
+                                    "name": "carbonBagsGenerated",
+                                    "contentDescription" : "carbon Bags",
+                                    "options": [
+                                      {
+                                        "value": "Yes",
+                                        "defaultSelected": "true"
+                                      },
+                                      {
+                                        "value": "No",
+                                        "defaultSelected": "false"
+                                      }
+                                    ],
+                                    "style": {
+                                      "background":"#ffffff"
                                     }
                                   }
                                 ]
