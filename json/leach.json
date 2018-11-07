@@ -340,7 +340,8 @@
                                       }
                                     ],
                                     "style": {
-                                      "background":"#ffffff"
+                                      "background":"#ffffff",
+                                      "height":"30"
                                     }
                                   }
                                 ]
