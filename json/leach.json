@@ -208,8 +208,9 @@
                             ],
                             "style": {
                               "background":"#ffffff",
-                              "height":"100",
-                              "width":"wrap"
+                              "height":"200",
+                              "width":"wrap",
+                              "align":"top"
                             }
                           },
                           {
@@ -453,7 +454,7 @@
                             ],
                             "style": {
                               "background":"#ffffff",
-                              "height":"300",
+                              "height":"150",
                               "width":"wrap"
                             }
                           }
