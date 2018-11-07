@@ -495,6 +495,7 @@
                               "size": "18",
                               "color": "#111111",
                               "border": "#111111",
+                              "border_width":2,
                               "background": "#ffffff",
                               "spacing": "40",
                               "padding":"5"
@@ -510,6 +511,7 @@
                               "font": "Avenir-Bold",
                               "size": "18",
                               "color": "#111111",
+                              "border_width":2,
                               "border": "#111111",
                               "background": "#ffffff",
                               "spacing": "40",
