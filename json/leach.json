@@ -213,85 +213,60 @@
                           {
                               "type":"vertical",
                               "components":[
-                                {
-                                    "type":"horizontal",
+                                  {
+                                "type":"horizontal",
+                                "style":{
+                                  "background":"#ffffff"
+                                },
+                                "components":[
+                                  {
+                                    "type":"label",
+                                    "text":"Incidents / Safety Notifications",
                                     "style":{
-                                      "background":"#ffffff"
-                                    },
-                                    "components":[
-                                      {
-                                        "type":"label",
-                                        "text":"Falcons Running",
-                                        "style":{
-                                          "color":"#ffffff", 
-                                          "align":"center",
-                                          "background":"#0a0a08"
-                                        }
-                                      },
-                                      {
-                                        "type":"label",
-                                        "text":"1",
-                                        "style":{
-                                          "align":"center"
-    
-                                        }
-                                      },
-                                      {
-                                        "type":"label",
-                                        "text":"2",
-                                        "style":{
-                                          "align":"center"
-    
-                                        }
-                                      },
-                                      {
-                                        "type":"label",
-                                        "text":"3",
-                                        "style":{
-                                          "align":"center"
-    
-                                        }
-                                      }
-                                    ]
+                                      "color":"#ffffff", 
+                                      "align":"center",
+                                      "background":"#0a0a08"
+                                    }
+                                  },
+            
+                              {
+                                "type":"horizontal",
+                                "style":{
+                                  "background":"#ffffff"
+                                },
+                                "components":[
+                                  {
+                                    "type":"label",
+                                    "style":{       "color":"#ffffff",   "align":"center",                                      "align":"center",
+                                      "background":"#0a0a08"                                     },
+                                    "text":"Falcons Spares"
                                   },
                                   {
-                                    "type":"horizontal",
+                                    "type":"label",
+                                    "text":"1",
                                     "style":{
-                                      "background":"#ffffff"
-                                    },
-                                    "components":[
-                                      {
-                                        "type":"label",
-                                        "style":{       "color":"#ffffff",   "align":"center",                                      "align":"center",
-                                          "background":"#0a0a08"                                     },
-                                        "text":"Falcons Spares"
-                                      },
-                                      {
-                                        "type":"label",
-                                        "text":"1",
-                                        "style":{
-                                          "align":"center"
-    
-                                        }
-                                      },
-                                      {
-                                        "type":"label",
-                                        "text":"2",
-                                        "style":{
-                                          "align":"center"
-    
-                                        }
-                                      },
-                                      {
-                                        "type":"label",
-                                        "text":"3",
-                                        "style":{
-                                          "align":"center"
-    
-                                        }
-                                      }
-                                    ]
+                                      "align":"center"
+
+                                    }
+                                  },
+                                  {
+                                    "type":"label",
+                                    "text":"2",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
+                                  },
+                                  {
+                                    "type":"label",
+                                    "text":"3",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
                                   }
+                                ]
+                              }
                               ]
                           }
                        ]
@@ -360,12 +335,33 @@
                                 "components":[
                                   {
                                     "type":"label",
-                                    "style":{       
-                                        "color":"#ffffff",
-                                        "align":"center",                                      
-                                        "background":"#0a0a08"                                     
-                                    },
-                                    "text":"Fresh Carbon Bags Generated"
+                                    "style":{       "color":"#ffffff",   "align":"center",                                      "align":"center",
+                                      "background":"#0a0a08"                                     },
+                                    "text":"Falcons Spares"
+                                  },
+                                  {
+                                    "type":"label",
+                                    "text":"1",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
+                                  },
+                                  {
+                                    "type":"label",
+                                    "text":"2",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
+                                  },
+                                  {
+                                    "type":"label",
+                                    "text":"3",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
                                   }
                                 ]
                               },
@@ -374,35 +370,32 @@
                                 "components":[
                                   {
                                     "type":"label",
-                                    "style":{         
-                                        "align":"center",                          
-                                        "background":"#ffffff"                                     
-                                    },
-                                    "text":"36"
+                                    "style":{         "color":"#ffffff",      "align":"center",                          "background":"#0a0a08"                                     },
+                                    "text":"Falcons on Mtce"
                                   },
                                   {
                                     "type":"label",
-                                    "text":"Issued",
+                                    "text":"1",
                                     "style":{
-                                      "align":"center",
-                                      "color":"#ffffff",      
-                                      "background":"#0a0a08"
+                                      "align":"center"
 
                                     }
                                   },
                                   {
-                                    "name": "FreshCarbon",
-                            "contentDescription" : "FreshCarbon",
-                            "options": [
-                              {
-                                "value": "Yes",
-                                "defaultSelected": "true"
-                              },
-                              {
-                                "value": "No",
-                                "defaultSelected": "false"
-                              }
-                            ]
+                                    "type":"label",
+                                    "text":"2",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
+                                  },
+                                  {
+                                    "type":"label",
+                                    "text":"3",
+                                    "style":{
+                                      "align":"center"
+
+                                    }
                                   }
                                 ]
                               }
