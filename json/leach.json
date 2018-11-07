@@ -305,7 +305,7 @@
                                 "components":[
                                   {
                                     "type":"label",
-                                    "text":"Falcons Running",
+                                    "text":"Kennex # in Bay",
                                     "style":{
                                       "color":"#ffffff", 
                                       "align":"center",
@@ -314,26 +314,32 @@
                                   },
                                   {
                                     "type":"label",
-                                    "text":"1",
+                                    "text":"24",
                                     "style":{
                                       "align":"center"
 
                                     }
                                   },
                                   {
-                                    "type":"label",
-                                    "text":"2",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"3",
-                                    "style":{
-                                      "align":"center"
-
+                                    "type": "dropdown",
+                                    "name": "Dirty",
+                                    "contentDescription" : "Dirty",
+                                    "options": [
+                                      {
+                                        "value": "Dirty",
+                                        "defaultSelected": "true"
+                                      },
+                                      {
+                                        "value": " 1",
+                                        "defaultSelected": "false"
+                                      },
+                                      {
+                                        "value": " 2",
+                                        "defaultSelected": "false"
+                                      }
+                                    ],
+                                    "style": {
+                                      "background":"#ffffff"
                                     }
                                   }
                                 ]
@@ -346,13 +352,17 @@
                                 "components":[
                                   {
                                     "type":"label",
-                                    "style":{       "color":"#ffffff",   "align":"center",                                      "align":"center",
-                                      "background":"#0a0a08"                                     },
-                                    "text":"Falcons Spares"
+                                    "style":
+                                    {       
+                                        "color":"#ffffff",   
+                                        "align":"center",
+                                        "background":"#0a0a08"                                     
+                                    },
+                                    "text":"205"
                                   },
                                   {
                                     "type":"label",
-                                    "text":"1",
+                                    "text":"Yes",
                                     "style":{
                                       "align":"center"
 
@@ -360,15 +370,7 @@
                                   },
                                   {
                                     "type":"label",
-                                    "text":"2",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"3",
+                                    "text":" ",
                                     "style":{
                                       "align":"center"
 
@@ -381,28 +383,27 @@
                                 "components":[
                                   {
                                     "type":"label",
-                                    "style":{         "color":"#ffffff",      "align":"center",                          "background":"#0a0a08"                                     },
-                                    "text":"Falcons on Mtce"
+                                    "style":
+                                    {         
+                                        "color":"#ffffff",      
+                                        "align":"center",                          
+                                        "background":"#0a0a08"                                     
+                                    },
+                                    "text":"Fresh Carbon Added"
                                   },
                                   {
                                     "type":"label",
-                                    "text":"1",
+                                    "text":"",
                                     "style":{
-                                      "align":"center"
+                                        "align":"center",
+                                        "background":"#0a0a08",
+                                        "color":"#ffffff" 
 
                                     }
                                   },
                                   {
                                     "type":"label",
-                                    "text":"2",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"3",
+                                    "text":"Y",
                                     "style":{
                                       "align":"center"
 
