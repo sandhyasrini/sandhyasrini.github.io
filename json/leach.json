@@ -207,7 +207,8 @@
                               }
                             ],
                             "style": {
-                              "background":"#ffffff"
+                              "background":"#ffffff",
+                              "height":"55"
                             }
                           },
                           {
@@ -341,7 +342,7 @@
                                     ],
                                     "style": {
                                       "background":"#ffffff",
-                                      "height":"30"
+                                      "height":"20"
                                     }
                                   }
                                 ]
