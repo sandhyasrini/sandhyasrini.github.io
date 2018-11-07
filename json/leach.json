@@ -225,7 +225,8 @@
                                     "style":{
                                       "color":"#ffffff", 
                                       "align":"center",
-                                      "background":"#0a0a08"
+                                      "background":"#0a0a08",
+                                      "height":"30"
                                     }
                                   }
                                 ]
@@ -236,34 +237,38 @@
                                   "background":"#ffffff"
                                 },
                                 "components":[
-                                  {
+                                    {
+                                        "type":"label",
+                                        "text":"36",
+                                        "style":{
+                                          "align":"center"
+    
+                                        }
+                                      },
+                                      {
                                     "type":"label",
                                     "style":{       "color":"#ffffff",   "align":"center",                                      "align":"center",
                                       "background":"#0a0a08"                                     },
-                                    "text":"Falcons Spares"
+                                    "text":"Issued"
                                   },
+                                  
+                                  
                                   {
-                                    "type":"label",
-                                    "text":"1",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"2",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"3",
-                                    "style":{
-                                      "align":"center"
-
+                                    "type": "dropdown",
+                                    "name": "carbonBagsGenerated",
+                                    "contentDescription" : "carbon Bags",
+                                    "options": [
+                                      {
+                                        "value": "Yes",
+                                        "defaultSelected": "true"
+                                      },
+                                      {
+                                        "value": "No",
+                                        "defaultSelected": "false"
+                                      }
+                                    ],
+                                    "style": {
+                                      "background":"#ffffff"
                                     }
                                   }
                                 ]
