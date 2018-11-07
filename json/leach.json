@@ -209,7 +209,8 @@
                             "style": {
                                 "background":"#ffffff",
                                 "height":"250",
-                                "width":"wrap"
+                                "width":"wrap",
+                                "border":"#000000"
                             }
                           },
                           {
