@@ -165,7 +165,9 @@
                       {
                         "type" :"horizontal",
                         "style":{
-                          "spacing":"10"
+                          "spacing":"10",
+                          "background": "#aaaaaa"
+
                         },
                         
                        "components":[
@@ -208,7 +210,9 @@
                       {
                         "type" :"horizontal",
                         "style":{
-                          "spacing":"10"
+                          "spacing":"10",
+                          "background": "#aaaaaa"
+
                         },
                         
                        "components":[
@@ -441,7 +445,9 @@
                       {
                         "type" :"horizontal",
                         "style":{
-                          "spacing":"10"
+                          "spacing":"10",
+                          "background": "#aaaaaa"
+
                         },
                         
                        "components":[
@@ -482,7 +488,9 @@
                       {
                         "type" :"horizontal",
                         "style":{
-                          "spacing":"10"
+                          "spacing":"10",
+                          "background": "#aaaaaa"
+
                         },
                         
                        "components":[
@@ -538,7 +546,9 @@
                       "color": "#ffffff",
                       "padding": "1",
                       "border": "#ffffff",
-                      "align":"right"
+                      "align":"right",
+                      "background": "#aaaaaa"
+
                     },
                     "components": [
   
