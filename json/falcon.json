@@ -177,8 +177,8 @@
                               "color": "#ffffff",
                               "border": "#ffffff",
                               "background": "#5ec6ff",
-                              "spacing": "30",
-                              "padding":"5"
+                              "spacing": "40",
+                              "padding":"10"
       
       
                             }
@@ -194,7 +194,7 @@
                               "color": "#ffffff",
                               "border": "#ffffff",
                               "background": "#5ec6ff",
-                              "spacing": "30",
+                              "spacing": "40",
                               "padding":"5"
       
       
