@@ -247,10 +247,11 @@
                                       },
                                   {
                                     "type":"label",
-                                    "style":{       "color":"#ffffff",   "align":"fill",    
+                                    "style":{       "color":"#ffffff",     
                                       "background":"#0a0a08",
                                       "height":"45",
-                                      "padding":"0"
+                                      "padding":"0",
+                                      "align":"center"
                                  },
                                     "text":"Issued"
                                   },
