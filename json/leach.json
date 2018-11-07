@@ -292,6 +292,44 @@
                         
                        "components":[
                         {
+                            "type" :"label",
+                            "text" : "Incidents / Safety Notifications",
+                            "align" : "left" ,
+                            "background": "#ace248",
+                            "style": {
+                              "font": "Avenir-Bold",
+                              "size": "18",
+                              "color": "#ffffff",
+                              "background": "#0a0a08",
+                              "spacing": "40",
+                              "padding":"5"
+      
+      
+                            }
+                          },
+                          {
+                            "type": "dropdown",
+                            "name": "shift",
+                            "contentDescription" : "shift",
+                            "options": [
+                              {
+                                "value": "Nil Report \n \n \n",
+                                "defaultSelected": "true"
+                              },
+                              {
+                                "value": " Report 1 \n \n \n",
+                                "defaultSelected": "false"
+                              },
+                              {
+                                "value": " Report 2 \n \n \n",
+                                "defaultSelected": "false"
+                              }
+                            ],
+                            "style": {
+                              "background":"#ffffff"
+                            }
+                          },
+                        {
                             "type":"vertical",
                             "style":{
                               "background": "#ffffff"
@@ -411,122 +449,8 @@
                                 ]
                               }
                             ]
-                          },
-                          {
-                            "type":"vertical",
-                            "style":{
-                              "background": "#ffffff"
-                            },
-                            "components":[
-                              {
-                                "type":"horizontal",
-                                "components":[
-                                  {
-                                    "type":"label",
-                                    "style":{     "color":"#ffffff",               "align":"center",                     "background":"#0a0a08"                                     },
-                                    "text":"Falcons Running"
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"1",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"2",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"3",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  }
-                                ]
-                              },
-                              {
-                                "type":"horizontal",
-                                "components":[
-                                  {
-                                    "type":"label",
-                                    "style":{     "color":"#ffffff",       "align":"center",                             "background":"#0a0a08"                                     },
-                                    "text":"Falcons Spares"
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"1",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"2",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"3",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  }
-                                ]
-                              },
-                              {
-                                "type":"horizontal",
-                                "components":[
-                                  {
-                                    "type":"label",
-                                    "style":{                                      
-                                       "background":"#0a0a08" , 
-                                       "color":"#ffffff",
-                                       "align":"center"
-                                      },
-                                       "text":"Falcons on Mtce"
-                                  },
-                                  
-                                  {
-                                    "type":"label",
-                                    "text":"1",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"2",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"3",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  }
-                                ]
-                              }
-                            ]
                           }
+                          
                        ]
                       }
                       
