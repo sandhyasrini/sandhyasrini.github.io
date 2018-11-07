@@ -165,7 +165,7 @@
                       {
                         "type" :"horizontal",
                         "style":{
-                          "padding":"5"
+                          "spacing":"5"
                         },
                         
                        "components":[
@@ -181,7 +181,7 @@
                               "border": "#ffffff",
                               "background": "#5ec6ff",
                               "spacing": "40",
-                              "padding":"10"
+                              "padding":"5"
       
       
                             }
