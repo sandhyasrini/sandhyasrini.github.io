@@ -221,6 +221,9 @@
                             "components":[
                               {
                                 "type":"horizontal",
+                                "style":{
+                                  "background":"#ffffff"
+                                },
                                 "components":[
                                   {
                                     "type":"label",
@@ -259,6 +262,9 @@
                               },
                               {
                                 "type":"horizontal",
+                                "style":{
+                                  "background":"#ffffff"
+                                },
                                 "components":[
                                   {
                                     "type":"label",
