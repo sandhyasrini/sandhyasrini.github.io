@@ -360,33 +360,12 @@
                                 "components":[
                                   {
                                     "type":"label",
-                                    "style":{       "color":"#ffffff",   "align":"center",                                      "align":"center",
-                                      "background":"#0a0a08"                                     },
-                                    "text":"Falcons Spares"
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"1",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"2",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"3",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
+                                    "style":{       
+                                        "color":"#ffffff",
+                                        "align":"center",                                      
+                                        "background":"#0a0a08"                                     
+                                    },
+                                    "text":"Fresh Carbon Bags Generated"
                                   }
                                 ]
                               },
@@ -395,32 +374,35 @@
                                 "components":[
                                   {
                                     "type":"label",
-                                    "style":{         "color":"#ffffff",      "align":"center",                          "background":"#0a0a08"                                     },
-                                    "text":"Falcons on Mtce"
+                                    "style":{         
+                                        "align":"center",                          
+                                        "background":"#ffffff"                                     
+                                    },
+                                    "text":"36"
                                   },
                                   {
                                     "type":"label",
-                                    "text":"1",
+                                    "text":"Issued",
                                     "style":{
-                                      "align":"center"
+                                      "align":"center",
+                                      "color":"#ffffff",      
+                                      "background":"#0a0a08"
 
                                     }
                                   },
                                   {
-                                    "type":"label",
-                                    "text":"2",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"3",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
+                                    "name": "FreshCarbon",
+                            "contentDescription" : "FreshCarbon",
+                            "options": [
+                              {
+                                "value": "Yes",
+                                "defaultSelected": "true"
+                              },
+                              {
+                                "value": "No",
+                                "defaultSelected": "false"
+                              }
+                            ],
                                   }
                                 ]
                               }
