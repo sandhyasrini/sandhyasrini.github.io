@@ -153,7 +153,7 @@
                   },
   
                   {
-                    "type" : "vertical",
+                    "type" : "horizontal",
                     "style" : {
                       "align" : "fill",
                       "color":"#ffffff",
@@ -164,7 +164,7 @@
                     },
                     "components" : [
                       {
-                        "type" :"horizontal",
+                        "type" :"vertical",
                         "style":{
                           "spacing":"10",
                           "background": "#aaaaaa"
@@ -207,7 +207,7 @@
                        ]
                       },
                       {
-                        "type" :"horizontal",
+                        "type" :"vertical",
                         "style":{
                           "spacing":"10",
                           "background": "#aaaaaa"
@@ -452,93 +452,8 @@
                             ]
                           }
                        ]
-                      },
-                      {
-                        "type" :"horizontal",
-                        "style":{
-                          "spacing":"10",
-                          "background": "#aaaaaa"
-
-                        },
-                        
-                       "components":[
-                        {
-                            "type" :"label",
-                            "text" : " Incidents / Safety Notifications ",
-                            "align" : "left" ,
-                            "style": {
-                              "font": "Avenir-Bold",
-                              "size": "18",
-                              "color": "#ffffff",
-                              "background": "#0a0a08",
-                              "spacing": "40",
-                              "padding":"5"
-      
-      
-                            }
-                          },
-                          {
-                            "type" :"label",
-                            "text" : "Incidents / Safety Notifications",
-                            "align" : "left" ,
-                            "style": {
-                              "font": "Avenir-Bold",
-                              "size": "18",
-                              "color": "#ffffff",
-                              "background": "#0a0a08",
-                              "spacing": "40",
-                              "padding":"5"
-      
-      
-                            }
-                          }
-                       ]
-                      },
-                      {
-                        "type" :"horizontal",
-                        "style":{
-                          "spacing":"10",
-                          "background": "#aaaaaa"
-
-                        },
-                        
-                       "components":[
-                        {
-                            "type" :"label",
-                            "text" : " Incidents / Accidents – Nil \n  Primary air compressor inspection and restart  procedure training completed Crew 100 ",
-                            "align" : "left" ,
-                            "style": {
-                              "font": "Avenir-Bold",
-                              "size": "18",
-                              "color": "#111111",
-                              "border": "#111111",
-                              "border_width":"4",
-                              "background": "#ffffff",
-                              "spacing": "40",
-                              "padding":"5"
-      
-      
-                            }
-                          },
-                          {
-                            "type" :"label",
-                            "text" : " Incidents / Accidents – Nil \n  Primary air compressor inspection and restart  procedure training completed Crew 100 ",
-                            "align" : "left" ,
-                            "style": {
-                              "font": "Avenir-Bold",
-                              "size": "18",
-                              "color": "#111111",
-                              "border_width":"4",
-                              "border": "#111111",
-                              "background": "#ffffff",
-                              "spacing": "40",
-                              "padding":"5"
-      
-      
-                            }
-                          }
-                       ]
                       }
+                      
   
                     ] 
                   },
@@ -579,7 +494,7 @@
   
                         },
                         "href": {
-                          "url": "https://sandhyasrini.github.io/json/leach.json",
+                          "url": "https://sandhyasrini.github.io/json/GrindingLine2.json",
                           "view": "jason"
                         }
                       }
