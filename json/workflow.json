@@ -26,7 +26,8 @@
                 "style": {
                   "color": "#ffffff",
                   "font": "HelveticaNeue-Bold",
-                  "size": "18"
+                  "size": "18",
+                  "align":"center"
                 }
             },
               
