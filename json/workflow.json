@@ -18,7 +18,7 @@
                 "text": "Training Cable In-Line Splice Repair (3M 8kv kit 5761) ",
                 "style": {
                   "align": "left",
-                  "background" :"#ace248"
+                  "background" :"#5ec6ff"
                 }
               } ,
               "menu": {
@@ -27,7 +27,7 @@
                 
               },
               "style": {
-                "background" :"#ace248",
+                "background" :"#5ec6ff",
                 "color" : "#ffffff",
                 "font" : "Avenir-Bold",
                 "padding" : "5"
