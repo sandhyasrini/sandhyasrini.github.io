@@ -22,14 +22,16 @@
                 }
               } ,
               "menu": {
-                "text": "MTC-SOP-015"
+                "text": "MTC-SOP-015",
+                "color":"#ffffff"
+                
               },
               "style": {
                 "background" :"#d3b023",
                 "color" : "#ffffff",
                 "font" : "Avenir-Bold",
                 "padding" : "5"
-              }
+              } 
             },
             "style":{
             
