@@ -23,7 +23,9 @@
               } ,
               "menu": {
                 "text": "MTC-SOP-015",
-                "color":"#ffffff"
+                "style":{
+                    "color":"#ffffff"
+                }
                 
               },
               "style": {
