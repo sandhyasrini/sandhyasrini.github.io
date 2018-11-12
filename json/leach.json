@@ -130,7 +130,8 @@
                       },
                       {
                         "type": "textfield",
-                        "name": "password",
+                        "name": "textfield",
+                        "contentDescription":"name field",
                         "value": "Jean Pronovost",
                         "style": {
                           "placeholder_color": "#cecece",

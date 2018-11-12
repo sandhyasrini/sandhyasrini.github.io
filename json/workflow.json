@@ -1,0 +1,47 @@
+{
+    "$jason": {
+      "head": {
+        "styles": {
+            "styled_row": {
+              "font": "HelveticaNeue",
+              "size": "20",
+              "color": "#ff0000",
+              "padding": "10"
+            }
+          }
+        
+      },
+          "body": {
+            "header": {
+              "title": {
+                "type": "label",
+                "text": "Training Cable In-Line Splice Repair (3M 8kv kit 5761) ",
+                "style": {
+                  "align": "left",
+                  "background" :"#ace248"
+                }
+              } ,
+              "menu": {
+                "text": "MTC-SOP-015"
+              },
+              "style": {
+                "background" :"#d3b023",
+                "color" : "#ffffff",
+                "font" : "Avenir-Bold",
+                "padding" : "5"
+              }
+            },
+            "style":{
+            
+              "background":"#aaaaaa"
+            },
+  
+            "sections": [
+  
+              
+            ]
+          }
+        
+      }
+  }
+  
