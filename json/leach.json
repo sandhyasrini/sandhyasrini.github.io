@@ -493,7 +493,6 @@
                           "size": "14",
                           "corner_radius": "3",
                           "padding": "5",
-                          "padding-top": "10",
                           "spacing": "10",
                           "margin_top":"10"
   
