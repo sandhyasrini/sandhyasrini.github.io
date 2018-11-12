@@ -224,7 +224,8 @@
                               {
                                 "type":"horizontal",
                                 "style":{
-                                  "background":"#ffffff"
+                                  "background":"#ffffff",
+                                  "height":"30"
                                 },
                                 "components":[
                                   {
@@ -265,7 +266,8 @@
                               {
                                 "type":"horizontal",
                                 "style":{
-                                  "background":"#ffffff"
+                                  "background":"#ffffff",
+                                  "height":"30"
                                 },
                                 "components":[
                                   {
@@ -302,6 +304,9 @@
                               },
                               {
                                 "type":"horizontal",
+                                "style":{
+                                  "height":"30"
+                                },
                                 "components":[
                                   {
                                     "type":"label",
@@ -344,6 +349,9 @@
                             "components":[
                               {
                                 "type":"horizontal",
+                                "style":{
+                                  "height":"30"
+                                },
                                 "components":[
                                   {
                                     "type":"label",
@@ -378,6 +386,9 @@
                               },
                               {
                                 "type":"horizontal",
+                                "style":{
+                                  "height":"30"
+                                },
                                 "components":[
                                   {
                                     "type":"label",
@@ -412,6 +423,9 @@
                               },
                               {
                                 "type":"horizontal",
+                                "style":{
+                                  "height":"30"
+                                },
                                 "components":[
                                   {
                                     "type":"label",
