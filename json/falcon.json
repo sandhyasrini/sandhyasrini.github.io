@@ -190,7 +190,7 @@
                           },
                           {
                             "type" :"label",
-                            "text" : "Gravity Line 1",
+                            "text" : "Gravity Line 2",
                             "align" : "left" ,
                             "background": "#ace248",
                             "style": {
@@ -512,7 +512,7 @@
                               "size": "18",
                               "color": "#111111",
                               "border": "#111111",
-                              "border_width":"4",
+                              "border_width":"2",
                               "background": "#ffffff",
                               "spacing": "40",
                               "padding":"5"
@@ -528,7 +528,7 @@
                               "font": "Avenir-Bold",
                               "size": "18",
                               "color": "#111111",
-                              "border_width":"4",
+                              "border_width":"2",
                               "border": "#111111",
                               "background": "#ffffff",
                               "spacing": "40",

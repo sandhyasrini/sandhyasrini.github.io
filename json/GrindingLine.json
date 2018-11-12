@@ -86,7 +86,8 @@
                         }
                       ],
                       "style": {
-                        "background":"#ffffff"
+                        "background":"#ffffff",
+                        "border":"#000000"
                       }
                     },
                     {
@@ -108,7 +109,8 @@
                         }
                       ],
                       "style": {
-                        "background":"#ffffff"
+                        "background":"#ffffff",
+                        "border":"#000000"
                       }
                     },
                     {
