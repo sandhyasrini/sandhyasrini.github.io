@@ -33,8 +33,7 @@
               "style": {
                 "background" :"#5ec6ff",
                 "color" : "#ffffff",
-                "font" : "Avenir-Bold",
-                "padding" : "5"
+                "font" : "Avenir-Bold"
               } 
             },
             "style":{
