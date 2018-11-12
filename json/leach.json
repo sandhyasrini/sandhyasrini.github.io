@@ -93,8 +93,8 @@
                       },
                       {
                         "type": "dropdown",
-                        "name": "shift",
-                        "contentDescription" : "shift",
+                        "name": "name",
+                        "contentDescription" : "name",
                         "options": [
                           {
                             "value": "* J. Pronovost",
@@ -190,8 +190,8 @@
                           },
                           {
                             "type": "dropdown",
-                            "name": "shift",
-                            "contentDescription" : "shift",
+                            "name": "report",
+                            "contentDescription" : "report",
                             "options": [
                               {
                                 "value": "Nil Report \n \n \n",
@@ -327,7 +327,7 @@
                                   {
                                     "type": "dropdown",
                                     "name": "Dirty",
-                                    "contentDescription" : "Dirty",
+                                    "contentDescription" : "dropdown 5",
                                     "options": [
                                       {
                                         "value": "Dirty",
