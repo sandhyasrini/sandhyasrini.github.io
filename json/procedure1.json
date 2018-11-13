@@ -126,7 +126,8 @@
                                                         "style": {
                                                           "width": "100",
                                                           "height": "100",
-                                                          "align":"right"
+                                                          "align":"right",
+                                                          
                                                         }
                                                       }
                                                 ]
@@ -145,7 +146,8 @@
                                                             "color": "#ffffff",
                                                             "size": "15",
                                                             "width":"200",
-                                                            "padding":"5"
+                                                            "padding":"5",
+                                                            "spacing":"10"
 
                                                             
                                                         },
