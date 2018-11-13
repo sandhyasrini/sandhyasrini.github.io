@@ -60,7 +60,6 @@
                     {
                         "type": "horizontal",
                         "style": {
-                            "spacing": "10",
                             "background": "#aaaaaa"
 
                         },
