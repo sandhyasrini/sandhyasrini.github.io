@@ -231,7 +231,7 @@
                                             {
                                                 "type": "horizontal",
                                                 "style": {
-                                                    "padding_top": "65"
+                                                    "padding_top": "70"
                                                 },
                                                 "components": [{
                                                     "type": "button",
