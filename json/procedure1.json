@@ -104,11 +104,11 @@
                                     },
                                     {
                                         "type": "image",
-                                        "url": "file://thumb1.jpeg",
+                                        "url": "file://procedure1Pic1.jpeg",
                                         
                                         "style": {
-                                          "width": "100",
-                                          "height": "100",
+                                          "width": "200",
+                                          "height": "300",
                                           "align":"right"
                                         }
                                       }
@@ -118,11 +118,22 @@
                                 "type": "horizontal",
                                 "style": {
                                     "spacing": "10",
-                                    "background": "#aaaaaa"
+                                    "background": "#aaaaaa",
+                                    "align":"right"
 
                                 },
 
                                 "components": [
+                                    {
+                                        "type": "image",
+                                        "url": "file://thumb1.jpeg",
+                                        
+                                        "style": {
+                                          "width": "100",
+                                          "height": "100",
+                                          "align":"right"
+                                        }
+                                      }
                                 ]
                             }
 
