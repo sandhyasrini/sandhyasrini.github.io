@@ -1,98 +1,382 @@
 {
     "$jason": {
-      "head": {
-        "styles": {
-            "styled_row": {
-                "background":"#d3b023"
-                        }
-          }
-        
-      },
-          "body": {
+        "head": {
+            "styles": {
+                "styled_row": {
+                    "background": "#d3b023"
+                },
+                "label_style": {
+                    "font": "Avenir-Bold",
+                    "size": "18",
+                    "color": "#ffffff",
+                    "background": "#d3b023",
+                    "spacing": "40",
+                    "padding": "5"
+
+
+                }
+            }
+
+        },
+        "body": {
             "header": {
-              "title": {
-                "type": "label",
-                "text": "Training Cable In-Line Splice Repair (3M 8kv kit 5761) ",
-                "style": {
-                  "align": "left",
-                  "background" :"#5ec6ff"
-                }
-              } ,
-              "menu": {
-                "text": "MTC-SOP-015",
-                "style": {
-                  "color": "#ffffff",
-                  "font": "HelveticaNeue-Bold",
-                  "size": "18",
-                  "align":"center"
-                }
-            },
-              
-              "style": {
-                "background" :"#5ec6ff",
-                "color" : "#ffffff",
-                "font" : "Avenir-Bold"
-              } 
-            },
-            "style":{
-            
-              "background":"#aaaaaa"
-            },
-  
-            "sections": [
-                {
+                "title": {
+                    "type": "label",
+                    "text": "Training Cable In-Line Splice Repair (3M 8kv kit 5761) ",
                     "style": {
-                      "color" : "#ffffff",
-                      "background":"#aaaaaa"
-                    },
-                "items":[
-                    {
-                        "type" :"horizontal",
-                        "style":{
-                          "spacing":"10"
-                        },
-                        "class":"styled_row",
-                       "components":[
-                        {
-                            "type" :"label",
-                            "text" : "Gravity Line 1",
-                            "align" : "left" ,
-                            "background": "#ace248",
-                            "style": {
-                              "font": "Avenir-Bold",
-                              "size": "18",
-                              "color": "#ffffff",
-                              "spacing": "40",
-                              "padding":"5"
-      
-      
-                            },
-                            "class":"styled_row"
-                          },
-                          {
-                            "type" :"label",
-                            "text" : "Gravity Line 2",
-                            "align" : "left" ,
-                            "background": "#ace248",
-                            "style": {
-                              "font": "Avenir-Bold",
-                              "size": "18",
-                              "color": "#ffffff",
-                              "spacing": "40",
-                              "padding":"5"
-      
-      
-                            },
-                            "class":"styled_row"
-                          }
-                       ]
+                        "align": "left",
+                        "background": "#5ec6ff"
                     }
-                ]
-  
-            } 
-            ]
-          }
-        
-      }
-  }
-  
+                },
+                "menu": {
+                    "text": "MTC-SOP-015",
+                    "style": {
+                        "color": "#ffffff",
+                        "font": "HelveticaNeue-Bold",
+                        "size": "18",
+                        "align": "center"
+                    }
+                },
+
+                "style": {
+                    "background": "#5ec6ff",
+                    "color": "#ffffff",
+                    "font": "Avenir-Bold"
+                }
+            },
+            "style": {
+
+                "background": "#aaaaaa"
+            },
+
+            "sections": [{
+                "style": {
+                    "color": "#ffffff",
+                    "background": "#aaaaaa"
+                },
+                "items": [{
+                    "type": "horizontal",
+                    "style": {
+                        "align": "fill",
+                        "color": "#ffffff",
+                        "padding": "1",
+                        "background": "#aaaaaa",
+                        "spacing": "5"
+
+                    },
+                    "components": [{
+                            "type": "horizontal",
+                            "style": {
+                                "spacing": "10",
+                                "background": "#aaaaaa"
+
+                            },
+
+                            "components": [{
+                                    "type": "label",
+                                    "text": "Process",
+                                    "class":"label_style"
+                                },
+                                {
+                                    "type": "label",
+                                    "text": "Scope / Background",
+                                    "class":"label_style"
+
+                                }
+                            ]
+                        },
+                        {
+                            "type": "vertical",
+                            "style": {
+                                "spacing": "10",
+                                "background": "#aaaaaa"
+
+                            },
+
+                            "components": [{
+                                    "type": "label",
+                                    "text": "Incidents / Safety Notifications",
+                                    "align": "left",
+                                    "background": "#ace248",
+                                    "style": {
+                                        "font": "Avenir-Bold",
+                                        "size": "18",
+                                        "color": "#ffffff",
+                                        "background": "#0a0a08",
+                                        "spacing": "40",
+                                        "padding": "5"
+
+
+                                    }
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "report",
+                                    "contentDescription": "report",
+                                    "options": [{
+                                            "value": "Nil Report \n \n \n",
+                                            "defaultSelected": "true"
+                                        },
+                                        {
+                                            "value": " Report 1 \n \n \n",
+                                            "defaultSelected": "false"
+                                        },
+                                        {
+                                            "value": " Report 2 \n \n \n",
+                                            "defaultSelected": "false"
+                                        }
+                                    ],
+                                    "style": {
+                                        "background": "#ffffff",
+                                        "height": "200",
+                                        "width": "wrap",
+                                        "border": "#000000"
+                                    }
+                                },
+                                {
+                                    "type": "vertical",
+                                    "components": [{
+                                            "type": "horizontal",
+                                            "style": {
+                                                "background": "#ffffff"
+                                            },
+                                            "components": [{
+                                                "type": "label",
+                                                "text": "Fresh Carbon Bags generated",
+                                                "style": {
+                                                    "color": "#ffffff",
+                                                    "align": "center",
+                                                    "background": "#0a0a08",
+                                                    "height": "30"
+                                                }
+                                            }]
+                                        },
+                                        {
+                                            "type": "horizontal",
+                                            "style": {
+                                                "background": "#ffffff"
+                                            },
+                                            "components": [{
+                                                    "type": "label",
+                                                    "text": "36",
+                                                    "style": {
+                                                        "align": "center"
+
+                                                    }
+                                                },
+                                                {
+                                                    "type": "label",
+                                                    "style": {
+                                                        "color": "#ffffff",
+                                                        "background": "#0a0a08",
+                                                        "height": "30",
+                                                        "padding": "0",
+                                                        "align": "center"
+                                                    },
+                                                    "text": "Issued"
+                                                },
+
+
+                                                {
+                                                    "type": "dropdown",
+                                                    "name": "carbonBagsGenerated",
+                                                    "contentDescription": "carbon Bags",
+                                                    "options": [{
+                                                            "value": "Yes",
+                                                            "defaultSelected": "true"
+                                                        },
+                                                        {
+                                                            "value": "No",
+                                                            "defaultSelected": "false"
+                                                        }
+                                                    ],
+                                                    "style": {
+                                                        "background": "#ffffff",
+                                                        "height": "30"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "vertical",
+                            "style": {
+                                "spacing": "10",
+                                "background": "#aaaaaa"
+
+                            },
+
+                            "components": [{
+                                    "type": "vertical",
+                                    "style": {
+                                        "background": "#ffffff"
+                                    },
+                                    "components": [{
+                                            "type": "horizontal",
+                                            "style": {
+                                                "background": "#ffffff"
+                                            },
+                                            "components": [{
+                                                    "type": "label",
+                                                    "text": "Kennex # in Bay",
+                                                    "style": {
+                                                        "color": "#ffffff",
+                                                        "align": "center",
+                                                        "background": "#0a0a08",
+                                                        "height": "45"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "label",
+                                                    "text": "24",
+                                                    "style": {
+                                                        "align": "center"
+
+                                                    }
+                                                },
+                                                {
+                                                    "type": "dropdown",
+                                                    "name": "Dirty",
+                                                    "contentDescription": "dropdown 5",
+                                                    "options": [{
+                                                            "value": "Dirty",
+                                                            "defaultSelected": "true"
+                                                        },
+                                                        {
+                                                            "value": " 1",
+                                                            "defaultSelected": "false"
+                                                        },
+                                                        {
+                                                            "value": " 2",
+                                                            "defaultSelected": "false"
+                                                        }
+                                                    ],
+                                                    "style": {
+                                                        "background": "#ffffff",
+                                                        "height": "20"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "horizontal",
+                                            "style": {
+                                                "background": "#ffffff"
+                                            },
+                                            "components": [{
+                                                    "type": "label",
+                                                    "style": {
+                                                        "color": "#ffffff",
+                                                        "align": "center",
+                                                        "background": "#0a0a08"
+                                                    },
+                                                    "text": "205"
+                                                },
+                                                {
+                                                    "type": "label",
+                                                    "text": "Yes",
+                                                    "style": {
+                                                        "align": "center"
+
+                                                    }
+                                                },
+                                                {
+                                                    "type": "label",
+                                                    "text": " ",
+                                                    "style": {
+                                                        "align": "center"
+
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "horizontal",
+                                            "components": [{
+                                                    "type": "label",
+                                                    "style": {
+                                                        "color": "#ffffff",
+                                                        "align": "center",
+                                                        "background": "#0a0a08"
+                                                    },
+                                                    "text": "Fresh Carbon Added"
+                                                },
+                                                {
+                                                    "type": "label",
+                                                    "text": "",
+                                                    "style": {
+                                                        "align": "center",
+                                                        "background": "#0a0a08",
+                                                        "color": "#ffffff"
+
+                                                    }
+                                                },
+                                                {
+                                                    "type": "label",
+                                                    "text": "Y",
+                                                    "style": {
+                                                        "align": "center"
+
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "label",
+                                    "text": "Incidents / Safety Notifications",
+                                    "align": "left",
+                                    "background": "#ace248",
+                                    "style": {
+                                        "font": "Avenir-Bold",
+                                        "size": "18",
+                                        "color": "#ffffff",
+                                        "background": "#0a0a08",
+                                        "spacing": "40",
+                                        "padding": "5"
+
+
+                                    }
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "shift",
+                                    "contentDescription": "shift",
+                                    "options": [{
+                                            "value": "Nil Report \n \n \n",
+                                            "defaultSelected": "true"
+                                        },
+                                        {
+                                            "value": " Report 1 \n \n \n",
+                                            "defaultSelected": "false"
+                                        },
+                                        {
+                                            "value": " Report 2 \n \n \n",
+                                            "defaultSelected": "false"
+                                        }
+                                    ],
+                                    "style": {
+                                        "background": "#ffffff",
+                                        "height": "150",
+                                        "width": "wrap"
+                                    }
+                                }
+
+
+                            ]
+                        }
+
+
+                    ]
+                }
+             ]
+
+            }]
+        }
+
+    }
+}
