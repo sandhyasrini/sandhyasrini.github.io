@@ -161,7 +161,7 @@
                                                         "type": "button",
                                                         "text": "Completed",
                                                         "style": {
-                                                            "background": "#2EBF63",
+                                                            "background": "#5ec6ff",
                                                             "color": "#ffffff",
                                                             "width":"200",
                                                             "padding":"5",
