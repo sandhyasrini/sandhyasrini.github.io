@@ -9,17 +9,13 @@
                     "font": "Avenir-Bold",
                     "size": "18",
                     "color": "#ffffff",
-                    "background": "#d3b023",
-                    "spacing": "40",
-                    "padding": "5"
+                    "background": "#d3b023"
                 },
                 "content_style": {
                     "font": "Avenir-Bold",
                     "size": "18",
                     "color": "#ffffff",
-                    "background": "#111111",
-                    "spacing": "40",
-                    "padding": "5"
+                    "background": "#111111"
                 }
             }
 
