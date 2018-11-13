@@ -3,9 +3,8 @@
       "head": {
         "styles": {
             "styled_row": {
-                "background":"#d3b023",
-                "spacing":"10"
-            }
+                "background":"#d3b023"
+                        }
           }
         
       },
@@ -49,6 +48,10 @@
                 "items":[
                     {
                         "type":"horizontal",
+                        "style":{
+                            "spacing": "5"
+                        },
+                        "class":"styled_row",
                         "components":[
                             {
                                 "type":"label",
