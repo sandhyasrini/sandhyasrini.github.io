@@ -88,7 +88,9 @@
                     }
                   ],
                   "style": {
-                    "background":"#ffffff"
+                    "background":"#ffffff",
+                    "border":"#000000",
+                          "height": "37"
                   }
                 },
                 {
@@ -110,7 +112,9 @@
                     }
                   ],
                   "style": {
-                    "background":"#ffffff"
+                    "background":"#ffffff",
+                    "border":"#000000",
+                          "height": "37"
                   }
                 },
                 {
