@@ -139,7 +139,8 @@
                                               {
                                                   "type":"vertical",
                                                   "style":{
-                                                        "spacing":"10"
+                                                        "spacing":"10",
+                                                        "padding":"30"
                                                 },
                                                   "components":[
                                                     {
