@@ -197,17 +197,48 @@
 
                                 },
                                 {
-                                    "type": "label",
-                                    "text":"Electrocution \n Slips",
-                                    "class":"content_style"
+                                   "type":"vertical",
+                                   "components":[
+                                       {
+                                        "type": "label",
+                                        "text":"Electrocution \n Slips",
+                                        "class":"content_style"
+                                       },
+                                       {
+                                        "type": "button",
+                                        "text":"Reference Page",
+                                        "style":{
+                                            "background":"#FF3863",
+                                            "color":"#ffffff",
+                                            "size":"15",
+                                            "padding":"20"
+                                        }
+                                       }
+                                   ]
 
                                 },
                                 {
-                                    "type": "label",
-                                    "text":"DG Standard PPE",
-                                    "class":"content_style"
-
-                                }
+                                    "type":"vertical",
+                                    "components":[
+                                        {
+                                            "type": "label",
+                                            "text":"DG Standard PPE",
+                                            "class":"content_style"
+        
+                                        },
+                                        {
+                                         "type": "button",
+                                         "text":"Start Procedure",
+                                         "style":{
+                                             "background":"#2EBF63",
+                                             "color":"#ffffff",
+                                             "size":"15"
+                                         }
+                                        }
+                                    ]
+ 
+                                 }
+                                
                             ]
                         }
                         
