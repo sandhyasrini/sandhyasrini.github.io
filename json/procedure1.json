@@ -101,7 +101,7 @@
                                     },
                                     {
                                         "type": "image",
-                                        "url": "https://www.jasonclient.org/img/sticker.png",
+                                        "url": "file://infinit.gif",
                                         "style": {
                                           "width": "100",
                                           "corner_radius": "50",
