@@ -228,7 +228,8 @@
                               {
                                 "type":"horizontal",
                                 "style":{
-                                  "background":"#ffffff"
+                                  "background":"#ffffff",
+                                  "height":"30"
                                 },
                                 "components":[
                                   {
@@ -237,7 +238,8 @@
                                     "style":{
                                       "color":"#ffffff", 
                                       "align":"center",
-                                      "background":"#0a0a08"
+                                      "background":"#0a0a08",
+                                      "padding":"10"
                                     }
                                   },
                                   {
