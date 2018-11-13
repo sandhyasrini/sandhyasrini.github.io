@@ -172,7 +172,7 @@
 
                   "components": [{
                       "type": "label",
-                      "text": "Gravity Line 1",
+                      "text": "Leach",
                       "align": "left",
                       "background": "#ace248",
                       "style": {
@@ -188,7 +188,7 @@
                     },
                     {
                       "type": "label",
-                      "text": "Gravity Line 2",
+                      "text": "CIP",
                       "align": "left",
                       "background": "#ace248",
                       "style": {
