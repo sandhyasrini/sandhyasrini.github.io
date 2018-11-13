@@ -136,7 +136,8 @@
                                               {
                                                   "type":"vertical",
                                                   "style":{
-                                                        "padding":"10"
+                                                        "padding":"10",
+                                                        "spacing":"10"
                                                 },
                                                   "components":[
                                                     {
