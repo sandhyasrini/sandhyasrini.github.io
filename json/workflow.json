@@ -3,10 +3,8 @@
       "head": {
         "styles": {
             "styled_row": {
-              "font": "HelveticaNeue",
-              "size": "20",
-              "color": "#ff0000",
-              "padding": "10"
+                "background":"#d3b023",
+                "spacing":"10"
             }
           }
         
@@ -43,8 +41,38 @@
             },
   
             "sections": [
+                {
+                    "style": {
+                      "color" : "#ffffff",
+                      "background":"#aaaaaa"
+                    },
+                "items":[
+                    {
+                        "type":"horizontal",
+                        "components":[
+                            {
+                                "type":"label",
+                                "text": "Purpose",
+                                "class":"styled_row"
+                                
+                            },
+                            {
+                                "type":"label",
+                                "text": "Scope/Background",
+                                "class":"styled_row"
+                                
+                            },
+                            {
+                                "type":"label",
+                                "text": "Responsibility",
+                                "class":"styled_row"
+                                
+                            }
+                        ]
+                    }
+                ]
   
-              
+            } 
             ]
           }
         
