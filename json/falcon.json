@@ -1,614 +1,631 @@
 {
-    "$jason": {
-      "head": {
-  
-        "data": {
-          "members": [
-            { "name": "Homer" },
-            { "name": "Marge" },
-            { "name": "Lisa" },
-            { "name": "Bart" },
-            { "name": "Maggie" }
-          ]
-        },
-        "templates": {
-  
-          "body": {
-            "header": {
-              "title": {
-                "type": "label",
-                "text": "Process Plant Supervisor's Log",
-                "style": {
-                  "align": "left",
-  
-                  "background" :"#9e8421"
-                }
-              },
+  "$jason": {
+    "head": {
+
+      "data": {
+        "members": [{
+            "name": "Homer"
+          },
+          {
+            "name": "Marge"
+          },
+          {
+            "name": "Lisa"
+          },
+          {
+            "name": "Bart"
+          },
+          {
+            "name": "Maggie"
+          }
+        ]
+      },
+      "templates": {
+
+        "body": {
+          "header": {
+            "title": {
+              "type": "label",
+              "text": "Process Plant Supervisor's Log",
               "style": {
-                "background" :"#d3b023",
-                "color" : "#ffffff",
-                "font" : "Avenir-Bold",
-                "padding" : "10"
+                "align": "left",
+
+                "background": "#9e8421"
               }
             },
-            
-  
-            "sections": [
-  
-              {
-                "style": {
-                  "color" : "#ffffff",
-                  "background":"#aaaaaa"
+            "style": {
+              "background": "#d3b023",
+              "color": "#ffffff",
+              "font": "Avenir-Bold",
+              "padding": "10"
+            }
+          },
+
+
+          "sections": [
+
+            {
+              "style": {
+                "color": "#ffffff",
+                "background": "#aaaaaa"
+              },
+
+              "items": [
+
+                {
+                  "type": "horizontal",
+                  "style": {
+                    "background": "#aaaaaa",
+                    "spacing": "10",
+                    "color": "#ffffff"
+                  },
+                  "components": [
+
+                    {
+                      "type": "textfield",
+                      "name": "date",
+                      "value": "11/12/2018",
+                      "style": {
+                        "placeholder_color": "#cecece",
+                        "font": "HelveticaNeue",
+                        "width": "160",
+                        "height": "37",
+                        "size": "14",
+                        "align": "center",
+                        "background": "#ffffff",
+                        "padding": "10",
+                        "border": "#000000"
+
+                      }
+                    },
+                    {
+                      "type": "dropdown",
+                      "name": "shift",
+                      "contentDescription": "shift",
+                      "options": [{
+                          "value": "Day Shift",
+                          "defaultSelected": "true"
+                        },
+                        {
+                          "value": "Noon Shift",
+                          "defaultSelected": "false"
+                        },
+                        {
+                          "value": "Night Shift",
+                          "defaultSelected": "false"
+                        }
+                      ],
+                      "style": {
+                        "background": "#ffffff",
+                        "border": "#000000",
+                        "height": "37"
+                      }
+                    },
+                    {
+                      "type": "dropdown",
+                      "name": "name",
+                      "contentDescription": "name",
+                      "options": [{
+                          "value": "* J. Pronovost",
+                          "defaultSelected": "true"
+                        },
+                        {
+                          "value": "Name 2",
+                          "defaultSelected": "false"
+                        },
+                        {
+                          "value": "Name 3",
+                          "defaultSelected": "false"
+                        }
+                      ],
+                      "style": {
+                        "background": "#ffffff",
+                        "border": "#000000",
+                        "height": "37"
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "Signed",
+                      "style": {
+                        "font": "Avenir-Bold",
+                        "size": "16",
+                        "color": "#ffffff",
+                        "align": "center"
+
+
+
+
+
+                      }
+                    },
+                    {
+                      "type": "textfield",
+                      "name": "password",
+                      "value": "Jean Pronovost",
+                      "style": {
+                        "placeholder_color": "#cecece",
+                        "font": "HelveticaNeue",
+                        "width": "180",
+                        "height": "37",
+                        "size": "14",
+                        "align": "center",
+                        "background": "#ffffff",
+                        "padding": "10",
+                        "color": "#000000",
+                        "border": "#000000"
+
+
+
+
+                      }
+                    }
+                  ]
                 },
-  
-                "items": [
-  
-                  {
-                    "type": "horizontal",
-                    "style": {
-                      "background": "#aaaaaa",
-                      "spacing": "10",
-                      "color" : "#ffffff"
-                    },
-                    "components": [
-  
-                      {
-                        "type": "textfield",
-                        "name": "date",
-                        "value":"11/12/2018",
-                        "style": {
-                          "placeholder_color": "#cecece",
-                          "font": "HelveticaNeue",
-                          "width": "160",
-                          "height": "37",
-                          "size": "14",
-                          "align" : "center",
-                          "background": "#ffffff",
-                          "padding": "10",
-                          "border":"#000000"
-  
-                        }
-                      },
-                      {
-                        "type": "dropdown",
-                        "name": "shift",
-                        "contentDescription" : "shift",
-                        "options": [
-                          {
-                            "value": "Day Shift",
-                            "defaultSelected": "true"
-                          },
-                          {
-                            "value": "Noon Shift",
-                            "defaultSelected": "false"
-                          },
-                          {
-                            "value": "Night Shift",
-                            "defaultSelected": "false"
-                          }
-                        ],
-                        "style": {
-                          "background":"#ffffff",
-                          "border":"#000000",
-                          "height": "37"
-                        }
-                      },
-                      {
-                        "type": "dropdown",
-                        "name": "name",
-                        "contentDescription" : "name",
-                        "options": [
-                          {
-                            "value": "* J. Pronovost",
-                            "defaultSelected": "true"
-                          },
-                          {
-                            "value": "Name 2",
-                            "defaultSelected": "false"
-                          },
-                          {
-                            "value": "Name 3",
-                            "defaultSelected": "false"
-                          }
-                        ],
-                        "style": {
-                          "background":"#ffffff",
-                          "border":"#000000",
-                          "height": "37"
-                        }
-                      },
-                      {
-                        "type": "label",
-                        "text": "Signed",
-                        "style": {
-                          "font": "Avenir-Bold",
-                          "size": "16",
-                          "color": "#ffffff",
-                          "align": "center"
-  
 
+                {
+                  "type": "vertical",
+                  "style": {
+                    "align": "fill",
+                    "color": "#ffffff",
+                    "padding": "1",
+                    "background": "#aaaaaa",
+                    "spacing": "5"
 
-
-                          
-                        }
-                      },
-                      {
-                        "type": "textfield",
-                        "name": "password",
-                        "value": "Jean Pronovost",
-                        "style": {
-                          "placeholder_color": "#cecece",
-                          "font": "HelveticaNeue",
-                          "width": "180",
-                          "height": "37",
-                          "size": "14",
-                          "align" : "center",
-                          "background": "#ffffff",
-                          "padding": "10",
-                          "color":"#000000",
-                          "border":"#000000"
-  
-  
-  
-  
-                        }
-                      }
-                    ]
                   },
-  
-                  {
-                    "type" : "vertical",
-                    "style" : {
-                      "align" : "fill",
-                      "color":"#ffffff",
-                      "padding" : "1",
-                      "background": "#aaaaaa",
-                      "spacing": "5"
-   
-                    },
-                    "components" : [
-                      {
-                        "type" :"horizontal",
-                        "style":{
-                          "spacing":"10",
-                          "background": "#aaaaaa"
+                  "components": [{
+                      "type": "horizontal",
+                      "style": {
+                        "spacing": "10",
+                        "background": "#aaaaaa"
 
-                        },
-                        
-                       "components":[
-                        {
-                            "type" :"label",
-                            "text" : "Gravity Line 1",
-                            "align" : "left" ,
-                            "background": "#ace248",
-                            "style": {
-                              "font": "Avenir-Bold",
-                              "size": "18",
-                              "color": "#ffffff",
-                              "background": "#5ec6ff",
-                              "spacing": "40",
-                              "padding":"5"
-      
-      
-                            }
-                          },
-                          {
-                            "type" :"label",
-                            "text" : "Gravity Line 2",
-                            "align" : "left" ,
-                            "background": "#ace248",
-                            "style": {
-                              "font": "Avenir-Bold",
-                              "size": "18",
-                              "color": "#ffffff",
-                              "background": "#5ec6ff",
-                              "spacing": "40",
-                              "padding":"5"
-      
-      
-                            }
-                          }
-                       ]
                       },
-                      {
-                        "type" :"horizontal",
-                        "style":{
-                          "spacing":"10",
-                          "background": "#aaaaaa"
 
-                        },
-                        
-                       "components":[
-                        {
-                            "type":"vertical",
-                            "style":{
-                              "background": "#ffffff"
-                            },
-                            "components":[
-                              {
-                                "type":"horizontal",
-                                "style":{
-                                  "background":"#ffffff",
-                                  "height":"30"
-                                },
-                                "components":[
-                                  {
-                                    "type":"label",
-                                    "text":"Falcons Running",
-                                    "style":{
-                                      "color":"#ffffff", 
-                                      "align":"center",
-                                      "background":"#0a0a08",
-                                      "padding":"10"
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"1",
-                                    "style":{
-                                      "align":"center"
+                      "components": [{
+                          "type": "label",
+                          "text": "Gravity Line 1",
+                          "align": "left",
+                          "background": "#ace248",
+                          "style": {
+                            "font": "Avenir-Bold",
+                            "size": "18",
+                            "color": "#ffffff",
+                            "background": "#5ec6ff",
+                            "spacing": "40",
+                            "padding": "5"
 
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"2",
-                                    "style":{
-                                      "align":"center"
 
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"3",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  }
-                                ]
-                              },
-                              {
-                                "type":"horizontal",
-                                "style":{
-                                  "background":"#ffffff",
-                                  "height":"30"
-                                },
-                                "components":[
-                                  {
-                                    "type":"label",
-                                    "style":{       "color":"#ffffff",   "align":"center",                                      "align":"center",
-                                      "background":"#0a0a08"                                     },
-                                    "text":"Falcons Spares"
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"1",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"2",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"3",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  }
-                                ]
-                              },
-                              {
-                                "type":"horizontal",
-                                "style":{
-                                  "height":"30"
-                                },
-                                "components":[
-                                  {
-                                    "type":"label",
-                                    "style":{         "color":"#ffffff",      "align":"center",                          "background":"#0a0a08"                                     },
-                                    "text":"Falcons on Mtce"
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"1",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"2",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"3",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  }
-                                ]
-                              }
-                            ]
-                          },
-                          {
-                            "type":"vertical",
-                            "style":{
-                              "background": "#ffffff"
-                            },
-                            "components":[
-                              {
-                                "type":"horizontal",
-                                "style":{
-                                  "height":"30"
-                                },
-                                "components":[
-                                  {
-                                    "type":"label",
-                                    "style":{     "color":"#ffffff",               "align":"center",                     "background":"#0a0a08"                                     },
-                                    "text":"Falcons Running"
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"1",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"2",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"3",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  }
-                                ]
-                              },
-                              {
-                                "type":"horizontal",
-                                "style":{
-                                  "height":"30"
-                                },
-                                "components":[
-                                  {
-                                    "type":"label",
-                                    "style":{     "color":"#ffffff",       "align":"center",                             "background":"#0a0a08"                                     },
-                                    "text":"Falcons Spares"
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"1",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"2",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"3",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  }
-                                ]
-                              },
-                              {
-                                "type":"horizontal",
-                                "style":{
-                                  "height":"30"
-                                },
-                                "components":[
-                                  {
-                                    "type":"label",
-                                    "style":{                                      
-                                       "background":"#0a0a08" , 
-                                       "color":"#ffffff",
-                                       "align":"center"
-                                      },
-                                       "text":"Falcons on Mtce"
-                                  },
-                                  
-                                  {
-                                    "type":"label",
-                                    "text":"1",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"2",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"3",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  }
-                                ]
-                              }
-                            ]
                           }
-                       ]
-                      },
-                      {
-                        "type" :"horizontal",
-                        "style":{
-                          "spacing":"10",
-                          "background": "#aaaaaa"
-
                         },
-                        
-                       "components":[
                         {
-                            "type" :"label",
-                            "text" : " Incidents / Safety Notifications ",
-                            "align" : "left" ,
-                            "style": {
-                              "font": "Avenir-Bold",
-                              "size": "18",
-                              "color": "#ffffff",
-                              "background": "#0a0a08",
-                              "spacing": "40",
-                              "padding":"5"
-      
-      
-                            }
-                          },
-                          {
-                            "type" :"label",
-                            "text" : "Incidents / Safety Notifications",
-                            "align" : "left" ,
-                            "style": {
-                              "font": "Avenir-Bold",
-                              "size": "18",
-                              "color": "#ffffff",
-                              "background": "#0a0a08",
-                              "spacing": "40",
-                              "padding":"5"
-      
-      
-                            }
-                          }
-                       ]
-                      },
-                      {
-                        "type" :"horizontal",
-                        "style":{
-                          "spacing":"10",
-                          "background": "#aaaaaa"
+                          "type": "label",
+                          "text": "Gravity Line 2",
+                          "align": "left",
+                          "background": "#ace248",
+                          "style": {
+                            "font": "Avenir-Bold",
+                            "size": "18",
+                            "color": "#ffffff",
+                            "background": "#5ec6ff",
+                            "spacing": "40",
+                            "padding": "5"
 
-                        },
-                        
-                       "components":[
-                        {
-                            "type" :"label",
-                            "text" : " Incidents / Accidents – Nil \n  Primary air compressor inspection and restart  procedure training completed Crew 100 ",
-                            "align" : "left" ,
-                            "style": {
-                              "font": "Avenir-Bold",
-                              "size": "18",
-                              "color": "#111111",
-                              "border": "#111111",
-                              "border_width":"2",
-                              "background": "#ffffff",
-                              "spacing": "40",
-                              "padding":"5"
-      
-      
-                            }
-                          },
-                          {
-                            "type" :"label",
-                            "text" : " Incidents / Accidents – Nil \n  Primary air compressor inspection and restart  procedure training completed Crew 100 ",
-                            "align" : "left" ,
-                            "style": {
-                              "font": "Avenir-Bold",
-                              "size": "18",
-                              "color": "#111111",
-                              "border_width":"2",
-                              "border": "#111111",
-                              "background": "#ffffff",
-                              "spacing": "40",
-                              "padding":"5"
-      
-      
-                            }
-                          }
-                       ]
-                      }
-  
-                    ] 
-                  },
-                 
-  
-                  
-                  
-                 
-                  
-                  {
-                    "type": "horizontal",
-                    "style": {
-                      "align": "fill",
-                      "color": "#ffffff",
-                      "padding": "1",
-                      "align":"right",
-                      "background": "#aaaaaa"
 
-                    },
-                    "components": [
-  
-                      {
-                        "type": "button",
-                        "text": "Next",
-                        "style": {
-                          "height": "30",
-                          "align": "fill",
-                          "margin":"left",
-                          "background": "#189e09",
-                          "color": "#ffffff",
-                          "font": "HelveticaNeue",
-                          "size": "14",
-                          "corner_radius": "3",
-                          "padding": "5"
-  
-                        },
-                        "href": {
-                          "url": "https://sandhyasrini.github.io/json/leach.json",
-                          "view": "jason"
+                          }
                         }
+                      ]
+                    },
+                    {
+                      "type": "horizontal",
+                      "style": {
+                        "spacing": "10",
+                        "background": "#aaaaaa"
+
+                      },
+
+                      "components": [{
+                          "type": "vertical",
+                          "style": {
+                            "background": "#ffffff"
+                          },
+                          "components": [{
+                              "type": "horizontal",
+                              "style": {
+                                "background": "#ffffff",
+                                "height": "30"
+                              },
+                              "components": [{
+                                  "type": "label",
+                                  "text": "Falcons Running",
+                                  "style": {
+                                    "color": "#ffffff",
+                                    "align": "center",
+                                    "background": "#0a0a08",
+                                    "padding": "5"
+                                  }
+                                },
+                                {
+                                  "type": "label",
+                                  "text": "1",
+                                  "style": {
+                                    "align": "center"
+
+                                  }
+                                },
+                                {
+                                  "type": "label",
+                                  "text": "2",
+                                  "style": {
+                                    "align": "center"
+
+                                  }
+                                },
+                                {
+                                  "type": "label",
+                                  "text": "3",
+                                  "style": {
+                                    "align": "center"
+
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "horizontal",
+                              "style": {
+                                "background": "#ffffff",
+                                "height": "30"
+                              },
+                              "components": [{
+                                  "type": "label",
+                                  "style": {
+                                    "color": "#ffffff",
+                                    "padding": "5"
+                                    "align": "center",
+                                    "align": "center",
+                                    "background": "#0a0a08"
+                                  },
+                                  "text": "Falcons Spares"
+
+                                },
+                                {
+                                  "type": "label",
+                                  "text": "1",
+                                  "style": {
+                                    "align": "center"
+
+                                  }
+                                },
+                                {
+                                  "type": "label",
+                                  "text": "2",
+                                  "style": {
+                                    "align": "center"
+
+                                  }
+                                },
+                                {
+                                  "type": "label",
+                                  "text": "3",
+                                  "style": {
+                                    "align": "center"
+
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "horizontal",
+                              "style": {
+                                "height": "30"
+                              },
+                              "components": [{
+                                  "type": "label",
+                                  "style": {
+                                    "padding": "5",
+                                    "color": "#ffffff",
+                                    "align": "center",
+                                    "background": "#0a0a08"
+                                  },
+                                  "text": "Falcons on Mtce"
+                                },
+                                {
+                                  "type": "label",
+                                  "text": "1",
+                                  "style": {
+                                    "align": "center"
+
+                                  }
+                                },
+                                {
+                                  "type": "label",
+                                  "text": "2",
+                                  "style": {
+                                    "align": "center"
+
+                                  }
+                                },
+                                {
+                                  "type": "label",
+                                  "text": "3",
+                                  "style": {
+                                    "align": "center"
+
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "vertical",
+                          "style": {
+                            "background": "#ffffff"
+                          },
+                          "components": [{
+                              "type": "horizontal",
+                              "style": {
+                                "height": "30"
+                              },
+                              "components": [{
+                                  "type": "label",
+                                  "style": {
+                                    "padding": "5",
+                                    "color": "#ffffff",
+                                    "align": "center",
+                                    "background": "#0a0a08"
+                                  },
+                                  "text": "Falcons Running"
+                                },
+                                {
+                                  "type": "label",
+                                  "text": "1",
+                                  "style": {
+                                    "align": "center"
+
+                                  }
+                                },
+                                {
+                                  "type": "label",
+                                  "text": "2",
+                                  "style": {
+                                    "align": "center"
+
+                                  }
+                                },
+                                {
+                                  "type": "label",
+                                  "text": "3",
+                                  "style": {
+                                    "align": "center"
+
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "horizontal",
+                              "style": {
+                                "height": "30"
+                              },
+                              "components": [{
+                                  "type": "label",
+                                  "style": {
+                                    "padding": "5",
+                                    "color": "#ffffff",
+                                    "align": "center",
+                                    "background": "#0a0a08"
+                                  },
+                                  "text": "Falcons Spares"
+                                },
+                                {
+                                  "type": "label",
+                                  "text": "1",
+                                  "style": {
+                                    "align": "center"
+
+                                  }
+                                },
+                                {
+                                  "type": "label",
+                                  "text": "2",
+                                  "style": {
+                                    "align": "center"
+
+                                  }
+                                },
+                                {
+                                  "type": "label",
+                                  "text": "3",
+                                  "style": {
+                                    "align": "center"
+
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "horizontal",
+                              "style": {
+                                "height": "30"
+                              },
+                              "components": [{
+                                  "type": "label",
+                                  "style": {
+                                    "background": "#0a0a08",
+                                    "color": "#ffffff",
+                                    "align": "center",
+                                    "padding": "5"
+
+                                  },
+                                  "text": "Falcons on Mtce"
+                                },
+
+                                {
+                                  "type": "label",
+                                  "text": "1",
+                                  "style": {
+                                    "align": "center"
+
+                                  }
+                                },
+                                {
+                                  "type": "label",
+                                  "text": "2",
+                                  "style": {
+                                    "align": "center"
+
+                                  }
+                                },
+                                {
+                                  "type": "label",
+                                  "text": "3",
+                                  "style": {
+                                    "align": "center"
+
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "horizontal",
+                      "style": {
+                        "spacing": "10",
+                        "background": "#aaaaaa"
+
+                      },
+
+                      "components": [{
+                          "type": "label",
+                          "text": " Incidents / Safety Notifications ",
+                          "align": "left",
+                          "style": {
+                            "font": "Avenir-Bold",
+                            "size": "18",
+                            "color": "#ffffff",
+                            "background": "#0a0a08",
+                            "spacing": "40",
+                            "padding": "5"
+
+
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "text": "Incidents / Safety Notifications",
+                          "align": "left",
+                          "style": {
+                            "font": "Avenir-Bold",
+                            "size": "18",
+                            "color": "#ffffff",
+                            "background": "#0a0a08",
+                            "spacing": "40",
+                            "padding": "5"
+
+
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "horizontal",
+                      "style": {
+                        "spacing": "10",
+                        "background": "#aaaaaa"
+
+                      },
+
+                      "components": [{
+                          "type": "label",
+                          "text": " Incidents / Accidents – Nil \n  Primary air compressor inspection and restart  procedure training completed Crew 100 ",
+                          "align": "left",
+                          "style": {
+                            "font": "Avenir-Bold",
+                            "size": "18",
+                            "color": "#111111",
+                            "border": "#111111",
+                            "border_width": "2",
+                            "background": "#ffffff",
+                            "spacing": "40",
+                            "padding": "5"
+
+
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "text": " Incidents / Accidents – Nil \n  Primary air compressor inspection and restart  procedure training completed Crew 100 ",
+                          "align": "left",
+                          "style": {
+                            "font": "Avenir-Bold",
+                            "size": "18",
+                            "color": "#111111",
+                            "border_width": "2",
+                            "border": "#111111",
+                            "background": "#ffffff",
+                            "spacing": "40",
+                            "padding": "5"
+
+
+                          }
+                        }
+                      ]
+                    }
+
+                  ]
+                },
+
+
+
+
+
+
+                {
+                  "type": "horizontal",
+                  "style": {
+                    "align": "fill",
+                    "color": "#ffffff",
+                    "padding": "1",
+                    "align": "right",
+                    "background": "#aaaaaa"
+
+                  },
+                  "components": [
+
+                    {
+                      "type": "button",
+                      "text": "Next",
+                      "style": {
+                        "height": "30",
+                        "align": "fill",
+                        "margin": "left",
+                        "background": "#189e09",
+                        "color": "#ffffff",
+                        "font": "HelveticaNeue",
+                        "size": "14",
+                        "corner_radius": "3",
+                        "padding": "5"
+
+                      },
+                      "href": {
+                        "url": "https://sandhyasrini.github.io/json/leach.json",
+                        "view": "jason"
                       }
-  
-                    ]
-  
-                  }
-                
-                ]
-              }
-            ]
-          }
+                    }
+
+                  ]
+
+                }
+
+              ]
+            }
+          ]
         }
       }
     }
   }
+}
