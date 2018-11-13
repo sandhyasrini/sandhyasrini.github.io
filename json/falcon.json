@@ -280,8 +280,7 @@
                                   "type": "label",
                                   "style": {
                                     "color": "#ffffff",
-                                    "padding": "5"
-                                    "align": "center",
+                                    "padding": "5",
                                     "align": "center",
                                     "background": "#0a0a08"
                                   },
