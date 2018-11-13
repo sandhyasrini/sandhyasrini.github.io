@@ -210,8 +210,8 @@
                                         "style":{
                                             "background":"#FF3863",
                                             "color":"#ffffff",
-                                            "size":"15"
-                                            
+                                            "size":"15",
+                                            "margin":"10"
                                         }
                                        }
                                    ]
