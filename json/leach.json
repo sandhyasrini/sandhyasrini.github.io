@@ -1,568 +1,563 @@
 {
-    "$jason": {
-      "head": {
-  
-        "data": {
-          "members": [
-            { "name": "Homer" },
-            { "name": "Marge" },
-            { "name": "Lisa" },
-            { "name": "Bart" },
-            { "name": "Maggie" }
-          ]
-        },
-        "templates": {
-  
-          "body": {
-            "header": {
-              "title": {
-                "type": "label",
-                "text": "Process Plant Supervisor's Log",
-                "style": {
-                  "align": "left",
-  
-                  "background" :"#9e8421"
-                }
-              },
+  "$jason": {
+    "head": {
+
+      "data": {
+        "members": [{
+            "name": "Homer"
+          },
+          {
+            "name": "Marge"
+          },
+          {
+            "name": "Lisa"
+          },
+          {
+            "name": "Bart"
+          },
+          {
+            "name": "Maggie"
+          }
+        ]
+      },
+      "templates": {
+
+        "body": {
+          "header": {
+            "title": {
+              "type": "label",
+              "text": "Process Plant Supervisor's Log",
               "style": {
-                "background" :"#d3b023",
-                "color" : "#ffffff",
-                "font" : "Avenir-Bold",
-                "padding" : "10"
+                "align": "left",
+
+                "background": "#9e8421"
               }
             },
-            
-  
-            "sections": [
-  
-              {
-                "style": {
-                  "color" : "#ffffff",
-                  "background":"#aaaaaa"
-                },
-  
-                "items": [
-  
-                  {
-                    "type": "horizontal",
-                    "style": {
-                      "background": "#aaaaaa",
-                      "spacing": "10",
-                      "color" : "#ffffff"
-                    },
-                    "components": [
-  
-                      {
-                        "type": "textfield",
-                        "name": "date",
-                        "value":"11/12/2018",
-                        "style": {
-                          "placeholder_color": "#cecece",
-                          "font": "HelveticaNeue",
-                          "width": "160",
-                          "height": "37",
-                          "size": "14",
-                          "align" : "center",
-                          "background": "#ffffff",
-                          "padding": "10",
-                          "border":"#000000"
-  
-                        }
-                      },
-                      {
-                        "type": "dropdown",
-                        "name": "shift",
-                        "contentDescription" : "shift",
-                        "options": [
-                          {
-                            "value": "Day Shift",
-                            "defaultSelected": "true"
-                          },
-                          {
-                            "value": "Noon Shift",
-                            "defaultSelected": "false"
-                          },
-                          {
-                            "value": "Night Shift",
-                            "defaultSelected": "false"
-                          }
-                        ],
-                        "style": {
-                          "background":"#ffffff",
-                          "height": "37",
-                          "border":"#000000"
-                        }
-                      },
-                      {
-                        "type": "dropdown",
-                        "name": "shift",
-                        "contentDescription" : "shift",
-                        "options": [
-                          {
-                            "value": "* J. Pronovost",
-                            "defaultSelected": "true"
-                          },
-                          {
-                            "value": "Name 2",
-                            "defaultSelected": "false"
-                          },
-                          {
-                            "value": "Name 3",
-                            "defaultSelected": "false"
-                          }
-                        ],
-                        "style": {
-                          "background":"#ffffff",
-                          "border":"#000000",
-                          "height": "37"
-                        }
-                      },
-                      {
-                        "type": "label",
-                        "text": "Signed",
-                        "style": {
-                          "font": "Avenir-Bold",
-                          "size": "16",
-                          "color": "#ffffff",
-                          "align": "center"
-  
+            "style": {
+              "background": "#d3b023",
+              "color": "#ffffff",
+              "font": "Avenir-Bold",
+              "padding": "10"
+            }
+          },
 
 
+          "sections": [
 
-                          
-                        }
-                      },
-                      {
-                        "type": "textfield",
-                        "name": "password",
-                        "value": "Jean Pronovost",
-                        "style": {
-                          "placeholder_color": "#cecece",
-                          "font": "HelveticaNeue",
-                          "width": "180",
-                          "height": "37",
-                          "size": "14",
-                          "align" : "center",
-                          "background": "#ffffff",
-                          "padding": "10",
-                          "color":"#000000",
-                          "border":"#000000"
-  
-  
-  
-  
-                        }
-                      }
-                    ]
+            {
+              "style": {
+                "color": "#ffffff",
+                "background": "#aaaaaa"
+              },
+
+              "items": [
+
+                {
+                  "type": "horizontal",
+                  "style": {
+                    "background": "#aaaaaa",
+                    "spacing": "10",
+                    "color": "#ffffff"
                   },
-                  {
-                    "type" :"horizontal",
-                    "style":{
-                      "spacing":"10",
-                      "background": "#aaaaaa"
+                  "components": [
 
-                    },
-                    
-                   "components":[
                     {
-                        "type" :"label",
-                        "text" : "Gravity Line 1",
-                        "align" : "left" ,
-                        "background": "#ace248",
-                        "style": {
-                          "font": "Avenir-Bold",
-                          "size": "18",
-                          "color": "#ffffff",
-                          "background": "#5ec6ff",
-                          "spacing": "40",
-                          "padding":"5"
-  
-  
-                        }
-                      },
-                      {
-                        "type" :"label",
-                        "text" : "Gravity Line 2",
-                        "align" : "left" ,
-                        "background": "#ace248",
-                        "style": {
-                          "font": "Avenir-Bold",
-                          "size": "18",
-                          "color": "#ffffff",
-                          "background": "#5ec6ff",
-                          "spacing": "40",
-                          "padding":"5"
-  
-  
-                        }
+                      "type": "textfield",
+                      "name": "date",
+                      "value": "11/12/2018",
+                      "style": {
+                        "placeholder_color": "#cecece",
+                        "font": "HelveticaNeue",
+                        "width": "160",
+                        "height": "37",
+                        "size": "14",
+                        "align": "center",
+                        "background": "#ffffff",
+                        "padding": "10",
+                        "border": "#000000"
+
                       }
-                   ]
-                  },
-  
-                  {
-                    "type" : "horizontal",
-                    "style" : {
-                      "align" : "fill",
-                      "color":"#ffffff",
-                      "padding" : "1",
-                      "background": "#aaaaaa",
-                      "spacing": "5"
-   
                     },
-                    "components" : [
-                      {
-                        "type" :"vertical",
-                        "style":{
-                          "spacing":"10",
-                          "background": "#aaaaaa"
-
+                    {
+                      "type": "dropdown",
+                      "name": "shift",
+                      "contentDescription": "shift",
+                      "options": [{
+                          "value": "Day Shift",
+                          "defaultSelected": "true"
                         },
-                        
-                       "components":[
                         {
-                            "type" :"label",
-                            "text" : "Incidents / Safety Notifications",
-                            "align" : "left" ,
-                            "background": "#ace248",
-                            "style": {
-                              "font": "Avenir-Bold",
-                              "size": "18",
-                              "color": "#ffffff",
-                              "background": "#0a0a08",
-                              "spacing": "40",
-                              "padding":"5"
-      
-      
-                            }
-                          },
-                          {
-                            "type": "dropdown",
-                            "name": "shift",
-                            "contentDescription" : "shift",
-                            "options": [
-                              {
-                                "value": "Nil Report \n \n \n",
-                                "defaultSelected": "true"
-                              },
-                              {
-                                "value": " Report 1 \n \n \n",
-                                "defaultSelected": "false"
-                              },
-                              {
-                                "value": " Report 2 \n \n \n",
-                                "defaultSelected": "false"
-                              }
-                            ],
-                            "style": {
-                                "background":"#ffffff",
-                                "height":"100",
-                                "width":"wrap",
-                                "border":"#000000"
-                            }
-                          },
-                          {
-                              "type":"vertical",
-                              "components":[
-                                  {
-                                "type":"horizontal",
-                                "style":{
-                                  "background":"#ffffff"
-                                },
-                                "components":[
-                                  {
-                                    "type":"label",
-                                    "text":"Fresh Carbon Bags generated",
-                                    "style":{
-                                      "color":"#ffffff", 
-                                      "align":"center",
-                                      "background":"#0a0a08",
-                                      "height":"30"
-                                    }
-                                  }
-                                ]
-                              },
-                              {
-                                "type":"horizontal",
-                                "style":{
-                                  "background":"#ffffff"
-                                },
-                                "components":[
-                                    {
-                                        "type":"label",
-                                        "text":"36",
-                                        "style":{
-                                          "align":"center"
-    
-                                        }
-                                      },
-                                  {
-                                    "type":"label",
-                                    "style":{       "color":"#ffffff",     
-                                      "background":"#0a0a08",
-                                      "height":"30",
-                                      "padding":"0",
-                                      "align":"center"
-                                    },
-                                    "text":"Issued"
-                                  },
-                                  
-                                  
-                                  {
-                                    "type": "dropdown",
-                                    "name": "carbonBagsGenerated",
-                                    "contentDescription" : "carbon Bags",
-                                    "options": [
-                                      {
-                                        "value": "Yes",
-                                        "defaultSelected": "true"
-                                      },
-                                      {
-                                        "value": "No",
-                                        "defaultSelected": "false"
-                                      }
-                                    ],
-                                    "style": {
-                                      "background":"#ffffff",
-                                      "height":"30"
-                                    }
-                                  }
-                                ]
-                              }
-                              ]
-                          }
-                       ]
+                          "value": "Noon Shift",
+                          "defaultSelected": "false"
+                        },
+                        {
+                          "value": "Night Shift",
+                          "defaultSelected": "false"
+                        }
+                      ],
+                      "style": {
+                        "background": "#ffffff",
+                        "height": "37",
+                        "border": "#000000"
+                      }
+                    },
+                    {
+                      "type": "dropdown",
+                      "name": "shift",
+                      "contentDescription": "shift",
+                      "options": [{
+                          "value": "* J. Pronovost",
+                          "defaultSelected": "true"
+                        },
+                        {
+                          "value": "Name 2",
+                          "defaultSelected": "false"
+                        },
+                        {
+                          "value": "Name 3",
+                          "defaultSelected": "false"
+                        }
+                      ],
+                      "style": {
+                        "background": "#ffffff",
+                        "border": "#000000",
+                        "height": "37"
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "Signed",
+                      "style": {
+                        "font": "Avenir-Bold",
+                        "size": "16",
+                        "color": "#ffffff",
+                        "align": "center"
+
+
+
+
+
+                      }
+                    },
+                    {
+                      "type": "textfield",
+                      "name": "password",
+                      "value": "Jean Pronovost",
+                      "style": {
+                        "placeholder_color": "#cecece",
+                        "font": "HelveticaNeue",
+                        "width": "180",
+                        "height": "37",
+                        "size": "14",
+                        "align": "center",
+                        "background": "#ffffff",
+                        "padding": "10",
+                        "color": "#000000",
+                        "border": "#000000"
+
+
+
+
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "horizontal",
+                  "style": {
+                    "spacing": "10",
+                    "background": "#aaaaaa"
+
+                  },
+
+                  "components": [{
+                      "type": "label",
+                      "text": "Gravity Line 1",
+                      "align": "left",
+                      "background": "#ace248",
+                      "style": {
+                        "font": "Avenir-Bold",
+                        "size": "18",
+                        "color": "#ffffff",
+                        "background": "#5ec6ff",
+                        "spacing": "40",
+                        "padding": "5"
+
+
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "Gravity Line 2",
+                      "align": "left",
+                      "background": "#ace248",
+                      "style": {
+                        "font": "Avenir-Bold",
+                        "size": "18",
+                        "color": "#ffffff",
+                        "background": "#5ec6ff",
+                        "spacing": "40",
+                        "padding": "5"
+
+
+                      }
+                    }
+                  ]
+                },
+
+                {
+                  "type": "horizontal",
+                  "style": {
+                    "align": "fill",
+                    "color": "#ffffff",
+                    "padding": "1",
+                    "background": "#aaaaaa",
+                    "spacing": "5"
+
+                  },
+                  "components": [{
+                      "type": "vertical",
+                      "style": {
+                        "spacing": "10",
+                        "background": "#aaaaaa"
+
                       },
-                      {
-                        "type" :"vertical",
-                        "style":{
-                          "spacing":"10",
-                          "background": "#aaaaaa"
 
+                      "components": [{
+                          "type": "label",
+                          "text": "Incidents / Safety Notifications",
+                          "align": "left",
+                          "background": "#ace248",
+                          "style": {
+                            "font": "Avenir-Bold",
+                            "size": "18",
+                            "color": "#ffffff",
+                            "background": "#0a0a08",
+                            "spacing": "40",
+                            "padding": "5"
+
+
+                          }
                         },
-                        
-                       "components":[
                         {
-                            "type":"horizontal",
-                            "style":{
-                              "background": "#ffffff"
+                          "type": "dropdown",
+                          "name": "shift",
+                          "contentDescription": "shift",
+                          "options": [{
+                              "value": "Nil Report \n \n \n",
+                              "defaultSelected": "true"
                             },
-                            "components":[
-                              {
-                                "type":"vertical",
-                                "style":{
-                                  "background":"#ffffff"
-                                },
-                                "components":[
-                                  {
-                                    "type":"label",
-                                    "text":"Kennex # in Bay",
-                                    "style":{
-                                      "color":"#ffffff", 
-                                      "align":"center",
-                                      "background":"#0a0a08",
-                                      "height":"45"
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"205",
-                                    "style":{
-                                      "color":"#ffffff", 
-                                      "align":"center",
-                                      "background":"#0a0a08",
-                                      "height":"45"
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"Fresh Carbon Added",
-                                    "style":{
-                                      "color":"#ffffff", 
-                                      "align":"center",
-                                      "background":"#0a0a08",
-                                      "height":"45"
-                                    }
-                                  }
-                                  
-                                ]
-                              },
-                              {
-                                "type":"vertical",
-                                "style":{
-                                  "background":"#ffffff"
-                                },
-                                "components":[
-                                  {
-                                    "type":"label",
-                                    "text":"24",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"Yes",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":" ",
-                                    "style":{
-                                      "align":"center",
-                                      "background":"#0a0a08"
-
-                                    }
-                                  }
-                                ]
-                              },
-                              {
-                                "type":"vertical",
-                                "components":[
-                                  {
-                                    "type": "dropdown",
-                                    "name": "Dirty",
-                                    "contentDescription" : "Dirty",
-                                    "options": [
-                                      {
-                                        "value": "Dirty",
-                                        "defaultSelected": "true"
-                                      },
-                                      {
-                                        "value": " 1",
-                                        "defaultSelected": "false"
-                                      },
-                                      {
-                                        "value": " 2",
-                                        "defaultSelected": "false"
-                                      }
-                                    ],
-                                    "style": {
-                                      "background":"#ffffff",
-                                      "height":"20"
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"",
-                                    "style":{
-                                        "align":"center",
-                                        "background":"#ffffff",
-                                        "color":"#ffffff" 
-
-                                    }
-                                  },
-                                  {
-                                    "type":"label",
-                                    "text":"Y",
-                                    "style":{
-                                      "align":"center"
-
-                                    }
-                                  }
-                                ]
-                              }
-                            ]
-                          },
-                        {
-                            "type" :"label",
-                            "text" : "Incidents / Safety Notifications",
-                            "align" : "left" ,
-                            "background": "#ace248",
-                            "style": {
-                              "font": "Avenir-Bold",
-                              "size": "18",
-                              "color": "#ffffff",
-                              "background": "#0a0a08",
-                              "spacing": "40",
-                              "padding":"5"
-      
-      
+                            {
+                              "value": " Report 1 \n \n \n",
+                              "defaultSelected": "false"
+                            },
+                            {
+                              "value": " Report 2 \n \n \n",
+                              "defaultSelected": "false"
                             }
-                          },
-                          {
-                            "type": "dropdown",
-                            "name": "shift",
-                            "contentDescription" : "shift",
-                            "options": [
-                              {
-                                "value": "Nil Report \n \n \n",
-                                "defaultSelected": "true"
-                              },
-                              {
-                                "value": " Report 1 \n \n \n",
-                                "defaultSelected": "false"
-                              },
-                              {
-                                "value": " Report 2 \n \n \n",
-                                "defaultSelected": "false"
-                              }
-                            ],
-                            "style": {
-                              "background":"#ffffff",
-                              "height":"80",
-                              "width":"wrap",
-                              "border":"#000000"
-                            }
+                          ],
+                          "style": {
+                            "background": "#ffffff",
+                            "height": "100",
+                            "width": "wrap",
+                            "border": "#000000"
                           }
-                        
-                          
-                       ]
-                      }
-                      
-  
-                    ] 
-                  },
-                                
-                  
-                  {
-                    "type": "horizontal",
-                    "style": {
-                      "align": "fill",
-                      "color": "#ffffff",
-                      "padding": "1",
-                      "align":"right",
-                      "background": "#aaaaaa"
-
-                    },
-                    "components": [
-  
-                      {
-                        "type": "button",
-                        "text": "Next",
-                        "style": {
-                          "height": "30",
-                          "align": "fill",
-                          "margin":"left",
-                          "background": "#189e09",
-                          "color": "#ffffff",
-                          "font": "HelveticaNeue",
-                          "size": "14",
-                          "corner_radius": "3",
-                          "padding": "5",
-                          "padding-top": "10",
-                          "spacing": "10",
-                          "margin_top":"10"
-  
                         },
-                        "href": {
-                          "url": "https://sandhyasrini.github.io/json/GrindingLine2.json",
-                          "view": "jason"
+                        {
+                          "type": "vertical",
+                          "components": [{
+                              "type": "horizontal",
+                              "style": {
+                                "background": "#ffffff"
+                              },
+                              "components": [{
+                                "type": "label",
+                                "text": "Fresh Carbon Bags generated",
+                                "style": {
+                                  "font": "Avenir-Bold",
+                                  "size": "18",
+                                  "color": "#ffffff",
+                                  "background": "#0a0a08",
+                                  "spacing": "40",
+                                  "padding": "5",
+                                  "height": "30"
+                                }
+                              }]
+                            },
+                            {
+                              "type": "horizontal",
+                              "style": {
+                                "background": "#ffffff"
+                              },
+                              "components": [{
+                                  "type": "label",
+                                  "text": "36",
+                                  "style": {
+                                    "align": "center"
+
+                                  }
+                                },
+                                {
+                                  "type": "label",
+                                  "style": {
+                                    "color": "#ffffff",
+                                    "background": "#0a0a08",
+                                    "height": "30",
+                                    "padding": "0",
+                                    "align": "center"
+                                  },
+                                  "text": "Issued"
+                                },
+
+
+                                {
+                                  "type": "dropdown",
+                                  "name": "carbonBagsGenerated",
+                                  "contentDescription": "carbon Bags",
+                                  "options": [{
+                                      "value": "Yes",
+                                      "defaultSelected": "true"
+                                    },
+                                    {
+                                      "value": "No",
+                                      "defaultSelected": "false"
+                                    }
+                                  ],
+                                  "style": {
+                                    "background": "#ffffff",
+                                    "height": "30"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
                         }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "style": {
+                        "spacing": "10",
+                        "background": "#aaaaaa"
+
+                      },
+
+                      "components": [{
+                          "type": "horizontal",
+                          "style": {
+                            "background": "#ffffff"
+                          },
+                          "components": [{
+                              "type": "vertical",
+                              "style": {
+                                "background": "#ffffff"
+                              },
+                              "components": [{
+                                  "type": "label",
+                                  "text": "Kennex # in Bay",
+                                  "style": {
+                                    "color": "#ffffff",
+                                    "align": "center",
+                                    "background": "#0a0a08",
+                                    "height": "45"
+                                  }
+                                },
+                                {
+                                  "type": "label",
+                                  "text": "205",
+                                  "style": {
+                                    "color": "#ffffff",
+                                    "align": "center",
+                                    "background": "#0a0a08",
+                                    "height": "45"
+                                  }
+                                },
+                                {
+                                  "type": "label",
+                                  "text": "Fresh Carbon Added",
+                                  "style": {
+                                    "color": "#ffffff",
+                                    "align": "center",
+                                    "background": "#0a0a08",
+                                    "height": "45"
+                                  }
+                                }
+
+                              ]
+                            },
+                            {
+                              "type": "vertical",
+                              "style": {
+                                "background": "#ffffff"
+                              },
+                              "components": [{
+                                  "type": "label",
+                                  "text": "24",
+                                  "style": {
+                                    "align": "center"
+
+                                  }
+                                },
+                                {
+                                  "type": "label",
+                                  "text": "Yes",
+                                  "style": {
+                                    "align": "center"
+
+                                  }
+                                },
+                                {
+                                  "type": "label",
+                                  "text": " ",
+                                  "style": {
+                                    "align": "center",
+                                    "background": "#0a0a08"
+
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "vertical",
+                              "components": [{
+                                  "type": "dropdown",
+                                  "name": "Dirty",
+                                  "contentDescription": "Dirty",
+                                  "options": [{
+                                      "value": "Dirty",
+                                      "defaultSelected": "true"
+                                    },
+                                    {
+                                      "value": " 1",
+                                      "defaultSelected": "false"
+                                    },
+                                    {
+                                      "value": " 2",
+                                      "defaultSelected": "false"
+                                    }
+                                  ],
+                                  "style": {
+                                    "background": "#ffffff",
+                                    "height": "20"
+                                  }
+                                },
+                                {
+                                  "type": "label",
+                                  "text": "",
+                                  "style": {
+                                    "align": "center",
+                                    "background": "#ffffff",
+                                    "color": "#ffffff"
+
+                                  }
+                                },
+                                {
+                                  "type": "label",
+                                  "text": "Y",
+                                  "style": {
+                                    "align": "center"
+
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "label",
+                          "text": "Incidents / Safety Notifications",
+                          "align": "left",
+                          "background": "#ace248",
+                          "style": {
+                            "font": "Avenir-Bold",
+                            "size": "18",
+                            "color": "#ffffff",
+                            "background": "#0a0a08",
+                            "spacing": "40",
+                            "padding": "5"
+
+
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "name": "shift",
+                          "contentDescription": "shift",
+                          "options": [{
+                              "value": "Nil Report \n \n \n",
+                              "defaultSelected": "true"
+                            },
+                            {
+                              "value": " Report 1 \n \n \n",
+                              "defaultSelected": "false"
+                            },
+                            {
+                              "value": " Report 2 \n \n \n",
+                              "defaultSelected": "false"
+                            }
+                          ],
+                          "style": {
+                            "background": "#ffffff",
+                            "height": "80",
+                            "width": "wrap",
+                            "border": "#000000"
+                          }
+                        }
+
+
+                      ]
+                    }
+
+
+                  ]
+                },
+
+
+                {
+                  "type": "horizontal",
+                  "style": {
+                    "align": "fill",
+                    "color": "#ffffff",
+                    "padding": "1",
+                    "align": "right",
+                    "background": "#aaaaaa"
+
+                  },
+                  "components": [
+
+                    {
+                      "type": "button",
+                      "text": "Next",
+                      "style": {
+                        "height": "30",
+                        "align": "fill",
+                        "margin": "left",
+                        "background": "#189e09",
+                        "color": "#ffffff",
+                        "font": "HelveticaNeue",
+                        "size": "14",
+                        "corner_radius": "3",
+                        "padding": "5",
+                        "padding-top": "10",
+                        "spacing": "10",
+                        "margin_top": "10"
+
+                      },
+                      "href": {
+                        "url": "https://sandhyasrini.github.io/json/GrindingLine2.json",
+                        "view": "jason"
                       }
-  
-                    ]
-  
-                  }
-                
-                ]
-              }
-            ]
-          }
+                    }
+
+                  ]
+
+                }
+
+              ]
+            }
+          ]
         }
       }
     }
   }
+}
