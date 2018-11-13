@@ -80,7 +80,7 @@
                     {
                       "type": "dropdown",
                       "name": "shift",
-                      "contentDescription": "shift",
+                      "contentDescription": "Field1|Shift",
                       "options": [{
                           "value": "Day Shift",
                           "defaultSelected": "true"
