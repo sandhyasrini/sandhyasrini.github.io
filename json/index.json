@@ -233,7 +233,7 @@
 
                   },
                   "components": [{
-                      "type": "label",
+                      "type": "textfield",
                       "text": "Incidents/ Accidents - Nil \n Primary Air Compressor Inspection and restart procedure training completed Crew 100",
                       "align": "left",
                       "background": "#ace248",
