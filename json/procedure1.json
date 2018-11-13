@@ -110,8 +110,9 @@
                                       {
                                         "type": "horizontal",
                                         "style": {
-                                            "background": "#aaaaaa"
-                                            
+                                            "background": "#aaaaaa",
+                                            "spacing":"10",
+                                            "padding":"10"
         
                                         },
         
