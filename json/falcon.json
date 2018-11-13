@@ -549,14 +549,15 @@
                           "text": " Incidents / Accidents – Nil \n  Primary air compressor inspection and restart  procedure training completed Crew 100 ",
                           "align": "left",
                           "style": {
-                            "font": "Avenir-Bold",
+                            "font": "Avenir",
                             "size": "18",
                             "color": "#111111",
                             "border": "#111111",
                             "border_width": "2",
                             "background": "#ffffff",
                             "spacing": "40",
-                            "padding": "5"
+                            "padding": "5",
+                            "padding_bottom":"10"
 
 
                           }
@@ -566,14 +567,15 @@
                           "text": " Incidents / Accidents – Nil \n  Primary air compressor inspection and restart  procedure training completed Crew 100 ",
                           "align": "left",
                           "style": {
-                            "font": "Avenir-Bold",
+                            "font": "Avenir",
                             "size": "18",
                             "color": "#111111",
                             "border_width": "2",
                             "border": "#111111",
                             "background": "#ffffff",
                             "spacing": "40",
-                            "padding": "5"
+                            "padding": "5",
+                            "padding_bottom":"10"
 
 
                           }
