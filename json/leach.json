@@ -251,7 +251,7 @@
                             ],
                             "style": {
                                 "background":"#ffffff",
-                                "height":"150",
+                                "height":"100",
                                 "width":"wrap",
                                 "border":"#000000"
                             }
