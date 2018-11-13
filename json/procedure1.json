@@ -78,23 +78,38 @@
 
                                 },
 
-                                "components": [{
-                                        "type": "label",
-                                        "text": "Process",
-                                        "class": "label_style"
+                                "components": [
+                                    {
+                                        "type":"vertical",
+                                        "style":{
+                                            "width":"300"
+                                        },
+                                        "components":[
+                                            {
+                                                "type": "label",
+                                                "text": "Procedure",
+                                                "class": "label_style"
+        
+                                            },
+                                            {
+                                                "type": "label",
+                                                "text": "1. Position Cable on a stable work surface, preferably on a splicing table using a tensioning clamp.",
+                                                "class": "content_style"
+        
+                                            }
+                                        ]
                                     },
                                     {
-                                        "type": "label",
-                                        "text": "Scope / Background",
-                                        "class": "label_style"
-
-                                    },
-                                    {
-                                        "type": "label",
-                                        "text": "Responsibility",
-                                        "class": "label_style"
-
-                                    }
+                                        "type": "image",
+                                        "url": "https://www.jasonclient.org/img/sticker.png",
+                                        "style": {
+                                          "width": "100",
+                                          "corner_radius": "50",
+                                          "bottom": "100",
+                                          "right": "100",
+                                          "align":"right"
+                                        }
+                                      }
                                 ]
                             },
                             {
@@ -129,139 +144,8 @@
 
 
                         ]
-                    },
-                    {
-                        "type": "vertical",
-                        "style": {
-                            "align": "fill",
-                            "color": "#ffffff",
-                            "padding": "10",
-                            "background": "#aaaaaa",
-                            "spacing": "5"
-
-                        },
-                        "components": [{
-                                "type": "horizontal",
-                                "style": {
-                                    "spacing": "10",
-                                    "background": "#aaaaaa"
-
-                                },
-
-                                "components": [{
-                                        "type": "label",
-                                        "text": "Occupation(s)",
-                                        "class": "label_style"
-                                    },
-                                    {
-                                        "type": "label",
-                                        "text": "Tools Matls & Equipt",
-                                        "class": "label_style"
-
-                                    },
-                                    {
-                                        "type": "label",
-                                        "text": "Hazards",
-                                        "class": "label_style"
-
-                                    },
-                                    {
-                                        "type": "label",
-                                        "text": "PPE",
-                                        "class": "label_style"
-
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "horizontal",
-                                "style": {
-                                    "spacing": "10",
-                                    "background": "#aaaaaa"
-
-                                },
-
-                                "components": [{
-                                        "type": "label",
-                                        "text": "Mine Maintenance Dept \n Electricians",
-                                        "class": "content_style"
-                                    },
-                                    {
-                                        "type": "label",
-                                        "text": "Conductor Inline kit \n 3M Cleaning Preparation \n 3M Flame Retardant \n Plastic Funnels \n Knife \n Electrical Tap",
-                                        "class": "content_style"
-
-                                    },
-                                    {
-                                        "type": "vertical",
-                                        "components": [{
-                                                "type": "label",
-                                                "text": "Electrocution \n Slips",
-                                                "class": "content_style"
-                                            },
-                                            {
-                                                "type": "horizontal",
-                                                "style": {
-                                                    "padding_top": "75"
-                                                },
-                                                "components": [{
-                                                    "type": "button",
-                                                    "text": "Reference Page",
-                                                    "style": {
-                                                        "background": "#FF3863",
-                                                        "color": "#ffffff",
-                                                        "size": "15",
-                                                        "padding_top": "5",
-                                                        "padding_bottom": "5"
-
-                                                    }
-                                                }]
-                                            }
-                                        ]
-
-                                    },
-                                    {
-                                        "type": "vertical",
-                                        "components": [{
-                                                "type": "label",
-                                                "text": "DG Standard PPE",
-                                                "class": "content_style"
-
-                                            },
-                                            {
-                                                "type": "horizontal",
-                                                "style": {
-                                                    "padding_top": "95"
-                                                },
-                                                "components": [{
-                                                    "type": "button",
-                                                    "text": "Start Procedure",
-                                                    "style": {
-                                                        "background": "#2EBF63",
-                                                        "color": "#ffffff",
-                                                        "size": "15",
-                                                        "padding_top": "5",
-                                                        "padding_bottom": "5"
-                                                    },
-                                                    "href": {
-                                                        "url": "https://sandhyasrini.github.io/json/procedure1.json",
-                                                        "view": "jason"
-                                                      }
-                                                }]
-                                            }
-
-                                        ]
-
-                                    }
-
-                                ]
-                            }
-
-
-
-
-                        ]
                     }
+                    
                 ]
 
             }]

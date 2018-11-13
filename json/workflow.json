@@ -80,7 +80,7 @@
 
                                 "components": [{
                                         "type": "label",
-                                        "text": "Process",
+                                        "text": "Purpose",
                                         "class": "label_style"
                                     },
                                     {
