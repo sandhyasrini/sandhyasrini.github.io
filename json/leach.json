@@ -93,8 +93,8 @@
                       },
                       {
                         "type": "dropdown",
-                        "name": "name",
-                        "contentDescription" : "name",
+                        "name": "shift",
+                        "contentDescription" : "shift",
                         "options": [
                           {
                             "value": "* J. Pronovost",
@@ -130,8 +130,7 @@
                       },
                       {
                         "type": "textfield",
-                        "name": "textfield",
-                        "contentDescription":"name field",
+                        "name": "password",
                         "value": "Jean Pronovost",
                         "style": {
                           "placeholder_color": "#cecece",
@@ -165,49 +164,6 @@
                     },
                     "components" : [
                       {
-                        "type" :"horizontal",
-                        "style":{
-                          "spacing":"10",
-                          "background": "#aaaaaa"
-
-                        },
-                        
-                       "components":[
-                        {
-                            "type" :"label",
-                            "text" : "Gravity Line 1",
-                            "align" : "left" ,
-                            "background": "#ace248",
-                            "style": {
-                              "font": "Avenir-Bold",
-                              "size": "18",
-                              "color": "#ffffff",
-                              "background": "#5ec6ff",
-                              "spacing": "40",
-                              "padding":"5"
-      
-      
-                            }
-                          },
-                          {
-                            "type" :"label",
-                            "text" : "Gravity Line 2",
-                            "align" : "left" ,
-                            "background": "#ace248",
-                            "style": {
-                              "font": "Avenir-Bold",
-                              "size": "18",
-                              "color": "#ffffff",
-                              "background": "#5ec6ff",
-                              "spacing": "40",
-                              "padding":"5"
-      
-      
-                            }
-                          }
-                       ]
-                      },
-                      {
                         "type" :"vertical",
                         "style":{
                           "spacing":"10",
@@ -234,8 +190,8 @@
                           },
                           {
                             "type": "dropdown",
-                            "name": "report",
-                            "contentDescription" : "report",
+                            "name": "shift",
+                            "contentDescription" : "shift",
                             "options": [
                               {
                                 "value": "Nil Report \n \n \n",
@@ -252,7 +208,7 @@
                             ],
                             "style": {
                                 "background":"#ffffff",
-                                "height":"200",
+                                "height":"250",
                                 "width":"wrap",
                                 "border":"#000000"
                             }
@@ -371,7 +327,7 @@
                                   {
                                     "type": "dropdown",
                                     "name": "Dirty",
-                                    "contentDescription" : "dropdown 5",
+                                    "contentDescription" : "Dirty",
                                     "options": [
                                       {
                                         "value": "Dirty",
@@ -536,7 +492,10 @@
                           "font": "HelveticaNeue",
                           "size": "14",
                           "corner_radius": "3",
-                          "spacing": "10"
+                          "padding": "5",
+                          "padding-top": "10",
+                          "spacing": "10",
+                          "margin_top":"10"
   
                         },
                         "href": {
