@@ -228,8 +228,7 @@
                               {
                                 "type":"horizontal",
                                 "style":{
-                                  "background":"#ffffff",
-                                  "height":"30"
+                                  "background":"#ffffff"
                                 },
                                 "components":[
                                   {
