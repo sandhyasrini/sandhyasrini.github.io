@@ -9,13 +9,17 @@
                     "font": "Avenir-Bold",
                     "size": "18",
                     "color": "#ffffff",
-                    "background": "#d3b023"
+                    "background": "#d3b023",
+                    "spacing": "40",
+                    "padding": "5"
                 },
                 "content_style": {
                     "font": "Avenir-Bold",
                     "size": "18",
                     "color": "#ffffff",
-                    "background": "#111111"
+                    "background": "#111111",
+                    "spacing": "40",
+                    "padding": "5"
                 }
             }
 
@@ -60,126 +64,134 @@
                     {
                         "type": "horizontal",
                         "style": {
+                            "spacing": "10",
                             "background": "#aaaaaa"
 
                         },
 
                         "components": [
-                            // {
-                            //     "type":"vertical",
-                            //     "style":{
-                            //         "width":"700"
-                            //     },
-                            //     "components":[
-                            //         {
-                            //             "type": "label",
-                            //             "text": "Procedure",
-                            //             "class": "label_style"
+                            {
+                                "type":"vertical",
+                                "style":{
+                                    "width":"700"
+                                },
+                                "components":[
+                                    {
+                                        "type": "label",
+                                        "text": "Procedure",
+                                        "class": "label_style"
 
-                            //         },
-                            //         {
-                            //             "type": "label",
-                            //             "text": "1. Position Cable on a stable work surface, preferably on a splicing table using a tensioning clamp.",
-                            //             "class": "content_style"
+                                    },
+                                    {
+                                        "type": "label",
+                                        "text": "1. Position Cable on a stable work surface, preferably on a splicing table using a tensioning clamp.",
+                                        "class": "content_style"
                                         
 
-                            //         }
-                            //     ]
-                            // },
+                                    }
+                                ]
+                            },
                             {
-                                "type": "image",
-                                "url": "file://procedure1Pic1.jpeg",
-                                
-                                "style": {
-                                  "width": "200",
-                                  "height": "300",
-                                  "align":"right"
-                                }
-                              }
-                        ]
-                    },
-                     {
-                                "type": "horizontal",
-                                "style": {
-                                    "background": "#aaaaaa",
-                                    "align":"right"
-
-                                },
-
-                                "components": [
+                                "type":"vertical",
+                                "components":[
                                     {
-                                        "type":"horizontal",
-                                        "style":{
+                                        "type": "image",
+                                        "url": "file://procedure1Pic1.jpeg",
+                                        
+                                        "style": {
+                                          "width": "200",
+                                          "height": "300",
+                                          "align":"right"
+                                        }
+                                      },
+                                      {
+                                        "type": "horizontal",
+                                        "style": {
+                                            "background": "#aaaaaa",
                                             "align":"right"
+        
                                         },
-                                        "components":[
+        
+                                        "components": [
                                             {
-                                                "type": "image",
-                                                "url": "file://thumb1.jpeg",
-                                                
-                                                "style": {
-                                                  "width": "100",
-                                                  "height": "100",
-                                                  "align":"right"
-                                                }
+                                                "type":"horizontal",
+                                                "style":{
+                                                    "align":"right"
+                                                },
+                                                "components":[
+                                                    {
+                                                        "type": "image",
+                                                        "url": "file://thumb1.jpeg",
+                                                        
+                                                        "style": {
+                                                          "width": "100",
+                                                          "height": "100",
+                                                          "align":"right"
+                                                        }
+                                                      }
+                                                ]
+                                            },
+                                              {
+                                                  "type":"vertical",
+                                                  "style":{
+                                                      "align":"right"
+                                                  },
+                                                  "components":[
+                                                    {
+                                                        "type": "button",
+                                                        "text": "Start Procedure",
+                                                        "style": {
+                                                            "background": "#2EBF63",
+                                                            "color": "#ffffff",
+                                                            "size": "15",
+                                                            "width":"200"
+                                                            
+                                                        },
+                                                        "href": {
+                                                            "url": "https://sandhyasrini.github.io/json/procedure1.json",
+                                                            "view": "jason"
+                                                          }
+                                                    },{
+                                                        "type": "button",
+                                                        "text": "Start Procedure",
+                                                        "style": {
+                                                            "background": "#2EBF63",
+                                                            "color": "#ffffff",
+                                                            "size": "15",
+                                                            "width":"200"
+                                                            
+                                                        },
+                                                        "href": {
+                                                            "url": "https://sandhyasrini.github.io/json/procedure1.json",
+                                                            "view": "jason"
+                                                          }
+                                                    },{
+                                                        "type": "button",
+                                                        "text": "Start Procedure",
+                                                        "style": {
+                                                            "background": "#2EBF63",
+                                                            "color": "#ffffff",
+                                                            "size": "15",
+                                                            "width":"200"
+                                                            
+                                                        },
+                                                        "href": {
+                                                            "url": "https://sandhyasrini.github.io/json/procedure1.json",
+                                                            "view": "jason"
+                                                          }
+                                                    }
+        
+                                                    
+                                                  ]
                                               }
                                         ]
-                                    },
-                                      {
-                                          "type":"vertical",
-                                          "style":{
-                                              "align":"right"
-                                          },
-                                          "components":[
-                                            {
-                                                "type": "button",
-                                                "text": "Start Procedure",
-                                                "style": {
-                                                    "background": "#2EBF63",
-                                                    "color": "#ffffff",
-                                                    "size": "15",
-                                                    "width":"200"
-                                                    
-                                                },
-                                                "href": {
-                                                    "url": "https://sandhyasrini.github.io/json/procedure1.json",
-                                                    "view": "jason"
-                                                  }
-                                            },{
-                                                "type": "button",
-                                                "text": "Start Procedure",
-                                                "style": {
-                                                    "background": "#2EBF63",
-                                                    "color": "#ffffff",
-                                                    "size": "15",
-                                                    "width":"200"
-                                                    
-                                                },
-                                                "href": {
-                                                    "url": "https://sandhyasrini.github.io/json/procedure1.json",
-                                                    "view": "jason"
-                                                  }
-                                            },{
-                                                "type": "button",
-                                                "text": "Start Procedure",
-                                                "style": {
-                                                    "background": "#2EBF63",
-                                                    "color": "#ffffff",
-                                                    "size": "15",
-                                                    "width":"200"
-                                                    
-                                                },
-                                                "href": {
-                                                    "url": "https://sandhyasrini.github.io/json/procedure1.json",
-                                                    "view": "jason"
-                                                  }
-                                            }
-
-                                            
-                                          ]
-                                      }
+                                    }
                                 ]
                             }
+                            
+                        ]
+                    }
+                     
                     
                 ]
 
