@@ -101,13 +101,14 @@
                                     },
                                     {
                                         "type": "image",
-                                        "url": "file://procedure1Pic1.png",
+                                        "url": "http://i.imgur.com/KUJPgGV.png",
+                                        "header": {
+                                          "auth_token": "3nfdss3fNdlenghs_dnekgldnvq334hd"
+                                        },
                                         "style": {
-                                          "width": "100",
-                                          "corner_radius": "50",
-                                          "bottom": "100",
-                                          "right": "100",
-                                          "align":"right"
+                                          "width": "50",
+                                          "height": "50",
+                                          "corner_radius": "25"
                                         }
                                       }
                                 ]
