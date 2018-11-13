@@ -71,6 +71,15 @@
 
                         "components": [
                             {
+                                "type": "image",
+                                "url": "file://procedure1Pic1.jpeg",
+                                
+                                "style": {
+                                  "width": "200",
+                                  "height": "300"
+                                }
+                              },
+                            {
                                 "type":"vertical",
                                 "style":{
                                     "width":"500"
@@ -90,16 +99,8 @@
 
                                     }
                                 ]
-                            },
-                            {
-                                "type": "image",
-                                "url": "file://procedure1Pic1.jpeg",
-                                
-                                "style": {
-                                  "width": "200",
-                                  "height": "300"
-                                }
-                              }
+                            }
+                            
                         ]
                     }
                     
