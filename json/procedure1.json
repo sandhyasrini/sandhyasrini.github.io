@@ -82,7 +82,7 @@
                                     {
                                         "type":"vertical",
                                         "style":{
-                                            "width":"300"
+                                            "width":"500"
                                         },
                                         "components":[
                                             {
@@ -94,7 +94,10 @@
                                             {
                                                 "type": "label",
                                                 "text": "1. Position Cable on a stable work surface, preferably on a splicing table using a tensioning clamp.",
-                                                "class": "content_style"
+                                                "class": "content_style",
+                                                "style":{
+                                                    "padding":"10"
+                                                }
         
                                             }
                                         ]
@@ -104,9 +107,9 @@
                                         "url": "file://thumb1.jpeg",
                                         
                                         "style": {
-                                          "width": "50",
-                                          "height": "50",
-                                          "corner_radius": "25"
+                                          "width": "100",
+                                          "height": "100",
+                                          "align":"right"
                                         }
                                       }
                                 ]
