@@ -138,65 +138,47 @@
                                           "type":"vertical",
                                           "components":[
                                             {
-                                                "type": "horizontal",
+                                                "type": "button",
+                                                "text": "Start Procedure",
                                                 "style": {
-                                                    "padding_top": "95"
+                                                    "background": "#2EBF63",
+                                                    "color": "#ffffff",
+                                                    "size": "15",
+                                                    "padding_top": "5",
+                                                    "padding_bottom": "5"
                                                 },
-                                                "components": [{
-                                                    "type": "button",
-                                                    "text": "Start Procedure",
-                                                    "style": {
-                                                        "background": "#2EBF63",
-                                                        "color": "#ffffff",
-                                                        "size": "15",
-                                                        "padding_top": "5",
-                                                        "padding_bottom": "5"
-                                                    },
-                                                    "href": {
-                                                        "url": "https://sandhyasrini.github.io/json/procedure1.json",
-                                                        "view": "jason"
-                                                      }
-                                                }]
+                                                "href": {
+                                                    "url": "https://sandhyasrini.github.io/json/procedure1.json",
+                                                    "view": "jason"
+                                                  }
                                             },{
-                                                "type": "horizontal",
+                                                "type": "button",
+                                                "text": "Start Procedure",
                                                 "style": {
-                                                    "padding_top": "95"
+                                                    "background": "#2EBF63",
+                                                    "color": "#ffffff",
+                                                    "size": "15",
+                                                    "padding_top": "5",
+                                                    "padding_bottom": "5"
                                                 },
-                                                "components": [{
-                                                    "type": "button",
-                                                    "text": "Start Procedure",
-                                                    "style": {
-                                                        "background": "#2EBF63",
-                                                        "color": "#ffffff",
-                                                        "size": "15",
-                                                        "padding_top": "5",
-                                                        "padding_bottom": "5"
-                                                    },
-                                                    "href": {
-                                                        "url": "https://sandhyasrini.github.io/json/procedure1.json",
-                                                        "view": "jason"
-                                                      }
-                                                }]
+                                                "href": {
+                                                    "url": "https://sandhyasrini.github.io/json/procedure1.json",
+                                                    "view": "jason"
+                                                  }
                                             },{
-                                                "type": "horizontal",
+                                                "type": "button",
+                                                "text": "Start Procedure",
                                                 "style": {
-                                                    "padding_top": "95"
+                                                    "background": "#2EBF63",
+                                                    "color": "#ffffff",
+                                                    "size": "15",
+                                                    "padding_top": "5",
+                                                    "padding_bottom": "5"
                                                 },
-                                                "components": [{
-                                                    "type": "button",
-                                                    "text": "Start Procedure",
-                                                    "style": {
-                                                        "background": "#2EBF63",
-                                                        "color": "#ffffff",
-                                                        "size": "15",
-                                                        "padding_top": "5",
-                                                        "padding_bottom": "5"
-                                                    },
-                                                    "href": {
-                                                        "url": "https://sandhyasrini.github.io/json/procedure1.json",
-                                                        "view": "jason"
-                                                      }
-                                                }]
+                                                "href": {
+                                                    "url": "https://sandhyasrini.github.io/json/procedure1.json",
+                                                    "view": "jason"
+                                                  }
                                             }
 
                                             
