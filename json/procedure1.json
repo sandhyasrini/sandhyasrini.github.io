@@ -130,7 +130,7 @@
                                                         
                                                         "style": {
                                                           "width": "100",
-                                                          "height": "200",
+                                                          "height": "150",
                                                           "align":"right"
                                                           
                                                         }
@@ -145,7 +145,34 @@
                                                   "components":[
                                                     {
                                                         "type": "button",
-                                                        "text": "Start Procedure",
+                                                        "text": "Take Photo",
+                                                        "style": {
+                                                            "background": "#2EBF63",
+                                                            "color": "#ffffff",
+                                                            "width":"200",
+                                                            "padding":"5",
+                                                            "spacing":"10",
+                                                            "height":"30",
+                                                            "align":"left"
+
+                                                            
+                                                        }
+                                                    },{
+                                                        "type": "button",
+                                                        "text": "Completed",
+                                                        "style": {
+                                                            "background": "#2EBF63",
+                                                            "color": "#ffffff",
+                                                            "width":"200",
+                                                            "padding":"5",
+                                                            "spacing":"10",
+                                                            "height":"30",
+                                                            "align":"left"
+                                                            
+                                                        }
+                                                    },{
+                                                        "type": "button",
+                                                        "text": "Next",
                                                         "style": {
                                                             "background": "#2EBF63",
                                                             "color": "#ffffff",
@@ -158,42 +185,7 @@
                                                             
                                                         },
                                                         "href": {
-                                                            "url": "https://sandhyasrini.github.io/json/procedure1.json",
-                                                            "view": "jason"
-                                                          }
-                                                    },{
-                                                        "type": "button",
-                                                        "text": "Start Procedure",
-                                                        "style": {
-                                                            "background": "#2EBF63",
-                                                            "color": "#ffffff",
-                                                            "width":"200",
-                                                            "padding":"5",
-                                                            "spacing":"10",
-                                                            "height":"30",
-                                                            "align":"left"
-                                                            
-                                                        },
-                                                        "href": {
-                                                            "url": "https://sandhyasrini.github.io/json/procedure1.json",
-                                                            "view": "jason"
-                                                          }
-                                                    },{
-                                                        "type": "button",
-                                                        "text": "Start Procedure",
-                                                        "style": {
-                                                            "background": "#2EBF63",
-                                                            "color": "#ffffff",
-                                                            "width":"200",
-                                                            "padding":"5",
-                                                            "spacing":"10",
-                                                            "height":"30",
-                                                            "align":"left"
-
-                                                            
-                                                        },
-                                                        "href": {
-                                                            "url": "https://sandhyasrini.github.io/json/procedure1.json",
+                                                            "url": "https://sandhyasrini.github.io/json/procedure2.json",
                                                             "view": "jason"
                                                           }
                                                     }
