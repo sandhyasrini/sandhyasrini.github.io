@@ -121,57 +121,60 @@
                                           "height": "100",
                                           "align":"right"
                                         }
-                                      }
-                                    //   {
-                                    //       "type":"vertical",
-                                    //       "components":[
-                                    //         {
-                                    //             "type": "button",
-                                    //             "text": "Start Procedure",
-                                    //             "style": {
-                                    //                 "background": "#2EBF63",
-                                    //                 "color": "#ffffff",
-                                    //                 "size": "15",
-                                    //                 "width":"200"
+                                      },
+                                      {
+                                          "type":"vertical",
+                                          "style":{
+                                              "align":"right"
+                                          },
+                                          "components":[
+                                            {
+                                                "type": "button",
+                                                "text": "Start Procedure",
+                                                "style": {
+                                                    "background": "#2EBF63",
+                                                    "color": "#ffffff",
+                                                    "size": "15",
+                                                    "width":"200"
                                                     
-                                    //             },
-                                    //             "href": {
-                                    //                 "url": "https://sandhyasrini.github.io/json/procedure1.json",
-                                    //                 "view": "jason"
-                                    //               }
-                                    //         },{
-                                    //             "type": "button",
-                                    //             "text": "Start Procedure",
-                                    //             "style": {
-                                    //                 "background": "#2EBF63",
-                                    //                 "color": "#ffffff",
-                                    //                 "size": "15",
-                                    //                 "width":"200"
+                                                },
+                                                "href": {
+                                                    "url": "https://sandhyasrini.github.io/json/procedure1.json",
+                                                    "view": "jason"
+                                                  }
+                                            },{
+                                                "type": "button",
+                                                "text": "Start Procedure",
+                                                "style": {
+                                                    "background": "#2EBF63",
+                                                    "color": "#ffffff",
+                                                    "size": "15",
+                                                    "width":"200"
                                                     
-                                    //             },
-                                    //             "href": {
-                                    //                 "url": "https://sandhyasrini.github.io/json/procedure1.json",
-                                    //                 "view": "jason"
-                                    //               }
-                                    //         },{
-                                    //             "type": "button",
-                                    //             "text": "Start Procedure",
-                                    //             "style": {
-                                    //                 "background": "#2EBF63",
-                                    //                 "color": "#ffffff",
-                                    //                 "size": "15",
-                                    //                 "width":"200"
+                                                },
+                                                "href": {
+                                                    "url": "https://sandhyasrini.github.io/json/procedure1.json",
+                                                    "view": "jason"
+                                                  }
+                                            },{
+                                                "type": "button",
+                                                "text": "Start Procedure",
+                                                "style": {
+                                                    "background": "#2EBF63",
+                                                    "color": "#ffffff",
+                                                    "size": "15",
+                                                    "width":"200"
                                                     
-                                    //             },
-                                    //             "href": {
-                                    //                 "url": "https://sandhyasrini.github.io/json/procedure1.json",
-                                    //                 "view": "jason"
-                                    //               }
-                                    //         }
+                                                },
+                                                "href": {
+                                                    "url": "https://sandhyasrini.github.io/json/procedure1.json",
+                                                    "view": "jason"
+                                                  }
+                                            }
 
                                             
-                                    //       ]
-                                    //   }
+                                          ]
+                                      }
                                 ]
                             }
                     
