@@ -132,8 +132,8 @@
                                                     "background": "#2EBF63",
                                                     "color": "#ffffff",
                                                     "size": "15",
-                                                    "padding_top": "5",
-                                                    "padding_bottom": "5"
+                                                    "width":"40"
+                                                    
                                                 },
                                                 "href": {
                                                     "url": "https://sandhyasrini.github.io/json/procedure1.json",
@@ -146,8 +146,8 @@
                                                     "background": "#2EBF63",
                                                     "color": "#ffffff",
                                                     "size": "15",
-                                                    "padding_top": "5",
-                                                    "padding_bottom": "5"
+                                                    "width":"40"
+                                                    
                                                 },
                                                 "href": {
                                                     "url": "https://sandhyasrini.github.io/json/procedure1.json",
@@ -160,8 +160,8 @@
                                                     "background": "#2EBF63",
                                                     "color": "#ffffff",
                                                     "size": "15",
-                                                    "padding_top": "5",
-                                                    "padding_bottom": "5"
+                                                    "width":"40"
+                                                    
                                                 },
                                                 "href": {
                                                     "url": "https://sandhyasrini.github.io/json/procedure1.json",
