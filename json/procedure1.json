@@ -76,7 +76,8 @@
                                 
                                 "style": {
                                   "width": "200",
-                                  "height": "300"
+                                  "height": "300",
+                                  "padding":"0"
                                 }
                               },
                             {
