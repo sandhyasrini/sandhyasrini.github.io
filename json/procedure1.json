@@ -73,7 +73,7 @@
                             {
                                 "type":"vertical",
                                 "style":{
-                                    "width":"600"
+                                    "width":"400"
                                 },
                                 "components":[
                                     {
@@ -93,6 +93,9 @@
                             },
                             {
                                 "type":"vertical",
+                                "style":{
+                                    "width":"500"
+                                },
                                 "components":[
                                     {
                                         "type": "image",
