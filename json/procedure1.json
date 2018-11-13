@@ -62,27 +62,118 @@
                 },
                 "items": [
                     {
-                        "type": "vertical",
+                        "type": "horizontal",
                         "style": {
+                            "spacing": "10",
                             "background": "#aaaaaa"
 
                         },
 
                         "components": [
                             {
+                                "type":"vertical",
+                                "style":{
+                                    "width":"500"
+                                },
+                                "components":[
+                                    {
+                                        "type": "label",
+                                        "text": "Procedure",
+                                        "class": "label_style"
+
+                                    },
+                                    {
+                                        "type": "label",
+                                        "text": "1. Position Cable on a stable work surface, preferably on a splicing table using a tensioning clamp.",
+                                        "class": "content_style"
+                                        
+
+                                    }
+                                ]
+                            },
+                            {
                                 "type": "image",
                                 "url": "file://procedure1Pic1.jpeg",
                                 
                                 "style": {
                                   "width": "200",
-                                  "height": "300"
+                                  "height": "300",
+                                  "align":"right"
                                 }
                               }
-                            
-                            
                         ]
-                    }
-                    
+                    },
+                     {
+                                "type": "horizontal",
+                                "style": {
+                                    "background": "#aaaaaa",
+                                    "align":"right"
+
+                                },
+
+                                "components": [
+                                    {
+                                        "type": "image",
+                                        "url": "file://thumb1.jpeg",
+                                        
+                                        "style": {
+                                          "width": "100",
+                                          "height": "100",
+                                          "align":"right"
+                                        }
+                                      },
+                                      {
+                                          "type":"vertical",
+                                          "components":[
+                                            {
+                                                "type": "button",
+                                                "text": "Start Procedure",
+                                                "style": {
+                                                    "background": "#2EBF63",
+                                                    "color": "#ffffff",
+                                                    "size": "15",
+                                                    "padding_top": "5",
+                                                    "padding_bottom": "5"
+                                                },
+                                                "href": {
+                                                    "url": "https://sandhyasrini.github.io/json/procedure1.json",
+                                                    "view": "jason"
+                                                  }
+                                            },{
+                                                "type": "button",
+                                                "text": "Start Procedure",
+                                                "style": {
+                                                    "background": "#2EBF63",
+                                                    "color": "#ffffff",
+                                                    "size": "15",
+                                                    "padding_top": "5",
+                                                    "padding_bottom": "5"
+                                                },
+                                                "href": {
+                                                    "url": "https://sandhyasrini.github.io/json/procedure1.json",
+                                                    "view": "jason"
+                                                  }
+                                            },{
+                                                "type": "button",
+                                                "text": "Start Procedure",
+                                                "style": {
+                                                    "background": "#2EBF63",
+                                                    "color": "#ffffff",
+                                                    "size": "15",
+                                                    "padding_top": "5",
+                                                    "padding_bottom": "5"
+                                                },
+                                                "href": {
+                                                    "url": "https://sandhyasrini.github.io/json/procedure1.json",
+                                                    "view": "jason"
+                                                  }
+                                            }
+
+                                            
+                                          ]
+                                      }
+                                ]
+                            }
                     
                 ]
 
