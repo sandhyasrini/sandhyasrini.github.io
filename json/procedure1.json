@@ -97,83 +97,12 @@
                                 
                                 "style": {
                                   "width": "200",
-                                  "height": "300",
-                                  "align":"right"
+                                  "height": "300"
                                 }
                               }
                         ]
                     },
-                    {
-                        "type": "horizontal",
-                        "style": {
-                            "background": "#aaaaaa",
-                            "align":"right"
-
-                        },
-
-                        "components": [
-                            {
-                                "type": "image",
-                                "url": "file://thumb1.jpeg",
-                                
-                                "style": {
-                                  "width": "100",
-                                  "height": "100",
-                                  "align":"right"
-                                }
-                              },
-                              {
-                                  "type":"vertical",
-                                  "components":[
-                                    {
-                                        "type": "button",
-                                        "text": "Start Procedure",
-                                        "style": {
-                                            "background": "#2EBF63",
-                                            "color": "#ffffff",
-                                            "size": "15",
-                                            "padding_top": "5",
-                                            "padding_bottom": "5"
-                                        },
-                                        "href": {
-                                            "url": "https://sandhyasrini.github.io/json/procedure1.json",
-                                            "view": "jason"
-                                          }
-                                    },{
-                                        "type": "button",
-                                        "text": "Start Procedure",
-                                        "style": {
-                                            "background": "#2EBF63",
-                                            "color": "#ffffff",
-                                            "size": "15",
-                                            "padding_top": "5",
-                                            "padding_bottom": "5"
-                                        },
-                                        "href": {
-                                            "url": "https://sandhyasrini.github.io/json/procedure1.json",
-                                            "view": "jason"
-                                          }
-                                    },{
-                                        "type": "button",
-                                        "text": "Start Procedure",
-                                        "style": {
-                                            "background": "#2EBF63",
-                                            "color": "#ffffff",
-                                            "size": "15",
-                                            "padding_top": "5",
-                                            "padding_bottom": "5"
-                                        },
-                                        "href": {
-                                            "url": "https://sandhyasrini.github.io/json/procedure1.json",
-                                            "view": "jason"
-                                          }
-                                    }
-
-                                    
-                                  ]
-                              }
-                        ]
-                    }
+                    
                     
                 ]
 
