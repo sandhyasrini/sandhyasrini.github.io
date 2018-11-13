@@ -197,7 +197,9 @@
                         "color": "#ffffff",
                         "background": "#5ec6ff",
                         "spacing": "40",
-                        "padding": "5"
+                        "padding": "5",
+                        "padding_left":"10",
+                        "padding_right":"10"
 
 
                       }
