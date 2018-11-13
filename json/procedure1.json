@@ -136,8 +136,8 @@
                                               {
                                                   "type":"vertical",
                                                   "style":{
-                                                      "align":"right"
-                                                  },
+                                                        "padding":"10"
+                                                },
                                                   "components":[
                                                     {
                                                         "type": "button",
