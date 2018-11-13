@@ -133,6 +133,89 @@
 
                     ]
                 }
+                {
+                    "type": "vertical",
+                    "style": {
+                        "align": "fill",
+                        "color": "#ffffff",
+                        "padding": "1",
+                        "background": "#aaaaaa",
+                        "spacing": "5"
+
+                    },
+                    "components": [
+                        {
+                            "type": "horizontal",
+                            "style": {
+                                "spacing": "10",
+                                "background": "#aaaaaa"
+
+                            },
+
+                            "components": [{
+                                    "type": "label",
+                                    "text": "Occupation(s)",
+                                    "class":"label_style"
+                                },
+                                {
+                                    "type": "label",
+                                    "text": "Tools Matls & Equipt",
+                                    "class":"label_style"
+
+                                },
+                                {
+                                    "type": "label",
+                                    "text": "Hazards",
+                                    "class":"label_style"
+
+                                },
+                                {
+                                    "type": "label",
+                                    "text": "PPE",
+                                    "class":"label_style"
+
+                                }   
+                            ]
+                        },
+                        {
+                            "type": "horizontal",
+                            "style": {
+                                "spacing": "10",
+                                "background": "#aaaaaa"
+
+                            },
+
+                            "components": [{
+                                    "type": "label",
+                                    "text":"Mine Maintenance Dept \n Electricians",
+                                    "class":"content_style"
+                                },
+                                {
+                                    "type": "label",
+                                    "text":"Conductor Inline kit \n 3M Cleaning Preparation \n 3M Flame Retardant \n Plastic Funnels \n Knife \n Electrical Tap",
+                                    "class":"content_style"
+
+                                },
+                                {
+                                    "type": "label",
+                                    "text":"Electrocution \n Slips",
+                                    "class":"content_style"
+
+                                },
+                                {
+                                    "type": "label",
+                                    "text":"DG Standard PPE",
+                                    "class":"content_style"
+
+                                }
+                            ]
+                        }
+                        
+                        
+
+
+                    ]
+                }
              ]
 
             }]
