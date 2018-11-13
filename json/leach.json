@@ -498,7 +498,8 @@
                             "style": {
                               "background":"#ffffff",
                               "height":"150",
-                              "width":"wrap"
+                              "width":"wrap",
+                              "border":"#000000"
                             }
                           }
                         
