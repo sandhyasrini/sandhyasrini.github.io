@@ -65,27 +65,27 @@
                         },
 
                         "components": [
-                            {
-                                "type":"vertical",
-                                "style":{
-                                    "width":"700"
-                                },
-                                "components":[
-                                    {
-                                        "type": "label",
-                                        "text": "Procedure",
-                                        "class": "label_style"
+                            // {
+                            //     "type":"vertical",
+                            //     "style":{
+                            //         "width":"700"
+                            //     },
+                            //     "components":[
+                            //         {
+                            //             "type": "label",
+                            //             "text": "Procedure",
+                            //             "class": "label_style"
 
-                                    },
-                                    {
-                                        "type": "label",
-                                        "text": "1. Position Cable on a stable work surface, preferably on a splicing table using a tensioning clamp.",
-                                        "class": "content_style"
+                            //         },
+                            //         {
+                            //             "type": "label",
+                            //             "text": "1. Position Cable on a stable work surface, preferably on a splicing table using a tensioning clamp.",
+                            //             "class": "content_style"
                                         
 
-                                    }
-                                ]
-                            },
+                            //         }
+                            //     ]
+                            // },
                             {
                                 "type": "image",
                                 "url": "file://procedure1Pic1.jpeg",
