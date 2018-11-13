@@ -99,7 +99,7 @@
                                 "components":[
                                     {
                                         "type": "image",
-                                        "url": "file://2.jpeg",
+                                        "url": "file://3.jpeg",
                                         
                                         "style": {
                                           "width": "500",
@@ -126,7 +126,7 @@
                                                 "components":[
                                                     {
                                                         "type": "image",
-                                                        "url": "file://thumb2.jpeg",
+                                                        "url": "file://thumb3.jpeg",
                                                         
                                                         "style": {
                                                           "width": "100",
