@@ -359,7 +359,7 @@
                                     "color": "#ffffff",
                                     "align": "center",
                                     "background": "#0a0a08",
-                                    "height": "45"
+                                    "height": "30"
                                   }
                                 },
                                 {
@@ -369,7 +369,7 @@
                                     "color": "#ffffff",
                                     "align": "center",
                                     "background": "#0a0a08",
-                                    "height": "45"
+                                    "height": "30"
                                   }
                                 },
                                 {
@@ -379,7 +379,7 @@
                                     "color": "#ffffff",
                                     "align": "center",
                                     "background": "#0a0a08",
-                                    "height": "45"
+                                    "height": "30"
                                   }
                                 }
 
@@ -394,7 +394,8 @@
                                   "type": "label",
                                   "text": "24",
                                   "style": {
-                                    "align": "center"
+                                    "align": "center",
+                                    "height": "30"
 
                                   }
                                 },
@@ -402,7 +403,8 @@
                                   "type": "label",
                                   "text": "Yes",
                                   "style": {
-                                    "align": "center"
+                                    "align": "center",
+                                    "height": "30"
 
                                   }
                                 },
@@ -411,7 +413,8 @@
                                   "text": " ",
                                   "style": {
                                     "align": "center",
-                                    "background": "#0a0a08"
+                                    "background": "#0a0a08",
+                                    "height": "30"
 
                                   }
                                 }
@@ -438,7 +441,7 @@
                                   ],
                                   "style": {
                                     "background": "#ffffff",
-                                    "height": "20"
+                                    "height": "30"
                                   }
                                 },
                                 {
@@ -447,7 +450,8 @@
                                   "style": {
                                     "align": "center",
                                     "background": "#ffffff",
-                                    "color": "#ffffff"
+                                    "color": "#ffffff",
+                                    "height": "30"
 
                                   }
                                 },
@@ -455,7 +459,8 @@
                                   "type": "label",
                                   "text": "Y",
                                   "style": {
-                                    "align": "center"
+                                    "align": "center",
+                                    "height": "30"
 
                                   }
                                 }
