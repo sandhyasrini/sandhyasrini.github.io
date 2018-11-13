@@ -148,7 +148,8 @@
                                                             "size": "15",
                                                             "width":"200",
                                                             "padding":"5",
-                                                            "spacing":"10"
+                                                            "spacing":"10",
+                                                            "height":"30"
 
                                                             
                                                         },
@@ -164,7 +165,9 @@
                                                             "color": "#ffffff",
                                                             "size": "15",
                                                             "width":"200",
-                                                            "padding":"5"
+                                                            "padding":"5",
+                                                            "spacing":"10",
+                                                            "height":"30"
                                                             
                                                         },
                                                         "href": {
@@ -179,7 +182,9 @@
                                                             "color": "#ffffff",
                                                             "size": "15",
                                                             "width":"200",
-                                                            "padding":"5"
+                                                            "padding":"5",
+                                                            "spacing":"10",
+                                                            "height":"30"
 
                                                             
                                                         },
