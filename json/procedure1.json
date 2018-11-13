@@ -101,7 +101,7 @@
                                     },
                                     {
                                         "type": "image",
-                                        "url": "file://Procedure1Pic1.PNG",
+                                        "url": "file://procedure1Pic1.png",
                                         "style": {
                                           "width": "100",
                                           "corner_radius": "50",
