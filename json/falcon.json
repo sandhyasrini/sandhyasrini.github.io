@@ -241,7 +241,7 @@
                                     "color": "#ffffff",
                                     "align": "center",
                                     "background": "#0a0a08",
-                                    "padding": "5",
+                                    "padding": "6",
                                     "width":"160"
                                   }
                                 },
@@ -275,13 +275,13 @@
                               "type": "horizontal",
                               "style": {
                                 "background": "#ffffff",
-                                "height": "33"
+                                "height": "30"
                               },
                               "components": [{
                                   "type": "label",
                                   "style": {
                                     "color": "#ffffff",
-                                    "padding": "5",
+                                    "padding": "6",
                                     "align": "center",
                                     "background": "#0a0a08",
                                     "width":"160"
@@ -323,7 +323,7 @@
                               "components": [{
                                   "type": "label",
                                   "style": {
-                                    "padding": "5",
+                                    "padding": "6",
                                     "color": "#ffffff",
                                     "align": "center",
                                     "background": "#0a0a08",
@@ -372,7 +372,7 @@
                               "components": [{
                                   "type": "label",
                                   "style": {
-                                    "padding": "5",
+                                    "padding": "6",
                                     "color": "#ffffff",
                                     "align": "center",
                                     "background": "#0a0a08",
@@ -414,7 +414,7 @@
                               "components": [{
                                   "type": "label",
                                   "style": {
-                                    "padding": "5",
+                                    "padding": "6",
                                     "color": "#ffffff",
                                     "align": "center",
                                     "background": "#0a0a08",
@@ -459,7 +459,7 @@
                                     "background": "#0a0a08",
                                     "color": "#ffffff",
                                     "align": "center",
-                                    "padding": "5",
+                                    "padding": "6",
                                     "width":"160"
 
                                   },
