@@ -84,7 +84,7 @@
                           "value": "Night Shift",
                           "defaultSelected": "false"
                         },
-						{
+			{
                           "value": "My Shift",
                           "defaultSelected": "false"
                         }
