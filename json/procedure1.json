@@ -101,10 +101,8 @@
                                     },
                                     {
                                         "type": "image",
-                                        "url": "http://i.imgur.com/KUJPgGV.png",
-                                        "header": {
-                                          "auth_token": "3nfdss3fNdlenghs_dnekgldnvq334hd"
-                                        },
+                                        "url": "file://thumb1.jpeg",
+                                        
                                         "style": {
                                           "width": "50",
                                           "height": "50",
@@ -124,9 +122,6 @@
                                 "components": [
                                 ]
                             }
-
-
-
 
                         ]
                     }
