@@ -73,7 +73,7 @@
                             {
                                 "type":"vertical",
                                 "style":{
-                                    "width":"700"
+                                    "width":"600"
                                 },
                                 "components":[
                                     {
@@ -99,8 +99,8 @@
                                         "url": "file://procedure1Pic1.jpeg",
                                         
                                         "style": {
-                                          "width": "200",
-                                          "height": "300",
+                                          "width": "400",
+                                          "height": "200",
                                           "align":"right"
                                         }
                                       },
