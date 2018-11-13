@@ -4,7 +4,6 @@
         "styles": {
             "styled_row": {
                 "background":"#d3b023",
-                "width":"150"
                         }
           }
         
@@ -48,32 +47,45 @@
                     },
                 "items":[
                     {
-                        "type":"horizontal",
+                        "type" :"horizontal",
                         "style":{
-                            "spacing": "5",
-                            "padding":"10"
+                          "spacing":"10"
                         },
                         "class":"styled_row",
-                        "components":[
-                            {
-                                "type":"label",
-                                "text": "Purpose",
-                                "class":"styled_row"
-                                
+                       "components":[
+                        {
+                            "type" :"label",
+                            "text" : "Gravity Line 1",
+                            "align" : "left" ,
+                            "background": "#ace248",
+                            "style": {
+                              "font": "Avenir-Bold",
+                              "size": "18",
+                              "color": "#ffffff",
+                              "spacing": "40",
+                              "padding":"5"
+      
+      
                             },
-                            {
-                                "type":"label",
-                                "text": "Scope/Background",
-                                "class":"styled_row"
-                                
+                            "class":"styled_row"
+                          },
+                          {
+                            "type" :"label",
+                            "text" : "Gravity Line 2",
+                            "align" : "left" ,
+                            "background": "#ace248",
+                            "style": {
+                              "font": "Avenir-Bold",
+                              "size": "18",
+                              "color": "#ffffff",
+                              "spacing": "40",
+                              "padding":"5"
+      
+      
                             },
-                            {
-                                "type":"label",
-                                "text": "Responsibility",
-                                "class":"styled_row"
-                                
-                            }
-                        ]
+                            "class":"styled_row"
+                          }
+                       ]
                     }
                 ]
   
