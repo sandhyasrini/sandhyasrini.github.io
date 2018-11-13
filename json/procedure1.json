@@ -99,16 +99,16 @@
                                         "url": "file://procedure1Pic1.jpeg",
                                         
                                         "style": {
-                                          "width": "800",
-                                          "height": "200",
-                                          "align":"right"
+                                          "width": "500",
+                                          "height": "200"
+                                          
                                         }
                                       },
                                       {
                                         "type": "horizontal",
                                         "style": {
-                                            "background": "#aaaaaa",
-                                            "align":"right"
+                                            "background": "#aaaaaa"
+                                            
         
                                         },
         
