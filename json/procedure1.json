@@ -117,7 +117,7 @@
                                             "type": "horizontal",
                                             "style": {
                                                 "background": "#aaaaaa",
-                                                "padding_top": "30"
+                                                "padding_top": "60"
                                                 
                                                 
                                             },
@@ -127,11 +127,11 @@
                                                 {
                                                     "type": "horizontal",
                                                     "style": {
-                                                        "height":"300"
+                                                        
                                                     },
                                                     "components": [{
                                                         "style":{
-                                                            
+                                                            "height":"300"   
                                                         },
                                                         "type": "image",
                                                         "url": "file://thumb1.jpeg"
