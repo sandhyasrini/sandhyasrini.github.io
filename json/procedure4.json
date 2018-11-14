@@ -119,15 +119,22 @@
                         
                         {
                             "type":"horizontal",
-                            "components":[{
-                                "type":"label",
-                                "text":"{{location}} "
+                            "components":[
+                                
+                                {"type":"vertical",
+                                    "components":[
+                                        {
+                                            "type":"label",
+                                            "text":"{{location}} "
+            
+                                    },
+                                    {
+                                        "type":"label",
+                                        "text":"asasdhjjjjjjjjjjjjjjjjw ueryweuyrfgweryfwejhfgyuerfgyugeryjbferjhfgrjhfberjh \n qerkjwehruwehryuseh"
+                                    }
+                                    ]
 
-                        },
-                        {
-                            "type":"label",
-                            "text":"asasdhjjjjjjjjjjjjjjjjw ueryweuyrfgweryfwejhfgyuerfgyugeryjbferjhfgrjhfberjh \n qerkjwehruwehryuseh"
-                        }
+                                }
                         ,{
                       
                       "type": "image",
