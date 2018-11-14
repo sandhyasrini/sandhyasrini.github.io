@@ -92,12 +92,18 @@
                                                     }
                                                 ]
             
-                                            }
-                                    ,{
+                                            },
+                                            {
+                                                "type":"horizontal",
+                                                "components":[
+                                                    {
                                   
-                                  "type": "image",
-                                  "url": "file://procedure1Pic1.jpeg"
-                                }]
+                                                        "type": "image",
+                                                        "url": "file://procedure1Pic1.jpeg"
+                                                      }
+                                                ]
+                                            }
+                                    ]
                               }
                                     
                               
