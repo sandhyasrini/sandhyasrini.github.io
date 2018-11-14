@@ -60,67 +60,141 @@
                     "color": "#ffffff",
                     "background": "#aaaaaa"
                 },
-                "items": [
-                    {
-                        "type": "horizontal",
-                        
-                            "style": {
-                                "width": "100%",
-                                "padding": "0",
-                                "border":"#aaaaaa"
-                              },
+                "items": [{
+                        "type": "vertical",
+
+                        "style": {
+                            "width": "100%",
+                            "padding": "0",
+                            "border": "#aaaaaa"
+                        },
 
                         "components": [
-                                    
+
+                            {
+                                "type": "horizontal",
+                                "style": {
+                                    "background": "#aaaaaa",
+                                    "padding": "5"
+                                },
+                                "components": [
+
                                     {
-                                        "type":"horizontal",
-                                        "style":{
-                                            "background":"#aaaaaa",
-                                            "padding":"5"
+                                        "type": "vertical",
+                                        "style": {
+                                            "width": "70%"
                                         },
-                                        "components":[
-                                            
-                                            {
-                                                "type":"vertical",
-                                                "style":{
-                                                    "width":"70%"
-                                                },
-                                                "components":[
-                                                    {
-                                                        "type": "label",
-                                                        "text": "Procedure",
-                                                        "class": "label_style"
-                
-                                                    },
-                                                    {
-                                                        "type": "label",
-                                                        "text": "1. Position Cable on a stable work surface, preferably on a splicing table using a tensioning clamp.",
-                                                        "class": "content_style"
-                                                        
-                
-                                                    }
-                                                ]
-            
+                                        "components": [{
+                                                "type": "label",
+                                                "text": "Procedure",
+                                                "class": "label_style"
+
                                             },
                                             {
-                                                "type":"horizontal",
-                                                "style":{
-                                                    "spacing":"10",
-                                                    "padding_left":"15",
-                                                    "padding_bottom":"15"
-                                                },
-                                                "components":[
-                                                    {
-                                                        
-                                                        "type": "image",
-                                                        "url": "file://procedure1Pic1.jpeg"
-                                                      }
-                                                ]
+                                                "type": "label",
+                                                "text": "1. Position Cable on a stable work surface, preferably on a splicing table using a tensioning clamp.",
+                                                "class": "content_style"
+
+
                                             }
-                                    ]
-                              }
-                                    
-                              
+                                        ]
+
+                                    },
+                                    {
+                                        "type": "horizontal",
+                                        "style": {
+                                            "spacing": "10",
+                                            "padding_left": "15",
+                                            "padding_bottom": "15"
+                                        },
+                                        "components": [{
+
+                                            "type": "image",
+                                            "url": "file://procedure1Pic1.jpeg"
+                                        }]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "horizontal",
+                                "style": {
+                                    "background": "#aaaaaa",
+                                    "padding": "5",
+                                    "align": "right"
+                                },
+                                "components": [
+
+
+                                    {
+                                        "type": "horizontal",
+                                        "style": {
+                                            "spacing": "10",
+                                            "padding_right": "15",
+                                            "padding_bottom": "15"
+                                        },
+                                        "components": [{
+
+                                            "type": "image",
+                                            "url": "file://thumb1.jpeg"
+                                        }]
+                                    },
+                                    {
+                                        "type": "vertical",
+                                        "style": {
+                                            "spacing": "10"
+                                        },
+                                        "components": [{
+                                            "type": "button",
+                                            "text": "Take Photo",
+                                            "style": {
+                                                "background": "#29428F",
+                                                "color": "#ffffff",
+                                                "width": "200",
+                                                "padding": "5",
+                                                "spacing": "10",
+                                                "height": "30",
+                                                "align": "left"
+
+
+                                            }
+                                        }, {
+                                            "type": "button",
+                                            "text": "Completed",
+                                            "style": {
+                                                "background": "#5ec6ff",
+                                                "color": "#ffffff",
+                                                "width": "200",
+                                                "padding": "5",
+                                                "spacing": "10",
+                                                "height": "30",
+                                                "align": "left"
+
+                                            }
+                                        }, {
+                                            "type": "button",
+                                            "text": "Next",
+                                            "style": {
+                                                "background": "#2EBF63",
+                                                "color": "#ffffff",
+                                                "width": "200",
+                                                "padding": "5",
+                                                "spacing": "10",
+                                                "height": "30",
+                                                "align": "left"
+
+
+                                            },
+                                            "href": {
+                                                "url": "https://sandhyasrini.github.io/json/procedure2.json",
+                                                "view": "jason"
+                                            }
+                                        }]
+
+                                    }
+                                ]
+                            }
+
+
                             // {
                             //     "type":"vertical",
                             //     "style":{
@@ -137,7 +211,7 @@
                             //             "type": "label",
                             //             "text": "1. Position Cable on a stable work surface, preferably on a splicing table using a tensioning clamp.",
                             //             "class": "content_style"
-                                        
+
 
                             //         }
                             //     ]
@@ -151,11 +225,11 @@
                             //         {
                             //             "type": "image",
                             //             "url": "file://procedure1Pic1.jpeg",
-                                        
+
                             //             "style": {
                             //               "width": "500",
                             //               "height": "200"
-                                          
+
                             //             }
                             //           },
                             //           {
@@ -164,9 +238,9 @@
                             //                 "background": "#aaaaaa",
                             //                 "spacing":"10",
                             //                 "padding":"10"
-        
+
                             //             },
-        
+
                             //             "components": [
                             //                 {
                             //                     "type":"horizontal",
@@ -178,12 +252,12 @@
                             //                         {
                             //                             "type": "image",
                             //                             "url": "file://thumb1.jpeg",
-                                                        
+
                             //                             "style": {
                             //                               "width": "100",
                             //                               "height": "120",
                             //                               "align":"right"
-                                                          
+
                             //                             }
                             //                           }
                             //                     ]
@@ -206,7 +280,7 @@
                             //                                 "height":"30",
                             //                                 "align":"left"
 
-                                                            
+
                             //                             }
                             //                         },{
                             //                             "type": "button",
@@ -219,7 +293,7 @@
                             //                                 "spacing":"10",
                             //                                 "height":"30",
                             //                                 "align":"left"
-                                                            
+
                             //                             }
                             //                         },{
                             //                             "type": "button",
@@ -233,26 +307,26 @@
                             //                                 "height":"30",
                             //                                 "align":"left"
 
-                                                            
+
                             //                             },
                             //                             "href": {
                             //                                 "url": "https://sandhyasrini.github.io/json/procedure2.json",
                             //                                 "view": "jason"
                             //                               }
                             //                         }
-        
-                                                    
+
+
                             //                       ]
                             //                   }
                             //             ]
                             //         }
                             //     ]
                             // }
-                            
+
                         ]
                     }
-                     
-                    
+
+
                 ]
 
             }]
