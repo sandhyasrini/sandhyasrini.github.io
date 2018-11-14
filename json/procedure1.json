@@ -100,7 +100,8 @@
                                             {
                                                 "type":"horizontal",
                                                 "style":{
-                                                    "spacing":"10"
+                                                    "spacing":"10",
+                                                    "padding":"15"
                                                 },
                                                 "components":[
                                                     {
