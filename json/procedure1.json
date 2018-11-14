@@ -127,7 +127,8 @@
                                                 {
                                                     "type": "horizontal",
                                                     "style": {
-                                                        "spacing":"10"
+                                                        "spacing":"10",
+                                                        "padding_right":"20"
                                                     },
                                                     "components": [{
                                                         "style":{
@@ -135,6 +136,21 @@
                                                         },
                                                         "type": "image",
                                                         "url": "file://thumb1.jpeg"
+                                                    },
+                                                    {
+                                                        "type": "button",
+                                                        "text": "Photo Thumb",
+                                                        "style": {
+                                                            "background": "#29428F",
+                                                            "color": "#ffffff",
+                                                            "width": "200",
+                                                            "padding": "5",
+                                                            "spacing": "10",
+                                                            "height": "30",
+                                                            "align": "left"
+            
+            
+                                                        }
                                                     }]
                                                 },
                                                 {
