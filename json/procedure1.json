@@ -120,7 +120,8 @@
                                 "style": {
                                     "background": "#aaaaaa",
                                     "padding": "5",
-                                    "align": "right"
+                                    "align": "right",
+                                    "padding_right":"30"
                                 },
                                 "components": [
 
