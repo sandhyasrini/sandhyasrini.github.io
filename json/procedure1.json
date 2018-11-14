@@ -63,20 +63,13 @@
                 "items": [
                     {
                         "type": "horizontal",
-                        "style": {
-                            "spacing": "10",
-                            "background": "#aaaaaa"
-
-                        },
+                        
+                            "style": {
+                                "width": "100%",
+                                "padding": "0"
+                              },
 
                         "components": [
-
-                            {
-                                "style": {
-                                    "width": "100%",
-                                    "padding": "0"
-                                  },
-                                "items": [
                                     
                                     {
                                         "type":"horizontal",
@@ -106,8 +99,8 @@
                                   "url": "file://procedure1Pic1.jpeg"
                                 }]
                               }
-                                    ]
-                              }
+                                    
+                              
                             // {
                             //     "type":"vertical",
                             //     "style":{
