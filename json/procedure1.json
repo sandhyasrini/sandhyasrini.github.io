@@ -93,10 +93,9 @@
                             },
                             {
                                 "type":"vertical",
-                                "style": {
-                                    "width": "100%",
-                                    "padding": "0"
-                                  },
+                                "style":{
+                                    "width":"400"
+                                },
                                 "components":[
                                     {
                                         "type": "image",

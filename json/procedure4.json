@@ -51,7 +51,9 @@
             "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/girl_avatar.png",
             "name": "Girl",
             "location": "Somewhere",
-            "content": "file://2.jpeg"          }]
+            "content": "file://2.jpeg"         
+             }
+            ]
         },
         "templates": {
           "body": {
