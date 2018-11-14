@@ -82,7 +82,7 @@
                                     {
                                         "type": "vertical",
                                         "style": {
-                                            "width": "70%"
+                                            "width": "65%"
                                         },
                                         "components": [{
                                                 "type": "label",
