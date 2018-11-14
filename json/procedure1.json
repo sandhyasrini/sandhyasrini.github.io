@@ -66,9 +66,10 @@
                         
                             "style": {
                                 "width": "100%",
-                                "padding": "0",
                                 "border":"#aaaaaa",
-                                "background":"#aaaaaa"
+                                "background":"#aaaaaa",
+                                "padding":"5",
+                                "height":"50%"
                               },
 
                         "components": [
@@ -100,6 +101,9 @@
                                             },
                                             {
                                                 "type":"horizontal",
+                                                "style":{
+                                                    "padding":"5"
+                                                },
                                                 "components":[
                                                     {
                                   
