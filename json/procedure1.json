@@ -142,13 +142,7 @@
                                                         "text": "Photo Thumb",
                                                         "style": {
                                                             "background": "#29428F",
-                                                            "color": "#ffffff",
-                                                            "width": "200",
-                                                            "padding": "5",
-                                                            "spacing": "10",
-                                                            "height": "30",
-                                                            "align": "left"
-            
+                                                            "color": "#ffffff"
             
                                                         }
                                                     }]
