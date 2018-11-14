@@ -142,7 +142,8 @@
                                                         "text": "Photo Thumb",
                                                         "style": {
                                                             "background": "#29428F",
-                                                            "color": "#ffffff"
+                                                            "color": "#ffffff",
+                                                            "padding": "5"
             
                                                         }
                                                     }]
