@@ -107,7 +107,8 @@
                                             "padding_left": "15",
                                             "padding_bottom": "15"
                                         },
-                                        "components": [{
+                                        "components": [
+                                            {
 
                                             "type": "image",
                                             "url": "file://procedure1Pic1.jpeg"
