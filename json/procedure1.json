@@ -66,10 +66,8 @@
                         
                             "style": {
                                 "width": "100%",
-                                "border":"#aaaaaa",
-                                "background":"#aaaaaa",
                                 "padding":"5",
-                                "spacing":"30",
+                                "spacing":"10",
                                 "height":"50%"
                               },
 
