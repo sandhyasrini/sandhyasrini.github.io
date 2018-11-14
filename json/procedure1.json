@@ -75,7 +75,8 @@
                                     {
                                         "type":"horizontal",
                                         "style":{
-                                            "background":"#aaaaaa"
+                                            "background":"#aaaaaa",
+                                            "padding":"5"
                                         },
                                         "components":[
                                             
