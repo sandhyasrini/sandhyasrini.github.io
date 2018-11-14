@@ -142,7 +142,6 @@
                                         "type": "vertical",
                                         "style": {
                                             "spacing": "10",
-                                            "width":"70%",
                                             "align":"right"
                                             
                                         },
