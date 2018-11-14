@@ -127,11 +127,11 @@
                                                 {
                                                     "type": "horizontal",
                                                     "style": {
-                                                        
+                                                        "spacing":"10"
                                                     },
                                                     "components": [{
                                                         "style":{
-                                                            "height":"300"   
+                                                             
                                                         },
                                                         "type": "image",
                                                         "url": "file://thumb1.jpeg"
