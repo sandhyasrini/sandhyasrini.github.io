@@ -127,10 +127,12 @@
                                                 {
                                                     "type": "horizontal",
                                                     "style": {
-                                                        
+                                                        "height":"300"
                                                     },
                                                     "components": [{
-            
+                                                        "style":{
+                                                            "height":"100%"
+                                                        },
                                                         "type": "image",
                                                         "url": "file://thumb1.jpeg"
                                                     }]
