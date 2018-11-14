@@ -66,18 +66,14 @@
                         
                             "style": {
                                 "width": "100%",
-                                "border":"#aaaaaa",
-                                "background":"#aaaaaa",
-                                "padding":"5"
+                                "padding": "0",
+                                "border":"#aaaaaa"
                               },
 
                         "components": [
                                     
                                     {
                                         "type":"horizontal",
-                                        "style":{
-                                            "background":"#aaaaaa"
-                                        },
                                         "components":[
                                             
                                             {"type":"vertical",
@@ -100,9 +96,6 @@
                                             },
                                             {
                                                 "type":"horizontal",
-                                                "style":{
-                                                    "padding":"5"
-                                                },
                                                 "components":[
                                                     {
                                   
