@@ -52,15 +52,13 @@
             },
             "style": {
 
-                "background": "#aaaaaa",
-                "border":"#aaaaaa"
+                "background": "#aaaaaa"
             },
 
             "sections": [{
                 "style": {
                     "color": "#ffffff",
-                    "background": "#aaaaaa",
-                    "border":"#aaaaaa"
+                    "background": "#aaaaaa"
                 },
                 "items": [
                     {
@@ -71,7 +69,6 @@
                                 "border":"#aaaaaa",
                                 "background":"#aaaaaa",
                                 "padding":"5",
-                                "spacing":"10",
                                 "height":"50%"
                               },
 
@@ -80,9 +77,7 @@
                                     {
                                         "type":"horizontal",
                                         "style":{
-                                            "background":"#aaaaaa",
-                                            "border":"#aaaaaa"
-
+                                            "background":"#aaaaaa"
                                             
                                         },
                                         "components":[
