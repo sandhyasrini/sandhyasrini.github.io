@@ -125,7 +125,7 @@
             
             
                                                 {
-                                                    "type": "horizontal",
+                                                    "type": "vertical",
                                                     "style": {
                                                         "spacing":"10",
                                                         "padding_right":"20"
