@@ -117,7 +117,8 @@
                                             "type": "horizontal",
                                             "style": {
                                                 "background": "#aaaaaa",
-                                                "padding": "5"
+                                                "padding": "5",
+                                                "height":"50%"
                                                 
                                             },
                                             "components": [
