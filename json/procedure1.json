@@ -121,7 +121,7 @@
                                     "background": "#aaaaaa",
                                     "padding": "5",
                                     "align": "right",
-                                    "padding_right":"30"
+                                    "padding_left":"30"
                                 },
                                 "components": [
 
