@@ -111,8 +111,12 @@
                 },
                 {
                   "{{#else}}": {
-                    
+                    "style": {
+                        "width": "100%",
+                        "padding": "0"
+                      },
                     "items": [
+                        
                         {
                             "type":"horizontal",
                             "components":[{
@@ -125,10 +129,7 @@
                             "text":"asasdhjjjjjjjjjjjjjjjjw ueryweuyrfgweryfwejhfgyuerfgyugeryjbferjhfgrjhfberjh \n qerkjwehruwehryuseh"
                         }
                         ,{
-                      "style": {
-                        "width": "100%",
-                        "padding": "0"
-                      },
+                      
                       "type": "image",
                       "url": "{{content}}"
                     }]
