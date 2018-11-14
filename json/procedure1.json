@@ -74,6 +74,9 @@
                                     
                                     {
                                         "type":"horizontal",
+                                        "style":{
+                                            "background":"#aaaaaa"
+                                        },
                                         "components":[
                                             
                                             {"type":"vertical",
