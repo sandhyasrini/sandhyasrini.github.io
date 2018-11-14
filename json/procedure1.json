@@ -102,11 +102,12 @@
                                                 "type":"horizontal",
                                                 "style":{
                                                     "spacing":"10",
-                                                    "padding":"15"
+                                                    "padding_left":"15",
+                                                    "padding_bottom":"15"
                                                 },
                                                 "components":[
                                                     {
-                                  
+                                                        
                                                         "type": "image",
                                                         "url": "file://procedure1Pic1.jpeg"
                                                       }
