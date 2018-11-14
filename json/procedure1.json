@@ -101,7 +101,7 @@
 
                                     },
                                     {
-                                        "type": "horizontal",
+                                        "type": "vertical",
                                         "style": {
                                             "spacing": "10",
                                             "padding_left": "15",
@@ -112,90 +112,89 @@
                                             "type": "image",
                                             "url": "file://procedure1Pic1.jpeg"
                                         }]
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "horizontal",
-                                "style": {
-                                    "background": "#aaaaaa",
-                                    "padding": "5",
-                                    "align":"right"
-                                },
-                                "components": [
-
-
+                                    },
                                     {
                                         "type": "horizontal",
                                         "style": {
-                                            "spacing": "10",
-                                            "padding_right": "15",
-                                            "padding_bottom": "15"
+                                            "background": "#aaaaaa",
+                                            "padding": "5"
                                             
                                         },
-                                        "components": [{
-
-                                            "type": "image",
-                                            "url": "file://thumb1.jpeg"
-                                        }]
-                                    },
-                                    {
-                                        "type": "vertical",
-                                        "style": {
-                                            "spacing": "10",
-                                            "align":"right"
-                                            
-                                        },
-                                        "components": [{
-                                            "type": "button",
-                                            "text": "Take Photo",
-                                            "style": {
-                                                "background": "#29428F",
-                                                "color": "#ffffff",
-                                                "width": "200",
-                                                "padding": "5",
-                                                "spacing": "10",
-                                                "height": "30",
-                                                "align": "left"
-
-
-                                            }
-                                        }, {
-                                            "type": "button",
-                                            "text": "Completed",
-                                            "style": {
-                                                "background": "#5ec6ff",
-                                                "color": "#ffffff",
-                                                "width": "200",
-                                                "padding": "5",
-                                                "spacing": "10",
-                                                "height": "30",
-                                                "align": "left"
-
-                                            }
-                                        }, {
-                                            "type": "button",
-                                            "text": "Next",
-                                            "style": {
-                                                "background": "#2EBF63",
-                                                "color": "#ffffff",
-                                                "width": "200",
-                                                "padding": "5",
-                                                "spacing": "10",
-                                                "height": "30",
-                                                "align": "left"
-
-
+                                        "components": [
+        
+        
+                                            {
+                                                "type": "horizontal",
+                                                "style": {
+                                                    "align":"right"
+                                                    
+                                                },
+                                                "components": [{
+        
+                                                    "type": "image",
+                                                    "url": "file://thumb1.jpeg"
+                                                }]
                                             },
-                                            "href": {
-                                                "url": "https://sandhyasrini.github.io/json/procedure2.json",
-                                                "view": "jason"
+                                            {
+                                                "type": "vertical",
+                                                "style": {
+                                                    "spacing": "10",
+                                                    "align":"right"
+                                                    
+                                                },
+                                                "components": [{
+                                                    "type": "button",
+                                                    "text": "Take Photo",
+                                                    "style": {
+                                                        "background": "#29428F",
+                                                        "color": "#ffffff",
+                                                        "width": "200",
+                                                        "padding": "5",
+                                                        "spacing": "10",
+                                                        "height": "30",
+                                                        "align": "left"
+        
+        
+                                                    }
+                                                }, {
+                                                    "type": "button",
+                                                    "text": "Completed",
+                                                    "style": {
+                                                        "background": "#5ec6ff",
+                                                        "color": "#ffffff",
+                                                        "width": "200",
+                                                        "padding": "5",
+                                                        "spacing": "10",
+                                                        "height": "30",
+                                                        "align": "left"
+        
+                                                    }
+                                                }, {
+                                                    "type": "button",
+                                                    "text": "Next",
+                                                    "style": {
+                                                        "background": "#2EBF63",
+                                                        "color": "#ffffff",
+                                                        "width": "200",
+                                                        "padding": "5",
+                                                        "spacing": "10",
+                                                        "height": "30",
+                                                        "align": "left"
+        
+        
+                                                    },
+                                                    "href": {
+                                                        "url": "https://sandhyasrini.github.io/json/procedure2.json",
+                                                        "view": "jason"
+                                                    }
+                                                }]
+        
                                             }
-                                        }]
-
+                                        ]
                                     }
                                 ]
                             }
+                            
 
 
                             // {
