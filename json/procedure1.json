@@ -119,7 +119,7 @@
                                 "type": "horizontal",
                                 "style": {
                                     "background": "#aaaaaa",
-                                    "padding": "5",
+                                    "padding": "5"
                                 },
                                 "components": [
 
