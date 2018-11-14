@@ -5,33 +5,33 @@
           "posts": [{
             "type": "stories",
             "items": [{
-              "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/barton_avatar.png",
+              "avatar": "file://3.jpeg",
               "name": "Barton",
               "location": "Somewhere",
               "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/barton.jpg"
             }, {
-              "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/audrey_avatar.png",
-              "name": "Audrey",
+                "avatar": "file://2.jpeg",
+                "name": "Audrey",
               "location": "Somewhere",
               "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/audrey.jpg"
             }, {
-              "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/boss_avatar.png",
-              "name": "Audrey",
+                "avatar": "file://thumb1.jpeg",
+                "name": "Audrey",
               "location": "Somewhere",
               "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/boss.jpg"
             }, {
-              "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/chet_avatar.png",
+                "avatar": "file://thumb2.jpeg",
               "name": "Chet!",
               "location": "Somewhere",
               "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/chet.jpg"
             }, {
-              "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/girl_avatar.png",
+                "avatar": "file://thumb2.jpeg",
               "name": "Girl",
               "location": "Somewhere",
               "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/girl.jpg"
             }]
           }, {
-            "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/barton_avatar.png",
+            "avatar": "file://thumb2.jpeg",
             "name": "Barton",
             "location": "Somewhere",
             "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/barton.jpg"
