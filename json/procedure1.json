@@ -126,7 +126,6 @@
                                             {
                                                 "type": "horizontal",
                                                 "style": {
-                                                    "align":"right"
                                                     
                                                 },
                                                 "components": [{
@@ -138,8 +137,7 @@
                                             {
                                                 "type": "vertical",
                                                 "style": {
-                                                    "spacing": "10",
-                                                    "align":"right"
+                                                    "spacing": "10"
                                                     
                                                 },
                                                 "components": [{
