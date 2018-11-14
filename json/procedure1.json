@@ -80,7 +80,11 @@
                                         },
                                         "components":[
                                             
-                                            {"type":"vertical",
+                                            {
+                                                "type":"vertical",
+                                                "style":{
+                                                    "width":"70%"
+                                                },
                                                 "components":[
                                                     {
                                                         "type": "label",
