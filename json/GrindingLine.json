@@ -17,7 +17,7 @@
           "header": {
             "title": {
               "type": "label",
-              "text": "Process Plant Supervisor's Log ",
+              "text": "Process Plant Supervisor's Log Test",
               "style": {
                 "align": "left",
 
@@ -82,6 +82,10 @@
                         },
                         {
                           "value": "Night Shift",
+                          "defaultSelected": "false"
+                        },
+			{
+                          "value": "My Shift",
                           "defaultSelected": "false"
                         }
                       ],

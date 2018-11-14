@@ -26,7 +26,7 @@
           "header": {
             "title": {
               "type": "label",
-              "text": "Process Plant Supervisor's Log",
+              "text": "Process Plant Supervisor's Log Test",
               "style": {
                 "align": "left",
                 "background": "#9e8421"
@@ -80,7 +80,7 @@
                     {
                       "type": "dropdown",
                       "name": "shift",
-                      "contentDescription": "shift",
+                      "contentDescription": "Field1|Shift",
                       "options": [{
                           "value": "Day Shift",
                           "defaultSelected": "true"
@@ -92,7 +92,12 @@
                         {
                           "value": "Night Shift",
                           "defaultSelected": "false"
+                        },
+                        {
+                          "value": "My Shift",
+                          "defaultSelected": "false"
                         }
+				
                       ],
                       "style": {
                         "background": "#ffffff",
@@ -220,7 +225,7 @@
 
                   },
                   "components": [{
-                      "type": "label",
+                      "type": "textfield",
                       "text": "Incidents/ Accidents - Nil \n Primary Air Compressor Inspection and restart procedure training completed Crew 100",
                       "align": "left",
                       "background": "#ace248",
