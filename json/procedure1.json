@@ -62,10 +62,7 @@
                     "background": "#aaaaaa"
                 },
                 "items": [
-                    {
-                        "type":"label",
-                        "text":"{{$jason.content_type}}"
-                    },
+                    
                     {
                         "type": "vertical",
 
@@ -182,6 +179,9 @@
                                                                     
                                                                     }
                                                                 }
+                                                            },{
+                                                                "type":"label",
+                                                                "text":"{{$jason.content_type}}"
                                                             }, {
                                                                 "type": "button",
                                                                 "text": "Completed",
