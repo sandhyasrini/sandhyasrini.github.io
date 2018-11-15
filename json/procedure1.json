@@ -220,8 +220,8 @@
                                                                     "success": {
                                                                         "type": "$util.alert",
                                                                         "options": {
-                                                                            "title": "Selected {{$jason['file_url']}} at",
-                                                                            "description": "{{$jason['file_url']}}"
+                                                                            "title": "Selected {{$jason['content_type']}} at",
+                                                                            "description": "{{$jason.file_uri}}"
                                                                         }
                                                                     }
                                                                 }
