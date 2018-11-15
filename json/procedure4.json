@@ -23,15 +23,20 @@
                 "title":"Hello"
             },
             "sections":
-            {
+            [{
                 "items":[
                     {
 
                         "type": "label",
                         "text": "{{$jason.file_name}}"
+                    },
+                    {
+
+                        "type": "image",
+                        "url": "{{$jason.data_uri}}"
                     }
                 ]
-            }
+            }]
           }
         }
       }
