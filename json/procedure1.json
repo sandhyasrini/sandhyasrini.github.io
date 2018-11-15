@@ -177,7 +177,7 @@
 
                                                                 },
                                                                 "type": "image",
-                                                                "url": "file://thumb1.jpeg"
+                                                                "url": "{{$jason.data_url}}"
                                                             },
                                                             {
                                                                 "type": "button",
@@ -216,15 +216,9 @@
                                                                     "type": "$media.camera",
                                                                     "success": {
                                                                         "type": "$network.request",
-                                                                        "options": {
-                                                                            "data": {
-                                                                                "path": "/",
-                                                                                "filename": "{{$jason.filename}}"
-                                                                            }
-                                                                        },
                                                                         "success": {
-                                                                            "type": "$reload"
-                                                                        }
+                                                                            "type": "$render"
+                                                                          }
                                                                     }
                                                                 }
                                                             }, {
