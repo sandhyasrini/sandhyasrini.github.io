@@ -28,7 +28,7 @@
                     {
 
                         "type": "label",
-                        "url": "{{$jason.file_name}}"
+                        "text": "{{$jason.file_name}}"
                     }
                 ]
             }
