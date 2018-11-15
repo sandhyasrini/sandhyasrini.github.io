@@ -28,7 +28,7 @@
                     {
 
                         "type": "image",
-                        "url": "{{$jason.data_uri}}"
+                        "url": "data:image/jpeg;base64,{{$jason.data_uri}}"
                     }
                 ]
             }
