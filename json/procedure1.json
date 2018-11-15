@@ -103,7 +103,8 @@
                     "color": "#ffffff",
                     "background": "#aaaaaa"
                 },
-                "items": [{
+                "items": [
+                    {
                         "type": "vertical",
 
                         "style": {
@@ -214,9 +215,6 @@
                                                                 },
                                                                 "action": {
                                                                     "type": "$media.camera",
-                                                                    "options": {
-                                                                       
-                                                                    },
                                                                     "success": {
                                                                         "type": "$render"
                                                                     
@@ -396,7 +394,11 @@
                             // }
 
                         ]
-                    }
+                    },
+                    {
+                        "type": "image",
+                        "url": "{{$jason.data_uri}}"
+                      }
 
 
                 ]
