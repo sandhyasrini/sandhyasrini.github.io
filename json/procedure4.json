@@ -27,8 +27,8 @@
                 "items":[
                     {
 
-                        "type": "image",
-                        "url": "data:image/jpeg;base64,{{$jason.data_uri}}"
+                        "type": "label",
+                        "url": "{{$jason.file_name}}"
                     }
                 ]
             }
