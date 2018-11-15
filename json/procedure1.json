@@ -167,7 +167,19 @@
                                                             "align": "left"
             
             
-                                                        }
+                                                        },
+                                                        "actions": {
+                                                            "$load": {
+                                                              "type": "$media.camera",
+                                                              "options": {
+                                                                "edit": "true",
+                                                                "type": "photo"
+                                                              },
+                                                              "success": {
+                                                                "type": "$render"
+                                                              }
+                                                            }
+                                                          }
                                                     }, {
                                                         "type": "button",
                                                         "text": "Completed",
