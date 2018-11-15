@@ -175,13 +175,25 @@
                                                                 "action": {
                                                                     "type": "$media.camera",
                                                                     "success": {
-                                                                        "type": "$render"
+                                                                        "type": "$render",
+                                                                        "options": {
+                                                                            "data": [{
+                                                                              "name": "Ethan",
+                                                                              "id": "1"
+                                                                            }, {
+                                                                              "name": "Jason",
+                                                                              "id": "2"
+                                                                            }, {
+                                                                              "name": "Jasonette",
+                                                                              "id": "3"
+                                                                            }]
+                                                                          }
                                                                     
                                                                     }
                                                                 }
                                                             },{
                                                                 "type":"label",
-                                                                "text":"{{$jason.content_type}}"
+                                                                "text":"{{$jason.name}}"
                                                             }, {
                                                                 "type": "button",
                                                                 "text": "Completed",
