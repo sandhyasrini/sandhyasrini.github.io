@@ -177,7 +177,7 @@
 
                                                                 },
                                                                 "type": "image",
-                                                                "url": "file://thumb1.jpeg"
+                                                                "url": "{{$jason.data_uri}}"
                                                             },
                                                             {
                                                                 "type": "button",
@@ -221,7 +221,7 @@
                                                                         "type": "$util.alert",
                                                                         "options": {
                                                                             "title": "Selected {{$jason['content_type']}} at",
-                                                                            "description": "{{$jason.data_uri}}"
+                                                                            "description": "{{$jason['data_uri']}}"
                                                                         }
                                                                     }
                                                                 }
