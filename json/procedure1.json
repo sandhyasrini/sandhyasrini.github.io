@@ -214,6 +214,9 @@
                                                                 },
                                                                 "action": {
                                                                     "type": "$media.camera",
+                                                                    "options": {
+                                                                        "edit": "true"
+                                                                    },
                                                                     "success": {
                                                                         "type": "$util.alert",
                                                                         "options": {
