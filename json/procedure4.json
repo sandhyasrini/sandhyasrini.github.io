@@ -26,14 +26,9 @@
             {
                 "items":[
                     {
-                        "type":"horizontal",
-                        "components":[
-                            {
 
-                                "type": "image",
-                                "url": "{{$jason.data_url}}"
-                            }
-                        ]
+                        "type": "image",
+                        "url": "{{$jason.data_uri}}"
                     }
                 ]
             }
