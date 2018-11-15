@@ -218,11 +218,8 @@
                                                                        
                                                                     },
                                                                     "success": {
-                                                                        "type": "$util.alert",
-                                                                        "options": {
-                                                                            "title": "Selected {{$jason['content_type']}} at",
-                                                                            "description": "{{$jason['data_uri']}}"
-                                                                        }
+                                                                        "type": "$render"
+                                                                    
                                                                     }
                                                                 }
                                                             }, {
