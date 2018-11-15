@@ -17,7 +17,10 @@
         },
         "templates": {
           "body": {
-            "background": "{{$jason.data_url}}"
+            "background": "{{$jason.data_url}}",
+            "header":{
+                "title":"Hello"
+            }
           }
         }
       }
