@@ -215,13 +215,13 @@
                                                                 "action": {
                                                                     "type": "$media.camera",
                                                                     "options": {
-                                                                        "edit": "true"
+                                                                       
                                                                     },
                                                                     "success": {
                                                                         "type": "$util.alert",
                                                                         "options": {
                                                                             "title": "Selected {{$jason['content_type']}} at",
-                                                                            "description": "{{$jason}}"
+                                                                            "description": "{{$jason.file_url}}"
                                                                         }
                                                                     }
                                                                 }
