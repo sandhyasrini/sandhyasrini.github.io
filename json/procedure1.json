@@ -210,6 +210,41 @@
                                                             "align": "left"
             
             
+                                                        },
+                                                        "actions": {
+                                                            "$load": {
+                                                                "type": "$set",
+                                                                "options": {
+                                                                    "selected": ""
+                                                                },
+                                                                "success": {
+                                                                    "type": "$render"
+                                                                }
+                                                            },
+                                                            "$pull": {
+                                                                "type": "$media.camera",
+                                                                "options": {
+                                                                    "quality": "high"
+                                                                },
+                                                                "success": {
+                                                            
+                                                                    "success": {
+                                                                        "type": "$network.request",
+                                                                        "options": {
+                                                                            "url": "https://imagejason.herokuapp.com/post",
+                                                                            "method": "post",
+                                                                            "data": {
+                                                                                "bucket": "fm.ethan.jason",
+                                                                                "path": "/",
+                                                                                "filename": "myimage.png"
+                                                                            }
+                                                                        },
+                                                                        "success": {
+                                                                            "type": "$reload"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
                                                         }
                                                         
                                                     }, {
