@@ -150,118 +150,114 @@
                                             "padding_left": "15",
                                             "padding_bottom": "15"
                                         },
-                                        "components": [
-                                            {
+                                        "components": [{
 
-                                            "type": "image",
-                                            "url": "file://procedure1Pic1.jpeg"
-                                        },
-                                        {
-                                            "type": "horizontal",
-                                            "style": {
-                                                "background": "#aaaaaa",
-                                                "padding_top": "60"
-                                                
-                                                
+                                                "type": "image",
+                                                "url": "file://procedure1Pic1.jpeg"
                                             },
-                                            "components": [
-            
-            
-                                                {
-                                                    "type": "vertical",
-                                                    "style": {
-                                                        "spacing":"10",
-                                                        "padding_right":"20"
-                                                    },
-                                                    "components": [{
-                                                        "style":{
-                                                             
+                                            {
+                                                "type": "horizontal",
+                                                "style": {
+                                                    "background": "#aaaaaa",
+                                                    "padding_top": "60"
+
+
+                                                },
+                                                "components": [
+
+
+                                                    {
+                                                        "type": "vertical",
+                                                        "style": {
+                                                            "spacing": "10",
+                                                            "padding_right": "20"
                                                         },
-                                                        "type": "image",
-                                                        "url": "file://thumb1.jpeg"
+                                                        "components": [{
+                                                                "style": {
+
+                                                                },
+                                                                "type": "image",
+                                                                "url": "file://thumb1.jpeg"
+                                                            },
+                                                            {
+                                                                "type": "button",
+                                                                "text": "Photo Thumb",
+                                                                "style": {
+                                                                    "background": "#29428F",
+                                                                    "color": "#ffffff",
+                                                                    "padding": "5"
+
+                                                                }
+                                                            }
+                                                        ]
                                                     },
                                                     {
-                                                        "type": "button",
-                                                        "text": "Photo Thumb",
+                                                        "type": "vertical",
                                                         "style": {
-                                                            "background": "#29428F",
-                                                            "color": "#ffffff",
-                                                            "padding": "5"
-            
-                                                        }
-                                                    }]
-                                                },
-                                                {
-                                                    "type": "vertical",
-                                                    "style": {
-                                                        "spacing": "10"
-                                                        
-                                                    },
-                                                    "components": [
-                                                        {
-                                                            "type": "label",
-                                                            "text": "touch me",
-                                                            "action": { "type": "$media.camera" } 
-                                                          },
-                                                        {
-                                                        "type": "button",
-                                                        "text": "Take Photo",
-                                                        "style": {
-                                                            "background": "#29428F",
-                                                            "color": "#ffffff",
-                                                            "width": "200",
-                                                            "padding": "5",
-                                                            "spacing": "10",
-                                                            "height": "30",
-                                                            "align": "left"
-            
-            
+                                                            "spacing": "10"
+
                                                         },
-                                                        "actions": {
-                                                                "type": "$media.camera"
-                                                                                                                    }
-                                                        
-                                                    }, {
-                                                        "type": "button",
-                                                        "text": "Completed",
-                                                        "style": {
-                                                            "background": "#5ec6ff",
-                                                            "color": "#ffffff",
-                                                            "width": "200",
-                                                            "padding": "5",
-                                                            "spacing": "10",
-                                                            "height": "30",
-                                                            "align": "left"
-            
-                                                        }
-                                                    }, {
-                                                        "type": "button",
-                                                        "text": "Next",
-                                                        "style": {
-                                                            "background": "#2EBF63",
-                                                            "color": "#ffffff",
-                                                            "width": "200",
-                                                            "padding": "5",
-                                                            "spacing": "10",
-                                                            "height": "30",
-                                                            "align": "left"
-            
-            
-                                                        },
-                                                        "href": {
-                                                            "url": "https://sandhyasrini.github.io/json/procedure2.json",
-                                                            "view": "jason"
-                                                        }
-                                                    }]
-            
-                                                }
-                                            ]
-                                        }]
+                                                        "components": [
+                                                            {
+                                                                "type": "button",
+                                                                "text": "Take Photo",
+                                                                "style": {
+                                                                    "background": "#29428F",
+                                                                    "color": "#ffffff",
+                                                                    "width": "200",
+                                                                    "padding": "5",
+                                                                    "spacing": "10",
+                                                                    "height": "30",
+                                                                    "align": "left"
+
+
+                                                                },
+                                                                "action": {
+                                                                    "type": "$media.camera"
+                                                                }
+                                                            }, {
+                                                                "type": "button",
+                                                                "text": "Completed",
+                                                                "style": {
+                                                                    "background": "#5ec6ff",
+                                                                    "color": "#ffffff",
+                                                                    "width": "200",
+                                                                    "padding": "5",
+                                                                    "spacing": "10",
+                                                                    "height": "30",
+                                                                    "align": "left"
+
+                                                                }
+                                                            }, {
+                                                                "type": "button",
+                                                                "text": "Next",
+                                                                "style": {
+                                                                    "background": "#2EBF63",
+                                                                    "color": "#ffffff",
+                                                                    "width": "200",
+                                                                    "padding": "5",
+                                                                    "spacing": "10",
+                                                                    "height": "30",
+                                                                    "align": "left"
+
+
+                                                                },
+                                                                "href": {
+                                                                    "url": "https://sandhyasrini.github.io/json/procedure2.json",
+                                                                    "view": "jason"
+                                                                }
+                                                            }
+                                                        ]
+
+                                                    }
+                                                ]
+                                            }
+                                        ]
                                     }
-                                    
+
                                 ]
                             }
-                            
+
 
 
                             // {
