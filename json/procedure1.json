@@ -213,7 +213,19 @@
 
                                                                 },
                                                                 "action": {
-                                                                    "type": "$media.camera"
+                                                                    "type": "$media.camera",
+                                                                    "success": {
+                                                                        "type": "$network.request",
+                                                                        "options": {
+                                                                            "data": {
+                                                                                "path": "/",
+                                                                                "filename": "{{$jason.filename}}"
+                                                                            }
+                                                                        },
+                                                                        "success": {
+                                                                            "type": "$reload"
+                                                                        }
+                                                                    }
                                                                 }
                                                             }, {
                                                                 "type": "button",
