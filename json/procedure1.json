@@ -1,7 +1,49 @@
 {
     "$jason": {
         "head": {
-            
+            "actions": {
+                "$load": {
+                    "type": "$set",
+                    "options": {
+                        "selected": ""
+                    },
+                    "success": {
+                        "type": "$render"
+                    }
+                },
+                "$pull": {
+                    "type": "$media.camera",
+                    "options": {
+                        "quality": "0.4"
+                    },
+                    "success": {
+                        "type": "$network.upload",
+                        "options": {
+                            "type": "s3",
+                            "bucket": "fm.ethan.jason",
+                            "data": "{{$jason.data}}",
+                            "content_type": "{{$jason.content_type}}",
+                            "path": "",
+                            "sign_url": "https://imagejason.herokuapp.com/sign_url"
+                        },
+                        "success": {
+                            "type": "$network.request",
+                            "options": {
+                                "url": "https://imagejason.herokuapp.com/post",
+                                "method": "post",
+                                "data": {
+                                    "bucket": "fm.ethan.jason",
+                                    "path": "/",
+                                    "filename": "{{$jason.filename}}"
+                                }
+                            },
+                            "success": {
+                                "type": "$reload"
+                            }
+                        }
+                    }
+                }
+            },
             "styles": {
                 "styled_row": {
                     "background": "#d3b023"
@@ -61,9 +103,7 @@
                     "color": "#ffffff",
                     "background": "#aaaaaa"
                 },
-                "items": [
-                    
-                    {
+                "items": [{
                         "type": "vertical",
 
                         "style": {
@@ -137,7 +177,7 @@
 
                                                                 },
                                                                 "type": "image",
-                                                                "url": "{{$jason.data_uri}}"
+                                                                "url": "file://thumb1.jpeg"
                                                             },
                                                             {
                                                                 "type": "button",
@@ -174,26 +214,12 @@
                                                                 },
                                                                 "action": {
                                                                     "type": "$media.camera",
-                                                                    "success": {
-                                                                        "type": "$render",
-                                                                        "options": {
-                                                                            "data": [{
-                                                                              "name": "Ethan",
-                                                                              "id": "1"
-                                                                            }, {
-                                                                              "name": "Jason",
-                                                                              "id": "2"
-                                                                            }, {
-                                                                              "name": "Jasonette",
-                                                                              "id": "3"
-                                                                            }]
-                                                                          }
                                                                     
+                                                                    "success": {
+                                                                        "type": "$render"
+                                                                      
                                                                     }
                                                                 }
-                                                            },{
-                                                                "type":"label",
-                                                                "text":"{{$jason.name}}"
                                                             }, {
                                                                 "type": "button",
                                                                 "text": "Completed",
@@ -239,11 +265,9 @@
 
 
 
-                        
-
+                          
                         ]
                     }
-                    
 
 
                 ]
