@@ -186,7 +186,8 @@
                                                                     "background": "#29428F",
                                                                     "color": "#ffffff",
                                                                     "padding": "5",
-                                                                    "corner_width":"5"
+                                                                    "corner_width":"5",
+                                                                    "border":"#aaaaaa"
 
                                                                 }
                                                             }
