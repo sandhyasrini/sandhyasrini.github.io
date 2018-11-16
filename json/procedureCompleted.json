@@ -188,7 +188,7 @@
                                                 "type": "image",
                                                 "url": "file://img4.jpeg",
                                                 "style": {
-                                                    "width": "30%",
+                                                    "width": "50%",
                                                     "ratio": "2",
                                                     "scaling":"-1.5"
                                                 }
