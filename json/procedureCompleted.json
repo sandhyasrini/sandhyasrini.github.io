@@ -125,7 +125,9 @@
                                     {
                                         "type": "vertical",
                                         "style": {
-                                            "width": "65%"
+                                            "width": "60%",
+                                            "padding":"5",
+                                            "spacing":"10"
                                         },
                                         "components": [{
                                                 "type": "label",
@@ -147,9 +149,9 @@
                                                         "type": "button",
                                                         "text": "Top of Form",
                                                         "style": {
-                                                            "background": "#29428F",
+                                                            "background": "#2EBF63",
                                                             "color": "#ffffff",
-                                                            "padding": "5"
+                                                            "padding": "20"
 
                                                         },
                                                         "href": {
@@ -161,9 +163,9 @@
                                                         "type": "button",
                                                         "text": "Completed",
                                                         "style": {
-                                                            "background": "#29428F",
+                                                            "background": "#5ec6ff",
                                                             "color": "#ffffff",
-                                                            "padding": "5"
+                                                            "padding": "20"
 
                                                         }
                                                     }
