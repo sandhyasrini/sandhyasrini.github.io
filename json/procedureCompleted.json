@@ -135,11 +135,11 @@
                                             },
                                             {
                                                 "type": "label",
-                                                "text": "2. Cut the cable squarely to remove the damaged section and remove the outer jacket to the prescribed length (10”) on both ends. \n 3. Scruff the jacket ends for 3” with course #80 abrasive and remove dust. This will aid in a good adhesion when the mould is poured. \n 4. Remove all cable fillers back to end of the jacket and tape the pilot and ground wires back to the jacket with vinyl electrical tape.",
+                                                "text": "42. Perform an insulated test @ 10kv on the power conductors and 500v on the ground check conductor. \n Acceptable insulation value for the power conductors is a minimum 800M ohm but typically exceed 20G ohm. \n Ground check conductor insulation value in typical over 20M ohm.",
                                                 "class": "content_style"
 
 
-                                            }
+                                            },
                                             {
                                                 "type":"horizontal",
                                                 "components":[
