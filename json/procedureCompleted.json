@@ -186,12 +186,11 @@
                                         "components": [{
 
                                                 "type": "image",
-                                                // "url": "file://img4.jpeg",
+                                                "url": "file://img4.jpeg",
                                                 "style": {
                                                     "width": "30%",
                                                     "ratio": "2",
                                                     "scaling":"-1.5"
-                                                    
                                                 }
 
                                             },
