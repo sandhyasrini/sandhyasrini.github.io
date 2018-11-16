@@ -189,8 +189,10 @@
                                                 "type": "image",
                                                 "url": "file://img5.jpeg",
                                                 "style":{
-                                                    "height":"100%"
+                                                    
+                                                    "scaling": "0.5"
                                                 }
+                                                
                                             },
                                             {
 
