@@ -125,7 +125,7 @@
                                     {
                                         "type": "vertical",
                                         "style": {
-                                            "width": "60%"
+                                            "width": "65%"
                                         },
                                         "components": [{
                                                 "type": "label",
@@ -248,7 +248,7 @@
 
                                                                 },
                                                                 "href": {
-                                                                    "url": "https://sandhyasrini.github.io/json/procedure2.json",
+                                                                    "url": "https://sandhyasrini.github.io/json/procedure3.json",
                                                                     "view": "jason"
                                                                 }
                                                             }

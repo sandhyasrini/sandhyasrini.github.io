@@ -125,7 +125,7 @@
                                     {
                                         "type": "vertical",
                                         "style": {
-                                            "width": "60%"
+                                            "width": "65%"
                                         },
                                         "components": [{
                                                 "type": "label",
