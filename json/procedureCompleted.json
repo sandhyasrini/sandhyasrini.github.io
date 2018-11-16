@@ -187,9 +187,10 @@
                                         "components": [{
 
                                                 "type": "image",
-                                                "url": "file://img5.jpeg",
+                                                "url": "file://img4.jpeg",
                                                 "style":{
-                                                    
+                                                
+                                                    "ratio": "0.5",
                                                     "scaling": "0.5"
                                                 }
                                                 
@@ -197,7 +198,7 @@
                                             {
 
                                                 "type": "image",
-                                                "url": "file://img4.jpeg"
+                                                "url": "file://img5.jpeg"
                                             }
                                           
                                         ]
