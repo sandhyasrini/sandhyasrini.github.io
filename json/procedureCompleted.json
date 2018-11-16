@@ -181,7 +181,8 @@
                                         "style": {
                                             "spacing": "10",
                                             "padding_left": "15",
-                                            "padding_bottom": "15"
+                                            "padding_bottom": "15",
+                                            "background": "file://img4.jpeg"
                                         },
                                         "components": [{
 
@@ -190,8 +191,8 @@
                                                 "style": {
                                                     "width": "30%",
                                                     "ratio": "2",
-                                                    "scaling":"-1.5",
-                                                    "background": "file://img4.jpeg"
+                                                    "scaling":"-1.5"
+                                                    
                                                 }
 
                                             },
