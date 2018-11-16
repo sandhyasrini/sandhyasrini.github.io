@@ -7,7 +7,6 @@
           "$load": {
             "type": "$media.camera",
             "options": {
-              "edit": "true",
               "type": "photo"
             },
             "success": {
