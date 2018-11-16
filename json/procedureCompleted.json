@@ -151,7 +151,7 @@
                                                         "style": {
                                                             "background": "#2EBF63",
                                                             "color": "#ffffff",
-                                                            "padding": "20"
+                                                            "padding": "5"
 
                                                         },
                                                         "href": {
@@ -165,7 +165,7 @@
                                                         "style": {
                                                             "background": "#5ec6ff",
                                                             "color": "#ffffff",
-                                                            "padding": "20"
+                                                            "padding": "5"
 
                                                         }
                                                     }
