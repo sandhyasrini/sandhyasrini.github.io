@@ -185,7 +185,8 @@
                                                                 "style": {
                                                                     "background": "#29428F",
                                                                     "color": "#ffffff",
-                                                                    "padding": "5"
+                                                                    "padding": "5",
+                                                                    "corner_width":"10"
 
                                                                 }
                                                             }
@@ -208,7 +209,8 @@
                                                                     "padding": "5",
                                                                     "spacing": "10",
                                                                     "height": "30",
-                                                                    "align": "left"
+                                                                    "align": "left",
+                                                                    "corner_width":"10"
 
 
                                                                 },
@@ -230,7 +232,8 @@
                                                                     "padding": "5",
                                                                     "spacing": "10",
                                                                     "height": "30",
-                                                                    "align": "left"
+                                                                    "align": "left",
+                                                                    "corner_width":"10"
 
                                                                 }
                                                             }, {
@@ -243,7 +246,8 @@
                                                                     "padding": "5",
                                                                     "spacing": "10",
                                                                     "height": "30",
-                                                                    "align": "left"
+                                                                    "align": "left",
+                                                                    "corner_width":"10"
 
 
                                                                 },
