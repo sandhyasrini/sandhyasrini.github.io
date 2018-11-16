@@ -1,6 +1,7 @@
 {
     "$jason": {
         "head": {
+            "offline":"true",
             "styles": {
                 "styled_row": {
                     "background": "#d3b023"

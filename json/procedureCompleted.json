@@ -199,7 +199,8 @@
                                                 "url": "file://img5.jpeg",
                                                 "style": {
                                                     "width": "30%",
-                                                    "ratio": "2"
+                                                    "ratio": "2",
+                                                    "scaling":"2"
                                                 }
                                             }
 
