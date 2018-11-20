@@ -188,7 +188,7 @@
                                         "components": [{
 
                                                 "type": "image",
-                                                "url": "file://img4.jpeg",
+                                                "url": "local://{{$jason.file_name}}",
                                                 "style": {
                                                     "width": "50%",
                                                     "ratio": "2",
