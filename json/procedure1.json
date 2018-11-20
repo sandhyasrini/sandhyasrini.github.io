@@ -217,10 +217,16 @@
                                                                 },
                                                                 "action": {
                                                                     "type": "$media.picker",
-                                                                    
+                                                                    "options": {
+                                                                        "edit": "true",
+                                                                        "type": "video"
+                                                                    },
                                                                     "success": {
-                                                                        "type": "$render"
-                                                                      
+                                                                        "type": "$util.alert",
+                                                                        "options": {
+                                                                            "title": "Selected {{$jason['content_type']}} at",
+                                                                            "description": "{{$jason.file_url}}"
+                                                                        }
                                                                     }
                                                                 }
                                                             }, {
