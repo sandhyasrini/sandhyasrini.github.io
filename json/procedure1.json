@@ -173,12 +173,14 @@
                                                             "padding_right": "20"
                                                         },
                                                         "components": [{
-                                                                "style": {
 
-                                                                },
-                                                                "type": "image",
-                                                                "url": "file://thumb1.jpeg"
-                                                            },
+                                                            "type": "image",
+                                                            "url": "local://{{$jason.file_name}}",
+                                                            "style":{
+                                                              "width":"30%",
+                                                              "ratio":"2"
+                                                            }
+                                                        },
                                                             {
                                                                 "type": "button",
                                                                 "text": "Photo Thumb",
