@@ -216,7 +216,7 @@
 
                                                                 },
                                                                 "action": {
-                                                                    "type": "$media.camera",
+                                                                    "type": "$media.picker",
                                                                     
                                                                     "success": {
                                                                         "type": "$render"
