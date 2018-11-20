@@ -226,7 +226,7 @@
                                                                     "type": "$media.camera",
                                                                     
                                                                     "success": {
-                                                                        "type": "$reload"
+                                                                        "type": "$render"
                                                                       
                                                                     }
                                                                 }
