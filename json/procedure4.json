@@ -17,11 +17,10 @@
       },
       "templates": {
         "body": {
-          "background": "{{$jason.data_uri}}",
           "items":[
             {
-              "type":"label",
-              "text":"{{$jason.file_name}}"
+              "type":"image",
+              "url":"{{$jason.data_uri}}"
             }
           ]
         }
