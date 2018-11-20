@@ -32,7 +32,11 @@
                   {
 
                       "type": "image",
-                      "url": "local://{{$jason.file_name}}"
+                      "url": "local://{{$jason.file_name}}",
+                      "style":{
+                        "width":"30%",
+                        "ratio":"2"
+                      }
                   }
               ]
           }]
