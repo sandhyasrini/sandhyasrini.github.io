@@ -7,7 +7,6 @@
         "$load": {
           "type": "$media.camera",
           "options": {
-            "edit": "true",
             "type": "photo"
           },
           "success": {
@@ -17,16 +16,26 @@
       },
       "templates": {
         "body": {
-          "items":[
-            {
-              "type":"label",
-              "url":"{{$jason.file_name}}"
-            },
-            {
-              "type":"image",
-              "url":"{{$jason.data_uri}}"
-            }
-          ]
+        
+
+          "header":{
+              "title":"Hello"
+          },
+          "sections":
+          [{
+              "items":[
+                  {
+
+                      "type": "label",
+                      "text": "{{$jason.file_name}}"
+                  },
+                  {
+
+                      "type": "image",
+                      "url": "{{$jason.data_uri}}"
+                  }
+              ]
+          }]
         }
       }
     }
