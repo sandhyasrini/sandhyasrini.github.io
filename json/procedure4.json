@@ -32,7 +32,7 @@
                   {
 
                       "type": "image",
-                      "url": "local://2.jpeg"
+                      "url": "local://{{$jason.file_name}}"
                   }
               ]
           }]
