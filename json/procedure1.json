@@ -67,6 +67,9 @@
             }
 
         },
+        "$pull": {
+            "type": "$reload"
+          },
         "body": {
             "header": {
                 "title": {
@@ -230,7 +233,7 @@
                                                                       
                                                                     }
                                                                 }
-                                                            }, {
+                                                            },  {
                                                                 "type": "button",
                                                                 "text": "Completed",
                                                                 "style": {
