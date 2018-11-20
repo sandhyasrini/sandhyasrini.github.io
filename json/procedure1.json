@@ -258,7 +258,7 @@
                                                                 }
                                                             },
                                                             {
-                                                                "type": "label",
+                                                                "type": "button",
                                                                 "text": "Select media",
                                                                 "action": {
                                                                     "type": "$media.picker",
@@ -274,7 +274,7 @@
                                                                         }
                                                                     }
                                                                 }
-                                                            }
+                                                            }   
                                                         ]
 
                                                     }
