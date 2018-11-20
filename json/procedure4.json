@@ -19,6 +19,10 @@
         "body": {
           "items":[
             {
+              "type":"label",
+              "url":"{{$jason.file_name}}"
+            },
+            {
               "type":"image",
               "url":"{{$jason.data_uri}}"
             }
