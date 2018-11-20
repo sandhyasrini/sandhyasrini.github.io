@@ -236,6 +236,20 @@
                                                                     "align": "left",
                                                                     "corner_width":"10"
 
+                                                                },
+                                                                "action": {
+                                                                    "type": "$media.picker",
+                                                                    
+                                                                    "success": {
+                                                                        "success": {
+                                                                            "type": "$util.alert",
+                                                                            "options": {
+                                                                                "title": "Selected {{$jason['content_type']}} at",
+                                                                                "description": "{{$jason.file_url}}"
+                                                                            }
+                                                                        }
+                                                                      
+                                                                    }
                                                                 }
                                                             }, {
                                                                 "type": "button",
@@ -256,25 +270,7 @@
                                                                     "url": "https://sandhyasrini.github.io/json/procedure2.json",
                                                                     "view": "jason"
                                                                 }
-                                                            },
-                                                            {
-                                                                "type": "button",
-                                                                "text": "Select media",
-                                                                "action": {
-                                                                    "type": "$media.picker",
-                                                                    "options": {
-                                                                        "edit": "true",
-                                                                        "type": "video"
-                                                                    },
-                                                                    "success": {
-                                                                        "type": "$util.alert",
-                                                                        "options": {
-                                                                            "title": "Selected {{$jason['content_type']}} at",
-                                                                            "description": "{{$jason.file_url}}"
-                                                                        }
-                                                                    }
-                                                                }
-                                                            }   
+                                                            } 
                                                         ]
 
                                                     }
