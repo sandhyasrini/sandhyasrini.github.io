@@ -1,44 +1,30 @@
 {
-    "$jason": {
+  "$jason": {
       "head": {
-        "title": "Camera",
-        "description": "Tap to open up camera",
-        "actions": {
-          "$load": {
-            "type": "$media.camera",
-            "options": {
-              "type": "photo"
-            },
-            "success": {
-              "type": "$render"
-            }
-          }
-        },
-        "templates": {
-          "body": {
-          
-
-            "header":{
-                "title":"Hello"
-            },
-            "sections":
-            [{
-                "items":[
-                    {
-
-                        "type": "label",
-                        "text": "{{$jason.file_name}}"
-                    },
-                    {
-
-                        "type": "image",
-                        "url": "{{$jason.data_uri}}"
-                    }
-                ]
-            }]
-          }
-        }
+          "title": "Media picker",
+          "description": "Tap to select media"
+      },
+      "body": {
+          "sections": [{
+              "items": [{
+                  "type": "label",
+                  "text": "Select media",
+                  "action": {
+                      "type": "$media.picker",
+                      "options": {
+                          "edit": "true",
+                          "type": "video"
+                      },
+                      "success": {
+                          "type": "$util.alert",
+                          "options": {
+                              "title": "Selected {{$jason['content_type']}} at",
+                              "description": "{{$jason.file_url}}"
+                          }
+                      }
+                  }
+              }]
+          }]
       }
-    }
   }
-  
+}
