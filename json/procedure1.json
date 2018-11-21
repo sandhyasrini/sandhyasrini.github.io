@@ -22,250 +22,247 @@
                     "spacing": "40",
                     "padding": "5"
                 }
-            },
-            "templates":{
-                "body": {
-                    "header": {
-                        "title": {
-                            "type": "label",
-                            "text": "Training Cable In-Line Splice Repair (3M 8kv kit 5761) ",
-                            "style": {
-                                "align": "left",
-                                "background": "#5ec6ff"
-                            }
-                        },
-                        "menu": {
-                            "text": "MTC-SOP-015",
-                            "style": {
-                                "color": "#ffffff",
-                                "font": "HelveticaNeue-Bold",
-                                "size": "15",
-                                "align": "center"
-                            }
-                        },
+            }
+
+        },
         
-                        "style": {
-                            "background": "#5ec6ff",
-                            "color": "#ffffff",
-                            "font": "Avenir-Bold"
-                        }
-                    },
+        "body": {
+            "header": {
+                "title": {
+                    "type": "label",
+                    "text": "Training Cable In-Line Splice Repair (3M 8kv kit 5761) ",
                     "style": {
-        
-                        "background": "#aaaaaa"
+                        "align": "left",
+                        "background": "#5ec6ff"
+                    }
+                },
+                "menu": {
+                    "text": "MTC-SOP-015",
+                    "style": {
+                        "color": "#ffffff",
+                        "font": "HelveticaNeue-Bold",
+                        "size": "15",
+                        "align": "center"
+                    }
+                },
+
+                "style": {
+                    "background": "#5ec6ff",
+                    "color": "#ffffff",
+                    "font": "Avenir-Bold"
+                }
+            },
+            "style": {
+
+                "background": "#aaaaaa"
+            },
+
+            "sections": [{
+                "style": {
+                    "color": "#ffffff",
+                    "background": "#aaaaaa"
+                },
+                "items": [{
+                    "style": {
+
                     },
-        
-                    "sections": [{
+                    "type": "image",
+                    "url": "local://{{$jason.file_name}}"
+                },
+                {
+                        "type": "vertical",
+
                         "style": {
-                            "color": "#ffffff",
-                            "background": "#aaaaaa"
+                            "width": "100%",
+                            "padding": "0",
+                            "border": "#aaaaaa"
                         },
-                        "items": [{
-                            "style": {
-        
-                            },
-                            "type": "image",
-                            "url": "local://{{$jason.file_name}}"
-                        },
-                        {
-                                "type": "vertical",
-        
+
+                        "components": [
+
+                            {
+                                "type": "horizontal",
                                 "style": {
-                                    "width": "100%",
-                                    "padding": "0",
-                                    "border": "#aaaaaa"
+                                    "background": "#aaaaaa",
+                                    "padding": "5"
                                 },
-        
                                 "components": [
-        
+
                                     {
-                                        "type": "horizontal",
+                                        "type": "vertical",
                                         "style": {
-                                            "background": "#aaaaaa",
-                                            "padding": "5"
+                                            "width": "60%"
                                         },
-                                        "components": [
-        
-                                            {
-                                                "type": "vertical",
-                                                "style": {
-                                                    "width": "60%"
-                                                },
-                                                "components": [{
-                                                        "type": "label",
-                                                        "text": "Procedure",
-                                                        "class": "label_style"
-        
-                                                    },
-                                                    {
-                                                        "type": "label",
-                                                        "text": "1. Position Cable on a stable work surface, preferably on a splicing table using a tensioning clamp.",
-                                                        "class": "content_style"
-        
-        
-                                                    }
-                                                ]
-        
+                                        "components": [{
+                                                "type": "label",
+                                                "text": "Procedure",
+                                                "class": "label_style"
+
                                             },
                                             {
-                                                "type": "vertical",
+                                                "type": "label",
+                                                "text": "1. Position Cable on a stable work surface, preferably on a splicing table using a tensioning clamp.",
+                                                "class": "content_style"
+
+
+                                            }
+                                        ]
+
+                                    },
+                                    {
+                                        "type": "vertical",
+                                        "style": {
+                                            "spacing": "10",
+                                            "padding_left": "15",
+                                            "padding_bottom": "15"
+                                        },
+                                        "components": [{
+
+                                                "type": "image",
+                                                "url": "file://procedure1Pic1.jpeg"
+                                            },
+                                            {
+                                                "type": "horizontal",
                                                 "style": {
-                                                    "spacing": "10",
-                                                    "padding_left": "15",
-                                                    "padding_bottom": "15"
+                                                    "background": "#aaaaaa",
+                                                    "padding_top": "30"
+
+
                                                 },
-                                                "components": [{
-        
-                                                        "type": "image",
-                                                        "url": "file://procedure1Pic1.jpeg"
-                                                    },
+                                                "components": [
+
+
                                                     {
-                                                        "type": "horizontal",
+                                                        "type": "vertical",
                                                         "style": {
-                                                            "background": "#aaaaaa",
-                                                            "padding_top": "30"
-        
-        
+                                                            "spacing": "10",
+                                                            "padding_right": "20"
                                                         },
-                                                        "components": [
-        
-        
-                                                            {
-                                                                "type": "vertical",
+                                                        "components": [{
                                                                 "style": {
-                                                                    "spacing": "10",
-                                                                    "padding_right": "20"
+
                                                                 },
-                                                                "components": [{
-                                                                        "style": {
-        
-                                                                        },
-                                                                        "type": "image",
-                                                                        "url": "local://{{$jason.file_name}}"
-                                                                    },
-                                                                    {
-                                                                        "type": "button",
-                                                                        "text": "Photo Thumb",
-                                                                        "style": {
-                                                                            "background": "#29428F",
-                                                                            "color": "#ffffff",
-                                                                            "padding": "5",
-                                                                            "corner_width":"10"
-                                                                            
-        
-                                                                        }
-                                                                    }
-                                                                ]
+                                                                "type": "image",
+                                                                "url": "local://{{$jason.file_name}}"
                                                             },
                                                             {
-                                                                "type": "vertical",
+                                                                "type": "button",
+                                                                "text": "Photo Thumb",
                                                                 "style": {
-                                                                    "spacing": "10"
-        
-                                                                },
-                                                                "components": [
-                                                                    {
-                                                                        "type": "button",
-                                                                        "text": "Take Photo",
-                                                                        "style": {
-                                                                            "background": "#29428F",
-                                                                            "color": "#ffffff",
-                                                                            "width": "200",
-                                                                            "padding": "5",
-                                                                            "spacing": "10",
-                                                                            "height": "30",
-                                                                            "align": "left",
-                                                                            "corner_width":"10"
-        
-        
-                                                                        },
-                                                                        "action": {
-                                                                            "type": "$media.camera",
-                                                                            
-                                                                            "success": {
-                                                                                "type": "$render"
-                                                                              
-                                                                            }
-                                                                        }
-                                                                    },  {
-                                                                        "type": "button",
-                                                                        "text": "Completed",
-                                                                        "style": {
-                                                                            "background": "#5ec6ff",
-                                                                            "color": "#ffffff",
-                                                                            "width": "200",
-                                                                            "padding": "5",
-                                                                            "spacing": "10",
-                                                                            "height": "30",
-                                                                            "align": "left",
-                                                                            "corner_width":"10"
-        
-                                                                        }
-                                                                    }, {
-                                                                        "type": "button",
-                                                                        "text": "Next",
-                                                                        "style": {
-                                                                            "background": "#2EBF63",
-                                                                            "color": "#ffffff",
-                                                                            "width": "200",
-                                                                            "padding": "5",
-                                                                            "spacing": "10",
-                                                                            "height": "30",
-                                                                            "align": "left",
-                                                                            "corner_width":"10"
-        
-        
-                                                                        },
-                                                                        "href": {
-                                                                            "url": "https://sandhyasrini.github.io/json/procedure2.json",
-                                                                            "view": "jason"
-                                                                        }
-                                                                    },
-                                                                    {
-                                                                        "type": "button",
-                                                                        "text": "Select media",
-                                                                        "action": {
-                                                                            "type": "$media.picker",
-                                                                            "options": {
-                                                                                "edit": "true",
-                                                                                "type": "video"
-                                                                            },
-                                                                            "success": {
-                                                                                "type": "$util.alert",
-                                                                                "options": {
-                                                                                    "title": "Selected {{$jason['content_type']}} at",
-                                                                                    "description": "{{$jason.file_url}}"
-                                                                                }
-                                                                            }
-                                                                        }
-                                                                    }   
-                                                                ]
-        
+                                                                    "background": "#29428F",
+                                                                    "color": "#ffffff",
+                                                                    "padding": "5",
+                                                                    "corner_width":"10"
+                                                                    
+
+                                                                }
                                                             }
                                                         ]
+                                                    },
+                                                    {
+                                                        "type": "vertical",
+                                                        "style": {
+                                                            "spacing": "10"
+
+                                                        },
+                                                        "components": [
+                                                            {
+                                                                "type": "button",
+                                                                "text": "Take Photo",
+                                                                "style": {
+                                                                    "background": "#29428F",
+                                                                    "color": "#ffffff",
+                                                                    "width": "200",
+                                                                    "padding": "5",
+                                                                    "spacing": "10",
+                                                                    "height": "30",
+                                                                    "align": "left",
+                                                                    "corner_width":"10"
+
+
+                                                                },
+                                                                "action": {
+                                                                    "type": "$media.camera",
+                                                                    
+                                                                    "success": {
+                                                                        "type": "$render"
+                                                                      
+                                                                    }
+                                                                }
+                                                            },  {
+                                                                "type": "button",
+                                                                "text": "Completed",
+                                                                "style": {
+                                                                    "background": "#5ec6ff",
+                                                                    "color": "#ffffff",
+                                                                    "width": "200",
+                                                                    "padding": "5",
+                                                                    "spacing": "10",
+                                                                    "height": "30",
+                                                                    "align": "left",
+                                                                    "corner_width":"10"
+
+                                                                }
+                                                            }, {
+                                                                "type": "button",
+                                                                "text": "Next",
+                                                                "style": {
+                                                                    "background": "#2EBF63",
+                                                                    "color": "#ffffff",
+                                                                    "width": "200",
+                                                                    "padding": "5",
+                                                                    "spacing": "10",
+                                                                    "height": "30",
+                                                                    "align": "left",
+                                                                    "corner_width":"10"
+
+
+                                                                },
+                                                                "href": {
+                                                                    "url": "https://sandhyasrini.github.io/json/procedure2.json",
+                                                                    "view": "jason"
+                                                                }
+                                                            },
+                                                            {
+                                                                "type": "button",
+                                                                "text": "Select media",
+                                                                "action": {
+                                                                    "type": "$media.picker",
+                                                                    "options": {
+                                                                        "edit": "true",
+                                                                        "type": "video"
+                                                                    },
+                                                                    "success": {
+                                                                        "type": "$util.alert",
+                                                                        "options": {
+                                                                            "title": "Selected {{$jason['content_type']}} at",
+                                                                            "description": "{{$jason.file_url}}"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }   
+                                                        ]
+
                                                     }
                                                 ]
                                             }
-        
                                         ]
                                     }
-        
-        
-        
-                                  
+
                                 ]
                             }
-        
-        
-                        ]
-        
-                    }]
-                }
-        
-            }
 
+
+
+                          
+                        ]
+                    }
+
+
+                ]
+
+            }]
         }
-        
-       
+
     }
 }
