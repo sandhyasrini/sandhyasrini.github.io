@@ -185,6 +185,7 @@
                                                                         "style": {
                                                                             "background": "#29428F",
                                                                             "color": "#ffffff",
+                                                                            "padding": "5",
                                                                             "corner_width":"10"
                                                                             
         
