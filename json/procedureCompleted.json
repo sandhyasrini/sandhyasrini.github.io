@@ -203,7 +203,7 @@
                                                 "style": {
                                                     "width": "50%",
                                                     "ratio": "2",
-                                                    "scaling":"-1.5"
+                                                    "scaling":"1.5"
                                                 }
                                             }
 

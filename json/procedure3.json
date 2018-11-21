@@ -148,7 +148,7 @@
                                         "style": {
                                             "spacing": "10",
                                             "padding_left": "15",
-                                            "padding_bottom": "15"
+                                            "padding_bottom": "10"
                                         },
                                         "components": [{
 
@@ -159,7 +159,7 @@
                                                 "type": "horizontal",
                                                 "style": {
                                                     "background": "#aaaaaa",
-                                                    "padding_top": "30"
+                                                    "padding_top": "10"
 
 
                                                 },
@@ -177,7 +177,7 @@
 
                                                                 },
                                                                 "type": "image",
-                                                                "url": "file://thumb3.jpeg"
+                                                                "url": "local://{{$jason.file_name}}/thumb3"
                                                             },
                                                             {
                                                                 "type": "button",
@@ -187,6 +187,7 @@
                                                                     "color": "#ffffff",
                                                                     "padding": "5",
                                                                     "corner_width":"10"
+                                                                    
 
                                                                 }
                                                             }
@@ -205,7 +206,7 @@
                                                                 "style": {
                                                                     "background": "#29428F",
                                                                     "color": "#ffffff",
-                                                                    "width": "200",
+                                                                    "width": "150",
                                                                     "padding": "5",
                                                                     "spacing": "10",
                                                                     "height": "30",
@@ -222,23 +223,19 @@
                                                                       
                                                                     }
                                                                 }
-                                                            }, {
+                                                            },  {
                                                                 "type": "button",
                                                                 "text": "Completed",
                                                                 "style": {
                                                                     "background": "#5ec6ff",
                                                                     "color": "#ffffff",
-                                                                    "width": "200",
+                                                                    "width": "150",
                                                                     "padding": "5",
                                                                     "spacing": "10",
                                                                     "height": "30",
                                                                     "align": "left",
                                                                     "corner_width":"10"
 
-                                                                },
-                                                                "href": {
-                                                                    "url": "https://sandhyasrini.github.io/json/procedure4.json",
-                                                                    "view": "jason"
                                                                 }
                                                             }, {
                                                                 "type": "button",
@@ -246,7 +243,7 @@
                                                                 "style": {
                                                                     "background": "#2EBF63",
                                                                     "color": "#ffffff",
-                                                                    "width": "200",
+                                                                    "width": "150",
                                                                     "padding": "5",
                                                                     "spacing": "10",
                                                                     "height": "30",
@@ -256,10 +253,10 @@
 
                                                                 },
                                                                 "href": {
-                                                                    "url": "https://sandhyasrini.github.io/json/procedureCompleted.json",
+                                                                    "url": "https://sandhyasrini.github.io/json/procedure2.json",
                                                                     "view": "jason"
                                                                 }
-                                                            }
+                                                            }   
                                                         ]
 
                                                     }
