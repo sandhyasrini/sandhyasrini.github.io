@@ -177,7 +177,7 @@
         
                                                                         },
                                                                         "type": "image",
-                                                                        "url": "local://{{$jason.file_name}}"
+                                                                        "url": "local://{{$jason.file_name}}/thumb1"
                                                                     },
                                                                     {
                                                                         "type": "button",
