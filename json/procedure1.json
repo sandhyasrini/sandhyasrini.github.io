@@ -102,13 +102,7 @@
                             "color": "#ffffff",
                             "background": "#aaaaaa"
                         },
-                        "items": [{
-                            "style": {
-        
-                            },
-                            "type": "image",
-                            "url": "local://{{$jason.file_name}}"
-                        },
+                        "items": [
                         {
                                 "type": "vertical",
         
@@ -261,24 +255,6 @@
                                                                         "href": {
                                                                             "url": "https://sandhyasrini.github.io/json/procedure2.json",
                                                                             "view": "jason"
-                                                                        }
-                                                                    },
-                                                                    {
-                                                                        "type": "button",
-                                                                        "text": "Select media",
-                                                                        "action": {
-                                                                            "type": "$media.picker",
-                                                                            "options": {
-                                                                                "edit": "true",
-                                                                                "type": "video"
-                                                                            },
-                                                                            "success": {
-                                                                                "type": "$util.alert",
-                                                                                "options": {
-                                                                                    "title": "Selected {{$jason['content_type']}} at",
-                                                                                    "description": "{{$jason.file_url}}"
-                                                                                }
-                                                                            }
                                                                         }
                                                                     }   
                                                                 ]
