@@ -127,7 +127,7 @@
                                                         "color": "#ffffff",
                                                         "padding": "5",
                                                         "corner_width":"10",
-                                                        "width":"50%",
+                                                        "width":"150",
                                                         "align":"right"
                                                     },
                                                     "href": {
