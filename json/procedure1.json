@@ -159,20 +159,13 @@
                                                         "padding": "5",
                                                         "corner_width":"10"
                                                     },
-                                                    "action": {
-                                                        "type": "$network.request",
+                                                    "href": {
+                                                        "url": "https://sandhyasrini.github.io/json/procedure2.json",
                                                         "options": {
-                                                            "url": "https://sandhyasrini.github.io/json/procedure4.json"
-                                                        },
-                                                        "success": {
-                                                            "type": "$render",
-                                                            "options": {
-                                                              "data": [{
-                                                                  "file_name":"file://procedure1Pic1.jpeg"
-                                                              }]
-                                                            }
-                                                          }
+                                                            "file_name": "file://procedure1Pic1.jpeg"
+                                                        }
                                                       }
+                                                    
                                                 },
                                                 {
         

@@ -27,12 +27,12 @@
                   {
 
                       "type": "label",
-                      "text": "{{$jason.file_name}}"
+                      "text": "{{$params.file_name}}"
                   },
                   {
 
                       "type": "image",
-                      "url": "local://{{$jason.file_name}}",
+                      "url": "local://{{$params.file_name}}",
                       "style":{
                         "width":"25%",
                         "ratio":"2"
