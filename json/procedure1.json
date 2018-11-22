@@ -151,13 +151,12 @@
                                                     "padding_bottom": "10"
                                                 },
                                                 "components": [{
-                                                    "type": "label",
+                                                    "type": "button",
                                                     "text": "Zoom",
                                                     "style": {
                                                         "background": "#29428F",
                                                         "color": "#ffffff",
                                                         "padding": "5",
-                                                        "padding_top":"30",
                                                         "corner_width":"10"
                                                     },
                                                     "action": {
