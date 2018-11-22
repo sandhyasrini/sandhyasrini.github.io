@@ -33,7 +33,8 @@
                       "url": "{{$params.file_name}}",
                       "style":{
                         "width":"200%",
-                        "ratio":"3"
+                        "ratio":"3",
+                        "padding-right":"200"
                       }
                   }
               ]
