@@ -4,15 +4,15 @@
       "title": "Camera",
       "description": "Tap to open up camera",
       "actions": {
-        "$load": {
-          "type": "$media.camera",
-          "options": {
-            "type": "photo"
-          },
-          "success": {
-            "type": "$render"
-          }
-        }
+        // "$load": {
+        //   "type": "$media.camera",
+        //   "options": {
+        //     "type": "photo"
+        //   },
+        //   "success": {
+        //     "type": "$render"
+        //   }
+        // }
       },
       "templates": {
         "body": {
