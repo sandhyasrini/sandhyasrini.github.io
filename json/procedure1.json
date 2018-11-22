@@ -160,9 +160,15 @@
                                                         "corner_width":"10"
                                                     },
                                                     "href": {
-                                                        "data":"file://procedure1Pic1.jpeg",
-                                                        "view": "web"
-                                                      }
+                                                        "view": "jason",
+                                                        "data": {
+                                                            "$jason": {
+                                                                "head": {
+                                                                    "title": "Hello"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
                                                     
                                                 },
                                                 {
