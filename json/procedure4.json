@@ -50,24 +50,17 @@
         "body": {
         
 
-          "header":{
-              "title":"Hello"
-          },
+          
           "sections":
           [{
               "items":[
-                  {
-
-                      "type": "label",
-                      "text": "{{$params.file_name}}"
-                  },
+                 
                   {
 
                       "type": "image",
                       "url": "{{$params.file_name}}",
                       "style":{
-                        "width":"25%",
-                        "ratio":"2"
+                        
                       }
                   }
               ]
