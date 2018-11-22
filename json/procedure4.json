@@ -20,7 +20,8 @@
         
           "style": {
         
-            "background": "#aaaaaa"
+            "background": "#aaaaaa",
+            "border":"#aaaaaa"
         },
           
           "sections":
