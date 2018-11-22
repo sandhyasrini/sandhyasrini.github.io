@@ -35,7 +35,9 @@
                       "style":{
                         "width":"130%",
                         "ratio":"2",
-                        "border":"#aaaaaa"
+                        "border":"#aaaaaa",
+                        "padding_left":"10",
+                        "padding_right":"10"
                       }
                   }
               ]
