@@ -12,39 +12,8 @@
             "success": {
                 "type": "$render"
             }
-        },
-        "$pull": {
-            "type": "$media.camera",
-            "options": {
-                "quality": "0.4"
-            },
-            "success": {
-                "type": "$network.upload",
-                "options": {
-                    "type": "s3",
-                    "bucket": "fm.ethan.jason",
-                    "data": "{{$jason.data}}",
-                    "content_type": "{{$jason.content_type}}",
-                    "path": "",
-                    "sign_url": "https://imagejason.herokuapp.com/sign_url"
-                },
-                "success": {
-                    "type": "$network.request",
-                    "options": {
-                        "url": "https://imagejason.herokuapp.com/post",
-                        "method": "post",
-                        "data": {
-                            "bucket": "fm.ethan.jason",
-                            "path": "/",
-                            "filename": "{{$jason.filename}}"
-                        }
-                    },
-                    "success": {
-                        "type": "$reload"
-                    }
-                }
-            }
         }
+       
     },
       "templates": {
         "body": {
@@ -60,7 +29,8 @@
                       "type": "image",
                       "url": "{{$params.file_name}}",
                       "style":{
-                        
+                        "width":"60%",
+                        "ratio":"3"
                       }
                   }
               ]
