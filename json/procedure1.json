@@ -123,10 +123,12 @@
                                                     "type": "button",
                                                     "text": "Zoom",
                                                     "style": {
-                                                        "background": "#29428F",
+                                                        "background": "#555555",
                                                         "color": "#ffffff",
                                                         "padding": "5",
-                                                        "corner_width":"10"
+                                                        "corner_width":"10",
+                                                        "width":"50%",
+                                                        "align":"right"
                                                     },
                                                     "href": {
                                                         "url": "https://sandhyasrini.github.io/json/procedure4.json",
