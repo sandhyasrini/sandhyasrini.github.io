@@ -151,17 +151,21 @@
                                                     "padding_bottom": "10"
                                                 },
                                                 "components": [{
-                                                    "type": "label",
-                                                    "text": "refresh",
-                                                    "action": {
-                                                        "type": "$network.request",
+                                                    "type": "button",
+                                                    "text": "Zoom",
+                                                    "style": {
+                                                        "background": "#29428F",
+                                                        "color": "#ffffff",
+                                                        "padding": "5",
+                                                        "corner_width":"10"
+                                                    },
+                                                    "href": {
+                                                        "url": "https://sandhyasrini.github.io/json/procedure4.json",
                                                         "options": {
-                                                            "url": "https://sandhyasrini.github.io/json/procedure4.json"
-                                                        },
-                                                        "success": {
-                                                          "type": "$render"
+                                                          "file_name": "file://procedure1Pic1.jpeg"
                                                         }
                                                       }
+                                                    
                                                 },
                                                 {
         
