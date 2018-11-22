@@ -60,7 +60,7 @@
                       "type": "image",
                       "url": "{{$params.file_name}}",
                       "style":{
-                        
+                        "width":"50%"
                       }
                   }
               ]
