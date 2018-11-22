@@ -159,17 +159,10 @@
                                                         "padding": "5",
                                                         "corner_width":"10"
                                                     },
-                                                    
                                                     "action": {
                                                         "type": "$network.request",
                                                         "options": {
-                                                            "data":  {
-                                                                "$jason": {
-                                                                    "head": {
-                                                                        "title": "Hello"
-                                                                    }
-                                                                }
-                                                            }
+                                                            "url": "https://sandhyasrini.github.io/json/procedure4.json"
                                                         },
                                                         "success": {
                                                           "type": "$render"
