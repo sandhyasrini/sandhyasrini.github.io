@@ -166,8 +166,13 @@
                                                             "url": "https://sandhyasrini.github.io/json/procedure4.json"
                                                         },
                                                         "success": {
-                                                          "type": "$render"
-                                                        }
+                                                            "type": "$render",
+                                                            "options": {
+                                                              "data": [{
+                                                                  "file_name":"file://procedure1Pic1.jpeg"
+                                                              }]
+                                                            }
+                                                          }
                                                       }
                                                 },
                                                 {
