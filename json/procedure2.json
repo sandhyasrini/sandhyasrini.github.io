@@ -119,6 +119,22 @@
                                                     "padding_bottom": "10"
                                                 },
                                                 "components": [{
+                                                    "type": "button",
+                                                    "text": "Zoom",
+                                                    "style": {
+                                                        "background": "#29428F",
+                                                        "color": "#ffffff",
+                                                        "padding": "5",
+                                                        "corner_width":"10"
+                                                    },
+                                                    "href": {
+                                                        "url": "https://sandhyasrini.github.io/json/procedure4.json",
+                                                        "options": {
+                                                            "file_name": "file://procedure1Pic1.jpeg"
+                                                        }
+                                                      }
+                                                    
+                                                },{
         
                                                         "type": "image",
                                                         "url": "file://2.jpeg"
