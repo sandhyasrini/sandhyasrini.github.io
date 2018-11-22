@@ -32,8 +32,8 @@
                       "type": "image",
                       "url": "{{$params.file_name}}",
                       "style":{
-                        "width":"200%",
-                        "ratio":"3",
+                        "width":"150%",
+                        "ratio":"2",
                         "padding-right":"500"
                       }
                   }
