@@ -157,6 +157,7 @@
                                                         "background": "#29428F",
                                                         "color": "#ffffff",
                                                         "padding": "5",
+                                                        "padding_top":"30",
                                                         "corner_width":"10"
                                                     },
                                                     "action": {
