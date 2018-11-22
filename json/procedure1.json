@@ -159,17 +159,22 @@
                                                         "padding": "5",
                                                         "corner_width":"10"
                                                     },
-                                                    "href": {
-                                                        "view": "jason",
-                                                        "data": {
-                                                            "$jason": {
-                                                                "head": {
-                                                                    "title": "Hello"
+                                                    
+                                                    "action": {
+                                                        "type": "$network.request",
+                                                        "options": {
+                                                            "data":  {
+                                                                "$jason": {
+                                                                    "head": {
+                                                                        "title": "Hello"
+                                                                    }
                                                                 }
                                                             }
+                                                        },
+                                                        "success": {
+                                                          "type": "$render"
                                                         }
-                                                    }
-                                                    
+                                                      }
                                                 },
                                                 {
         
