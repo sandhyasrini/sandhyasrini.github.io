@@ -34,7 +34,7 @@
                       "url": "{{$params.file_name}}",
                       "style":{
                         "width":"70%",
-                        "ratio":"0.7",
+                        "ratio":"0.6",
                         "border":"#aaaaaa"
                       }
                   }
