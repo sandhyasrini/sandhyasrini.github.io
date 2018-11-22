@@ -160,10 +160,8 @@
                                                         "corner_width":"10"
                                                     },
                                                     "href": {
-                                                        "url": "https://sandhyasrini.github.io/json/procedure4.json",
-                                                        "options": {
-                                                          "file_name": "file://procedure1Pic1.jpeg"
-                                                        }
+                                                        "data":"file://procedure1Pic1.jpeg",
+                                                        "view": "web"
                                                       }
                                                     
                                                 },
