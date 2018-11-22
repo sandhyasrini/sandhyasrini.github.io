@@ -119,21 +119,30 @@
                                                     "padding_bottom": "10"
                                                 },
                                                 "components": [{
-                                                    "type": "button",
-                                                    "text": "Zoom",
-                                                    "style": {
-                                                        "background": "#29428F",
-                                                        "color": "#ffffff",
-                                                        "padding": "5",
-                                                        "corner_width":"10"
+                                                    "type":"horizontal",
+                                                    "style":{
+                                                        "align":"right"
                                                     },
-                                                    "href": {
-                                                        "url": "https://sandhyasrini.github.io/json/procedure4.json",
-                                                        "options": {
-                                                            "file_name": "file://3.jpeg"
-                                                        }
-                                                      }
-                                                    
+                                                    "components":[
+                                                        {
+                                                            "type": "button",
+                                                            "text": "Zoom",
+                                                            "style": {
+                                                                "background": "#555555",
+                                                                "color": "#ffffff",
+                                                                "padding": "5",
+                                                                "corner_width":"10",
+                                                                "width":"150"
+                                                            },
+                                                            "href": {
+                                                                "url": "https://sandhyasrini.github.io/json/procedure4.json",
+                                                                "options": {
+                                                                    "file_name": "file://3.jpeg"
+                                                                }
+                                                              }
+                                                            
+                                                        } 
+                                                    ]
                                                 },{
         
                                                         "type": "image",
