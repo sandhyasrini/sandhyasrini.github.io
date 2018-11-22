@@ -151,14 +151,8 @@
                                                     "padding_bottom": "10"
                                                 },
                                                 "components": [{
-                                                    "type": "button",
-                                                    "text": "Zoom",
-                                                    "style": {
-                                                        "background": "#29428F",
-                                                        "color": "#ffffff",
-                                                        "padding": "5",
-                                                        "corner_width":"10"
-                                                    },
+                                                    "type": "label",
+                                                    "text": "refresh",
                                                     "action": {
                                                         "type": "$network.request",
                                                         "options": {
