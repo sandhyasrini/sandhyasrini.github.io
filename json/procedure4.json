@@ -32,7 +32,7 @@
                   {
 
                       "type": "image",
-                      "url": "local://{{$params.file_name}}",
+                      "url": "{{$params.file_name}}",
                       "style":{
                         "width":"25%",
                         "ratio":"2"
