@@ -18,7 +18,10 @@
       "templates": {
         "body": {
         
-
+          "style": {
+        
+            "background": "#aaaaaa"
+        },
           
           "sections":
           [{
