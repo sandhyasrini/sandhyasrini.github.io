@@ -122,6 +122,9 @@
                                                 "components": [
                                                     {
                                                         "type":"horizontal",
+                                                        "style":{
+                                                            "align":"right"
+                                                        },
                                                         "components":[
                                                             {
                                                                 "type": "button",
@@ -131,8 +134,7 @@
                                                                     "color": "#ffffff",
                                                                     "padding": "5",
                                                                     "corner_width":"10",
-                                                                    "width":"150",
-                                                                    "align":"right"
+                                                                    "width":"150"
                                                                 },
                                                                 "href": {
                                                                     "url": "https://sandhyasrini.github.io/json/procedure4.json",
