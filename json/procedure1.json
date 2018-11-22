@@ -151,7 +151,7 @@
                                                     "padding_bottom": "10"
                                                 },
                                                 "components": [{
-                                                    "type": "button",
+                                                    "type": "label",
                                                     "text": "Zoom",
                                                     "style": {
                                                         "background": "#29428F",
