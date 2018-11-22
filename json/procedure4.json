@@ -35,7 +35,8 @@
                       "style":{
                         "width":"130%",
                         "ratio":"2",
-                        "border":"#aaaaaa"
+                        "border":"#aaaaaa",
+                        "margin":"10"
                       }
                   }
               ]
