@@ -15,10 +15,7 @@
               "something": "{{$get.something}}"
             },
             "success": {
-                "type": "$href",
-                "options": {
-                  "url": "https://pvybhav.github.io/json/Global_Variables/example-2.json"
-                }
+              "type": "$close"
             }
           }
         },
