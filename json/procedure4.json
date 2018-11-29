@@ -1,6 +1,8 @@
 {
   "$jason": {
     "head": {
+      "offline": "true",
+
       "title": "Camera",
       "description": "Tap to open up camera",
       "actions": {
