@@ -1,7 +1,8 @@
 {
     "$jason": {
       "head": {
-  
+        "offline": "true",
+
         "data": {
           "members": [
             { "name": "Homer" },
