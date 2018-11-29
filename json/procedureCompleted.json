@@ -142,6 +142,10 @@
                                                             "padding": "5",
                                                             "corner_width":"10"
 
+                                                        },
+                                                        "href": {
+                                                            "url": "https://sandhyasrini.github.io/json/example.json",
+                                                            "view": "jason"
                                                         }
                                                     }
                                                 ]
