@@ -35,7 +35,7 @@
                   },
                   {
                     "type": "label",
-                    "text": "EF-Screen-1-TextField 2--> {{$global.switchName1 || 'false'}}"
+                    "text": "EF-Screen-1-TextField 2--> {{$global.globalSwitch || 'false'}}"
                   },
                   
                   {
