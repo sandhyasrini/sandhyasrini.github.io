@@ -23,7 +23,7 @@
                   },
                   {
                     "type": "label",
-                    "text": "EF-Screen-1-TextField 2--> {{$global.globalswitch || ' '}}"
+                    "text": "EF-Screen-1-TextField 2--> {{$global.globalswitch || 'false'}}"
                   },
                   
                   {
