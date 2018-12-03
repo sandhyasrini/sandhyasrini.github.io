@@ -1,31 +1,26 @@
 {
     "$jason": {
       "head": {
-        "title": "Screen-2",
+        "title": "Global Test 2",
         "actions": {
           "$show": {
-            "type": "$render"
-          },
-          "$load": {
             "type": "$render"
           },
           "$pull": {
             "type": "$reload"
           },
           "save": {
-            "type": "$render",
+            "type": "$global.set",
+            "options": {
+              "myvalue1": "{{$get.myvalue1 || ' '}}",
+              "secondValue1": "{{$get.secondValue1 || ' '}}",
+              "globalSwitch":"{{get.switchName1 || 'false'}}"
+            },
             "success": {
-              "type": "$global.set",
-              "options": {
-                "ef_s2_textField": "{{$get.textFieldName || ' '}}",
-                "ef_s2_TextArea": "{{$get.textAreaName || ' '}}"
-              },
-              "success": {
                 "type": "$href",
                 "options": {
-                    "url": "https://sandhyasrini.github.io/json/example-2.json"
+                  "url": "https://sandhyasrini.github.io/json/example-2.json"
                 }
-              }
             }
           }
         },
@@ -42,75 +37,53 @@
                 "action": {
                   "type": "$global.reset",
                   "options": {
-                    "items": [
-                      "ef_s2_textField",
-                      "ef_s2_TextArea"
-                    ]
+                    "items": ["myvalue1"]
                   },
                   "success": {
-                    "type": "$render"
+                    "type": "$close"
                   }
                 }
               }
             },
-            "sections": [
-              {
-                "type": "vertical",
-                "items": [
-                  {
-                    "type": "label",
-                    "text": "Global value is: {{$global.ef_s2_textField || ' '}}"
+            "sections": [{
+              "type": "vertical",
+              "items": [{
+                  "type": "label",
+                  "text": "Global value is: {{$global.myvalue1 || ''}}"
+                },
+                {
+                  "type": "vertical",
+                  "style": {
+                    "padding": "10"
+                  },
+                  "components": [{
+                    "type": "textfield",
+                    "name": "myvalue1",
+                    "value": "{{$global.myvalue1 || ''}}",
+                    "placeholder": "Add something here"
                   },
                   {
-                    "type": "vertical",
-                    "style": {
-                      "padding": "10"
-                    },
-                    "components": [
-                      {
-                        "type": "textfield",
-                        "name": "textFieldName",
-                        "value": "{{$global.ef_s2_textField || ' '}}",
-                        "placeholder": "Add textFieldValue here",
-                        "contentDescription": "field1",
-                        "action": {
-                          "type": "$render"
-                        }
-                      },
-                      {
-                        "type": "textarea",
-                        "name": "textAreaName",
-                        "placeholder": "Text Area",
-                        "value": "{{$global.ef_s2_TextArea || ' '}}",
-                        "style": {
-                          "background": "rgba(0,0,0,0)",
-                          "placeholder_color": "#cecece",
-                          "font": "HelveticaNeue",
-                          "align": "center",
-                          "width": "100%",
-                          "height": "100",
-                          "size": "12"
-                        },
-                        "contentDescription": "field2",
-                        "action": {
-                          "type": "$render"
-                        }
-                      }
-                    ]
+                    "type": "textfield",
+                    "name": "secondValue1",
+                    "value": "{{$global.secondValue1 || ''}}",
+                    "placeholder": "Add something here"
                   },
                   {
-                    "type": "button",
-                    "text": "Save Global Variables",
-                    "action": {
-                      "type": "$render",
-                      "success": {
-                        "trigger": "save"
-                      }
-                    }
+                    "type": "switch",
+                    "name": "switchName1",
+                    "value": "{{$global.globalSwitch || 'false'}}",
+                    "contentDescription": "field3"
+                  }]
+                },
+                {
+                  "type": "button",
+                  "text": "Save Global Variable",
+                  "action": {
+                    "trigger": "save"
                   }
-                ]
-              }
-            ]
+                }
+              ]
+            }]
           }
         }
       }
