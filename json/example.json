@@ -12,7 +12,7 @@
           "save": {
             "type": "$global.set",
             "options": {
-              "something": "{{$get.something}}"
+              "myvalue": "{{$get.myvalue}}"
             },
             "success": {
                 "type": "$href",
@@ -35,7 +35,7 @@
                 "action": {
                   "type": "$global.reset",
                   "options": {
-                    "items": ["something"]
+                    "items": ["myvalue"]
                   },
                   "success": {
                     "type": "$close"
@@ -47,7 +47,7 @@
               "type": "vertical",
               "items": [{
                   "type": "label",
-                  "text": "Global value is: {{$global.something || ''}}"
+                  "text": "Global value is: {{$global.myvalue || ''}}"
                 },
                 {
                   "type": "vertical",
@@ -56,8 +56,8 @@
                   },
                   "components": [{
                     "type": "textfield",
-                    "name": "something",
-                    "value": "{{$global.something || ''}}",
+                    "name": "myvalue",
+                    "value": "{{$global.myvalue || ''}}",
                     "placeholder": "Add something here"
                   }]
                 },
