@@ -14,7 +14,7 @@
             "options": {
               "myvalue1": "{{$get.myvalue1}}",
               "secondValue1": "{{$get.secondValue1}}",
-              "globalswitch":"{{get.switchName1}}"
+              "globalswitch1":"{{get.switchName1}}"
             },
             "success": {
                 "type": "$href",
@@ -71,7 +71,7 @@
                   {
                     "type": "switch",
                     "name": "switchName1",
-                    "value": "{{$global.globalswitch || 'false'}}",
+                    "value": "{{$global.globalswitch1 || 'false'}}",
                     "contentDescription": "field3"
                   }]
                 },

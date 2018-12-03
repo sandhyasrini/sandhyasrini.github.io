@@ -25,6 +25,18 @@
                     "type": "label",
                     "text": "EF-Screen-1-TextField 2--> {{$global.globalswitch || 'false'}}"
                   },
+                  {
+                    "type": "label",
+                    "text": "EF-Screen-1-TextField --> {{$global.myvalue1 || ' '}}"
+                  },
+                  {
+                    "type": "label",
+                    "text": "EF-Screen-1-TextField 2--> {{$global.secondValue1 || ' '}}"
+                  },
+                  {
+                    "type": "label",
+                    "text": "EF-Screen-1-TextField 2--> {{$global.globalswitch1 || 'false'}}"
+                  },
                   
                   {
                     "type": "button",
