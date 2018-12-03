@@ -22,6 +22,11 @@
                     "text": "EF-Screen-1-TextField 2--> {{$global.secondValue || ' '}}"
                   },
                   {
+                    "type": "label",
+                    "text": "EF-Screen-1-TextField 2--> {{$global.globalswitch || ' '}}"
+                  },
+                  
+                  {
                     "type": "button",
                     "text": "Go to Screen-1",
                     "style": {

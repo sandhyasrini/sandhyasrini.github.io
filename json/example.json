@@ -13,7 +13,8 @@
             "type": "$global.set",
             "options": {
               "myvalue": "{{$get.myvalue}}",
-              "secondValue": "{{$get.secondValue}}"
+              "secondValue": "{{$get.secondValue}}",
+              "globalswitch":"{{get.switch1}}"
             },
             "success": {
                 "type": "$href",
@@ -66,6 +67,12 @@
                     "name": "secondValue",
                     "value": "{{$global.secondValue || ''}}",
                     "placeholder": "Add something here"
+                  },
+                  {
+                    "type": "switch",
+                    "name": "switchName",
+                    "value": "{{$global.switch1 || 'false'}}",
+                    "contentDescription": "field3"
                   }]
                 },
                 {
