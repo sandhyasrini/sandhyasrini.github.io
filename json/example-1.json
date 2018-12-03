@@ -12,14 +12,14 @@
           "save": {
             "type": "$global.set",
             "options": {
-              "myvalue": "{{$get.myvalue}}",
-              "secondValue": "{{$get.secondValue}}",
-              "globalswitch":"{{get.switch1}}"
+              "myvalue1": "{{$get.myvalue1}}",
+              "secondValue1": "{{$get.secondValue1}}",
+              "globalswitch":"{{get.switchName1}}"
             },
             "success": {
                 "type": "$href",
                 "options": {
-                  "url": "https://sandhyasrini.github.io/json/example-1.json"
+                  "url": "https://sandhyasrini.github.io/json/example-2.json"
                 }
             }
           }
@@ -37,7 +37,7 @@
                 "action": {
                   "type": "$global.reset",
                   "options": {
-                    "items": ["myvalue"]
+                    "items": ["myvalue1"]
                   },
                   "success": {
                     "type": "$close"
@@ -49,7 +49,7 @@
               "type": "vertical",
               "items": [{
                   "type": "label",
-                  "text": "Global value is: {{$global.myvalue || ''}}"
+                  "text": "Global value is: {{$global.myvalue1 || ''}}"
                 },
                 {
                   "type": "vertical",
@@ -58,20 +58,20 @@
                   },
                   "components": [{
                     "type": "textfield",
-                    "name": "myvalue",
-                    "value": "{{$global.myvalue || ''}}",
+                    "name": "myvalue1",
+                    "value": "{{$global.myvalue1 || ''}}",
                     "placeholder": "Add something here"
                   },
                   {
                     "type": "textfield",
-                    "name": "secondValue",
-                    "value": "{{$global.secondValue || ''}}",
+                    "name": "secondValue1",
+                    "value": "{{$global.secondValue1 || ''}}",
                     "placeholder": "Add something here"
                   },
                   {
                     "type": "switch",
-                    "name": "switchName",
-                    "value": "{{$global.switch1 || 'false'}}",
+                    "name": "switchName1",
+                    "value": "{{$global.globalswitch || 'false'}}",
                     "contentDescription": "field3"
                   }]
                 },
