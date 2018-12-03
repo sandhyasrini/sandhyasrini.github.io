@@ -23,7 +23,7 @@
                   },
                   {
                     "type": "label",
-                    "text": "EF-Screen-1-TextField 2--> {{$global.globalswitch || 'false'}}"
+                    "text": "EF-Screen-1-TextField 2--> {{$global.ef_s1_Switch || 'false'}}"
                   },
                   {
                     "type": "label",
@@ -51,8 +51,8 @@
                     "action": {
                       "type": "$href",
                       "options": {
-                        "url": "https://pvybhav.github.io/json/Global_Variables/screen-1.json"
-                      }
+                        "url": "https://sandhyasrini.github.io/json/example.json"
+                    }
                     }
                   },
                   {
@@ -68,8 +68,8 @@
                     "action": {
                       "type": "$href",
                       "options": {
-                        "url": "https://pvybhav.github.io/json/Global_Variables/screen-2.json"
-                      }
+                        "url": "https://sandhyasrini.github.io/json/example-1.json"
+                    }
                     }
                   },
                   {

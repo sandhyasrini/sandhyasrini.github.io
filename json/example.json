@@ -14,7 +14,7 @@
             "options": {
               "myvalue": "{{$get.myvalue}}",
               "secondValue": "{{$get.secondValue}}",
-              "switchName":"{{get.switchName}}"
+              "ef_s1_Switch": "{{$get.switchName || 'false'}}",
             },
             "success": {
                 "type": "$href",
@@ -71,9 +71,9 @@
                   {
                     "type": "switch",
                     "name": "switchName",
-                    "value": "{{$global.switchName || 'false'}}",
+                    "value": "{{$global.ef_s1_Switch || 'false'}}",
                     "contentDescription": "field3"
-                  }]
+                  },]
                 },
                 {
                   "type": "button",
