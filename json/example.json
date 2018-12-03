@@ -12,7 +12,8 @@
           "save": {
             "type": "$global.set",
             "options": {
-              "myvalue": "{{$get.myvalue}}"
+              "myvalue": "{{$get.myvalue}}",
+              "secondValue": "{{$get.secondValue}}"
             },
             "success": {
                 "type": "$href",
@@ -58,6 +59,12 @@
                     "type": "textfield",
                     "name": "myvalue",
                     "value": "{{$global.myvalue || ''}}",
+                    "placeholder": "Add something here"
+                  },
+                  {
+                    "type": "textfield",
+                    "name": "secondValue",
+                    "value": "{{$global.secondValue || ''}}",
                     "placeholder": "Add something here"
                   }]
                 },
