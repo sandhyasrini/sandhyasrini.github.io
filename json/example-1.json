@@ -14,7 +14,7 @@
             "options": {
               "myvalue1": "{{$get.myvalue1 || ' '}}",
               "secondValue1": "{{$get.secondValue1 || ' '}}",
-              "globalSwitch":"{{get.switchName1 || 'false'}}"
+              "globalSwitch":"{{$get.switchName1 || 'false'}}"
             },
             "success": {
                 "type": "$href",
