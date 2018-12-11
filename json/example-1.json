@@ -2,7 +2,7 @@
     "$jason": {
       "head": {
         "title": "Global Test 2",
-          "json_id":"field_1",
+          "json_id":"field_1.json",
         "actions": {
           "$show": {
             "type": "$render"
