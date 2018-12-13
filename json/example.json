@@ -3,6 +3,7 @@
       "head": {
         "title": "Global Test 2",
         "json_id":"field",
+        "section_id":"example",
         "actions": {
           "$show": {
             "type": "$render"
