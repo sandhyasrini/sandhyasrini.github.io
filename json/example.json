@@ -14,6 +14,7 @@
           "save": {
             "type": "$global.set",
             "options": {
+              "section_id":"example",
               "myvalue": "{{$get.myvalue || ' '}}",
               "secondValue": "{{$get.secondValue || ' '}}",
               "ef_s1_Switch": "{{$get.switchName || 'false'}}"

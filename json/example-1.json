@@ -3,7 +3,7 @@
       "head": {
         "title": "Global Test 2",
           "json_id":"field",
-          "section_id":"example_1",
+          
 
         "actions": {
           "$show": {
@@ -15,6 +15,7 @@
           "save": {
             "type": "$global.set",
             "options": {
+              "section_id":"example_1",
               "myvalue1": "{{$get.myvalue1 || ' '}}",
               "secondValue1": "{{$get.secondValue1 || ' '}}",
               "globalSwitch":"{{$get.switchName1 || 'false'}}"
