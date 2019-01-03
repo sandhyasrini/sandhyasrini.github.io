@@ -116,8 +116,13 @@
                       "color": "#ffffff",
                       "background": "#00ffff"
                     },
-                    "save":"true",
-                    "filename":"grindingLine"
+                    "action": {
+                      "type": "$global.set",
+                      "options": {
+                       "save":"true",
+                       "filename":"grindingLine"
+                      }
+                    }
                   }
                 ]
               }
