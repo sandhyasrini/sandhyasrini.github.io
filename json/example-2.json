@@ -117,7 +117,7 @@
                       "background": "#00ffff"
                     },
                     "action": {
-                      "type": "$global.set",
+                      "type": "$global.reset",
                       "options": {
                        "save":"true",
                        "filename":"grindingLine"
