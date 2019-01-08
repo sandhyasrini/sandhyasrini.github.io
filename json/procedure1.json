@@ -12,7 +12,7 @@
                         "type": "$render"
                     }
                 }
-               
+
             },
             "styles": {
                 "styled_row": {
@@ -35,7 +35,7 @@
                     "padding": "5"
                 }
             },
-            "templates":{
+            "templates": {
                 "body": {
                     "header": {
                         "title": {
@@ -55,7 +55,7 @@
                                 "align": "center"
                             }
                         },
-        
+
                         "style": {
                             "background": "#5ec6ff",
                             "color": "#ffffff",
@@ -63,27 +63,26 @@
                         }
                     },
                     "style": {
-        
+
                         "background": "#aaaaaa"
                     },
-        
+
                     "sections": [{
                         "style": {
                             "color": "#ffffff",
                             "background": "#aaaaaa"
                         },
-                        "items": [
-                        {
+                        "items": [{
                                 "type": "vertical",
-        
+
                                 "style": {
                                     "width": "100%",
                                     "padding": "0",
                                     "border": "#aaaaaa"
                                 },
-        
+
                                 "components": [
-        
+
                                     {
                                         "type": "horizontal",
                                         "style": {
@@ -91,7 +90,7 @@
                                             "padding": "5"
                                         },
                                         "components": [
-        
+
                                             {
                                                 "type": "vertical",
                                                 "style": {
@@ -101,17 +100,17 @@
                                                         "type": "label",
                                                         "text": "Procedure",
                                                         "class": "label_style"
-        
+
                                                     },
                                                     {
                                                         "type": "label",
                                                         "text": "1. Position Cable on a stable work surface, preferably on a splicing table using a tensioning clamp.",
                                                         "class": "content_style"
-        
-        
+
+
                                                     }
                                                 ]
-        
+
                                             },
                                             {
                                                 "type": "vertical",
@@ -120,36 +119,33 @@
                                                     "padding_left": "15",
                                                     "padding_bottom": "10"
                                                 },
-                                                "components": [
-                                                    {
-                                                        "type":"horizontal",
-                                                        "style":{
-                                                            "align":"right"
+                                                "components": [{
+                                                        "type": "horizontal",
+                                                        "style": {
+                                                            "align": "right"
                                                         },
-                                                        "components":[
-                                                            {
-                                                                "type": "button",
-                                                                "text": "Zoom",
-                                                                "style": {
-                                                                    "background": "#555555",
-                                                                    "color": "#ffffff",
-                                                                    "padding": "5",
-                                                                    "corner_width":"10",
-                                                                    "width":"150"
-                                                                },
-                                                                "href": {
-                                                                    "url": "https://sandhyasrini.github.io/json/procedure4.json",
-                                                                    "options": {
-                                                                        "file_name": "file://procedure1Pic1.jpeg"
-                                                                    }
-                                                                  }
-                                                                
-                                                            } 
-                                                        ]
+                                                        "components": [{
+                                                            "type": "button",
+                                                            "text": "Zoom",
+                                                            "style": {
+                                                                "background": "#555555",
+                                                                "color": "#ffffff",
+                                                                "padding": "5",
+                                                                "corner_width": "10",
+                                                                "width": "150"
+                                                            },
+                                                            "href": {
+                                                                "url": "https://sandhyasrini.github.io/json/procedure4.json",
+                                                                "options": {
+                                                                    "file_name": "file://procedure1Pic1.jpeg"
+                                                                }
+                                                            }
+
+                                                        }]
                                                     },
-                                                  
-                                                {
-        
+
+                                                    {
+
                                                         "type": "image",
                                                         "url": "file://procedure1Pic1.jpeg"
                                                     },
@@ -158,12 +154,12 @@
                                                         "style": {
                                                             "background": "#aaaaaa",
                                                             "padding_top": "10"
-        
-        
+
+
                                                         },
                                                         "components": [
-        
-        
+
+
                                                             {
                                                                 "type": "vertical",
                                                                 "style": {
@@ -172,7 +168,7 @@
                                                                 },
                                                                 "components": [{
                                                                         "style": {
-        
+
                                                                         },
                                                                         "type": "image",
                                                                         "url": "local://{{$jason.file_name}}"
@@ -184,9 +180,9 @@
                                                                             "background": "#29428F",
                                                                             "color": "#ffffff",
                                                                             "padding": "5",
-                                                                            "corner_width":"10"
-                                                                            
-        
+                                                                            "corner_width": "10"
+
+
                                                                         }
                                                                     }
                                                                 ]
@@ -195,93 +191,85 @@
                                                                 "type": "vertical",
                                                                 "style": {
                                                                     "spacing": "10"
-        
+
                                                                 },
-                                                                "components": [
-                                                                    {
-                                                                        "type": "button",
-                                                                        "text": "Take Photo",
-                                                                        "style": {
-                                                                            "background": "#29428F",
-                                                                            "color": "#ffffff",
-                                                                            "width": "150",
-                                                                            "padding": "5",
-                                                                            "spacing": "10",
-                                                                            "height": "30",
-                                                                            "align": "left",
-                                                                            "corner_width":"10"
-        
-        
-                                                                        },
-                                                                        "action": {
-                                                                            "type": "$media.camera",
-                                                                            
-                                                                            "success": {
-                                                                                "type": "$render"
-                                                                              
-                                                                            }
+                                                                "components": [{
+                                                                    "type": "button",
+                                                                    "text": "Take Photo",
+                                                                    "style": {
+                                                                        "background": "#29428F",
+                                                                        "color": "#ffffff",
+                                                                        "width": "150",
+                                                                        "padding": "5",
+                                                                        "spacing": "10",
+                                                                        "height": "30",
+                                                                        "align": "left",
+                                                                        "corner_width": "10"
+
+
+                                                                    },
+                                                                    "action": {
+                                                                        "type": "$media.camera",
+
+                                                                        "success": {
+                                                                            "type": "$render"
+
                                                                         }
-                                                                    },  {
-                                                                        "type": "button",
-                                                                        "text": "Completed",
-                                                                        "style": {
-                                                                            "background": "#5ec6ff",
-                                                                            "color": "#ffffff",
-                                                                            "width": "150",
-                                                                            "padding": "5",
-                                                                            "spacing": "10",
-                                                                            "height": "30",
-                                                                            "align": "left",
-                                                                            "corner_width":"10"
-        
-                                                                        }
-                                                                    }, {
-                                                                        "type": "button",
-                                                                        "text": "Next",
-                                                                        "style": {
-                                                                            "background": "#2EBF63",
-                                                                            "color": "#ffffff",
-                                                                            "width": "150",
-                                                                            "padding": "5",
-                                                                            "spacing": "10",
-                                                                            "height": "30",
-                                                                            "align": "left",
-                                                                            "corner_width":"10"
-        
-        
-                                                                        },
-                                                                        "href": {
-                                                                            "url": "https://sandhyasrini.github.io/json/procedure2.json",
-                                                                            "view": "jason"
-                                                                        }
-                                                                    }   
-                                                                ]
-        
+                                                                    }
+                                                                }, {
+                                                                    "type": "button",
+                                                                    "text": "Completed",
+                                                                    "style": {
+                                                                        "background": "#5ec6ff",
+                                                                        "color": "#ffffff",
+                                                                        "width": "150",
+                                                                        "padding": "5",
+                                                                        "spacing": "10",
+                                                                        "height": "30",
+                                                                        "align": "left",
+                                                                        "corner_width": "10"
+
+                                                                    }
+                                                                }, {
+                                                                    "type": "button",
+                                                                    "text": "Next",
+                                                                    "style": {
+                                                                        "background": "#2EBF63",
+                                                                        "color": "#ffffff",
+                                                                        "width": "150",
+                                                                        "padding": "5",
+                                                                        "spacing": "10",
+                                                                        "height": "30",
+                                                                        "align": "left",
+                                                                        "corner_width": "10"
+
+
+                                                                    },
+                                                                    "href": {
+                                                                        "url": "https://sandhyasrini.github.io/json/procedure2.json",
+                                                                        "view": "jason"
+                                                                    }
+                                                                }]
+
                                                             }
                                                         ]
                                                     }
                                                 ]
                                             }
-        
+
                                         ]
                                     }
-        
-        
-        
-                                  
+
                                 ]
                             }
-        
-        
+
                         ]
-        
+
                     }]
                 }
             }
 
         }
-        
-        
 
     }
 }
