@@ -1,7 +1,6 @@
 {
     "$jason": {
         "head": {
-            "offline": "true",
             "actions": {
                 "$load": {
                     "type": "$set",
